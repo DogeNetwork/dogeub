@@ -87,6 +87,13 @@
       "disabled": false
     },
     {
+      "appName": "Cinemaos",
+      "desc": "Free movie/tv streaming!",
+      "icon": "https://cinemaos.live/favicon-16x16.png",
+      "url": "https://cinemaos.live/",
+      "disabled": false
+    },
+    {
       "appName": "Discord",
       "desc": "Chat, voice, and communities all in one place.",
       "icon": "/assets/img/discord.webp",
@@ -3107,6 +3114,20 @@
       "desc": "Sandbox/Arcade Games",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/164.png",
       "url": "https://1games.io/game/crazy-cattle-3d/",
+      "disabled": false
+    }
+    {
+      "appName": "Block Blast",
+      "desc": "Brain Games",
+      "icon": "https://imgs.crazygames.com/block-puzzle-master_1x1/20240308034606/block-puzzle-master_1x1-cover",
+      "url": "https://block-blast-three.vercel.app/",
+      "disabled": false
+    }
+    {
+      "appName": "Crazy Cattle",
+      "desc": "Running Games",
+      "icon": "https://crazycattle3d.io/cache/data/image/options/crazy-cattle-3d-favicon-m144x144.png",
+      "url": "https://aahspaghetticode.github.io/redesigned-octo-fishstick/crazycattle.html",
       "disabled": false
     }
   ]
