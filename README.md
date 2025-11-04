@@ -1,10 +1,11 @@
-Vercel building,
 
 
+TO DO
 
-Notes:
+PG lock the website, allow for user registration 🔴
 
+Add an advertisment service in the background  🔴
 
-PG lock the website
+change from ultraviolet to thunderproxies likely 🟡
 
-change from ultraviolet to thunderproxies likely
+Edit the games tab to fit needs of students 🟢
