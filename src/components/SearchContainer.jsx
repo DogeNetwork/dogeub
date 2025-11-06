@@ -97,7 +97,7 @@ const SearchContainer = memo(function SearchContainer({ logo = true, cls, nav = 
   return (
     <div
       className={clsx(
-        !cls ? 'absolute w-full px-20 py-4 flex flex-col items-center mt-8 z-50' : cls,
+        !cls ? 'w-full px-20 py-4 flex flex-col items-center mt-8 z-50' : cls,
       )}
       data-m={!cls && 'bounce-up'}
       data-m-duration={!cls && '0.8'}

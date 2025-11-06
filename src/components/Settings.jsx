@@ -6,9 +6,9 @@ import SettingsContainerItem from './settings/components/ContainerItem';
 import * as settings from '/src/data/settings';
 import PanicDialog from './PanicDialog';
 
-const Type = ({ type }) => {
+const Type = ({ type, extraArgs = {} }) => {
   const { options, updateOption } = useOptions();
-  const settingsItems = type({ options, updateOption });
+  const settingsItems = type({ options, updateOption, ...extraArgs });
 
   return (
     <>
@@ -21,7 +21,7 @@ const Type = ({ type }) => {
   );
 };
 
-const Setting = ({ setting }) => {
+const Setting = ({ setting, openTabGroups }) => {
   const { options, updateOption } = useOptions();
   const [panicOpen, setPanicOpen] = useState(false);
 
@@ -53,8 +53,8 @@ const Setting = ({ setting }) => {
 
   return (
     <Container>
-      {setting === 'Privacy' && <Type type={() => privSettings} />}
-      {setting === 'Customize' && <Type type={settings.customizeConfig} />}
+  {setting === 'Privacy' && <Type type={() => privSettings} />}
+  {setting === 'Customize' && <Type type={settings.customizeConfig} extraArgs={{ openTabGroups }} />}
       {setting === 'Browsing' && <Type type={settings.browsingConfig} />}
       {setting === 'Advanced' && <Type type={settings.advancedConfig} />}
     </Container>
