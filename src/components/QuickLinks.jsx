@@ -92,12 +92,20 @@ const QuickLinks = ({ cls, nav = true }) => {
 
   // If groups exist, render grouped layout
   if (tabGroups && Array.isArray(tabGroups)) {
+    const isDarkTheme = options.type === 'dark' || !options.type;
+    
     return (
       <div className={clsx(!cls ? 'w-full max-w-[48rem] mx-auto mt-20' : cls)}>
         <div className="flex items-center justify-between mb-4">
           <div className="text-lg font-semibold">Tab groups</div>
           <div className="flex items-center gap-3">
-            <button className="px-3 py-1 rounded bg-neutral-700" onClick={() => setGroupsOpen(true)}>
+            <button
+              className={clsx(
+                'px-3 py-1 rounded transition-opacity hover:opacity-80',
+                isDarkTheme ? 'bg-gray-700 text-white' : 'bg-gray-300 text-black'
+              )}
+              onClick={() => setGroupsOpen(true)}
+            >
               Manage groups
             </button>
           </div>
