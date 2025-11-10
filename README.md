@@ -64,6 +64,7 @@ npm run dev
 | Derpman | Lead Developer     |      [@stellarcase](https://github.com/stellarcase) |
 | Fowntain | Lead Developer | [@fowntain](https://github.com/fowntain)     |
 | Akane | Contributor | [@genericness](https://github.com/genericness)     |
+| hackz00 | Contributor | [@hackz00](https://github.com/hackz00)     |
 
 
 > [!NOTE]
