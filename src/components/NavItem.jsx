@@ -2,6 +2,7 @@ import { useLocation } from 'react-router-dom';
 import { useOptions } from '/src/utils/optionsContext';
 import clsx from 'clsx';
 import { preload } from '/src/utils/preload';
+import { memo } from 'react';
 
 const NavItem = ({ items }) => {
   const loc = useLocation();
@@ -18,8 +19,8 @@ const NavItem = ({ items }) => {
           <span
             key={item.id}
             className={clsx(
-              "flex gap-1 items-center h-full cursor-pointer",
-              loc.pathname !== item.route && "hover:opacity-80 duration-100"
+              'flex gap-1 items-center h-full cursor-pointer',
+              loc.pathname !== item.route && 'hover:opacity-80 duration-100',
             )}
             style={{
               ...(loc.pathname == item.route
@@ -45,4 +46,4 @@ const NavItem = ({ items }) => {
   );
 };
 
-export default NavItem;
+export default memo(NavItem);

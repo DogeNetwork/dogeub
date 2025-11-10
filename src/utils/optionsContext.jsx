@@ -1,10 +1,10 @@
-import { createContext, useContext, useState, useEffect, useCallback, useMemo } from "react";
+import { createContext, useContext, useState, useEffect, useCallback, useMemo } from 'react';
 
 const OptionsContext = createContext();
 
 const getStoredOptions = () => {
   try {
-    return JSON.parse(localStorage.getItem("options") || "{}");
+    return JSON.parse(localStorage.getItem('options') || '{}');
   } catch {
     return {};
   }
@@ -15,32 +15,28 @@ export const OptionsProvider = ({ children }) => {
 
   useEffect(() => {
     try {
-      localStorage.setItem("options", JSON.stringify(options));
+      localStorage.setItem('options', JSON.stringify(options));
     } catch {}
   }, [options]);
 
   const updateOption = useCallback((obj, immediate = true) => {
-    if (!obj || typeof obj !== "object") return;
+    if (!obj || typeof obj !== 'object') return;
 
     const current = getStoredOptions();
     const updated = { ...current, ...obj };
-    
+
     try {
-      localStorage.setItem("options", JSON.stringify(updated));
+      localStorage.setItem('options', JSON.stringify(updated));
     } catch {}
 
     if (immediate) {
-      setOptions(prev => ({ ...prev, ...obj }));
+      setOptions((prev) => ({ ...prev, ...obj }));
     }
   }, []);
 
   const contextValue = useMemo(() => ({ options, updateOption }), [options, updateOption]);
 
-  return (
-    <OptionsContext.Provider value={contextValue}>
-      {children}
-    </OptionsContext.Provider>
-  );
+  return <OptionsContext.Provider value={contextValue}>{children}</OptionsContext.Provider>;
 };
 
 export const useOptions = () => {

@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { useState, useEffect, useRef, useCallback, useMemo, memo } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo, memo, startTransition } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { LucideSearch, Earth } from 'lucide-react';
 import { GlowWrapper } from '../utils/Glow';
@@ -29,54 +29,57 @@ const SearchContainer = memo(function SearchContainer({ logo = true, cls, nav = 
 
       const data = await response.json();
       if (latestQuery.current !== searchQuery) return;
-
-      const validResults = Array.isArray(data)
-        ? data.reduce((acc, item) => {
-            if (item.phrase && acc.length < 4) acc.push(item);
-            return acc;
-          }, [])
-        : [];
-      setResults(validResults);
+      const list = Array.isArray(data) ? data.filter((i) => i.phrase).slice(0, 4) : [];
+      startTransition(() => setResults(list));
     } catch {
       if (latestQuery.current === searchQuery) setResults([]);
     }
   }, []);
 
-  const handleInputChange = useCallback((e) => {
-    const newQuery = e.target.value;
-    setQuery(newQuery);
+  const handleInputChange = useCallback(
+    (e) => {
+      const newQuery = e.target.value;
+      setQuery(newQuery);
 
-    if (debounceRef.current) clearTimeout(debounceRef.current);
-    if (!newQuery.trim()) {
-      latestQuery.current = '';
-      setResults([]);
-      return;
-    }
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+      if (!newQuery.trim()) {
+        latestQuery.current = '';
+        setResults([]);
+        return;
+      }
 
-    debounceRef.current = setTimeout(() => fetchResults(newQuery), 300);
-  }, [fetchResults]);
+      debounceRef.current = setTimeout(() => fetchResults(newQuery), 300);
+    },
+    [fetchResults],
+  );
 
-  const handleKeyDown = useCallback((e) => {
-    if (e.key !== 'Enter') return;
-    const trimmed = query.trim();
-    if (!trimmed) return;
+  const handleKeyDown = useCallback(
+    (e) => {
+      if (e.key !== 'Enter') return;
+      const trimmed = query.trim();
+      if (!trimmed) return;
 
-    if (nav) {
-      sessionStorage.setItem('query', trimmed);
-      navigate('/indev');
-    } else {
-      window.parent.tabManager.navigate(trimmed);
-    }
-  }, [query, nav, navigate]);
+      if (nav) {
+        sessionStorage.setItem('query', trimmed);
+        navigate('/indev');
+      } else {
+        window.parent.tabManager.navigate(trimmed);
+      }
+    },
+    [query, nav, navigate],
+  );
 
-  const handleResultClick = useCallback((phrase) => {
-    if (nav) {
-      sessionStorage.setItem('query', phrase);
-      navigate('/indev');
-    } else {
-      window.parent.tabManager.navigate(phrase);
-    }
-  }, [nav, navigate]);
+  const handleResultClick = useCallback(
+    (phrase) => {
+      if (nav) {
+        sessionStorage.setItem('query', phrase);
+        navigate('/indev');
+      } else {
+        window.parent.tabManager.navigate(phrase);
+      }
+    },
+    [nav, navigate],
+  );
 
   useEffect(() => {
     return () => debounceRef.current && clearTimeout(debounceRef.current);
@@ -117,7 +120,7 @@ const SearchContainer = memo(function SearchContainer({ logo = true, cls, nav = 
             )}
           >
             {iconSrc ? (
-              <img src={iconSrc} className="w-5 h-5 shrink-0" alt="Search icon" />
+              <img src={iconSrc} className="w-5 h-5 shrink-0" alt="Search icon" loading="lazy" />
             ) : (
               <Earth size={22} />
             )}

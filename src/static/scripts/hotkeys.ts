@@ -158,7 +158,6 @@ const hotkeyHandler = (e: KeyboardEvent): void => {
 export function setupHotkeys(): void {
   const urlParams = new URLSearchParams(window.location.search);
   if (urlParams.get('ui') !== 'false') {
-    
     window.addEventListener('keydown', hotkeyHandler);
 
     window.addEventListener('message', (e: MessageEvent) => {
@@ -173,7 +172,10 @@ export function setupHotkeys(): void {
       { id: 't-add', action: () => addTab() },
       { id: 't-fs', action: () => fullscreen() },
       { id: 'rm-bar', action: () => hideBar() },
-      { id: 'return', action: () => window.parent.postMessage({ action: 'navigate', to: '/' }, '*') },
+      {
+        id: 'return',
+        action: () => window.parent.postMessage({ action: 'navigate', to: '/' }, '*'),
+      },
       { id: 't-dev', action: () => devTools() },
     ];
 
@@ -182,6 +184,5 @@ export function setupHotkeys(): void {
         hotkeyBtn[i].action();
       });
     }
-  }
-  else document.getElementById('tb')?.remove(), document.getElementById('d-url')?.remove();
+  } else (document.getElementById('tb')?.remove(), document.getElementById('d-url')?.remove());
 }

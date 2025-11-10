@@ -1,5 +1,5 @@
-import { lazy } from "react";
-import NProgress from "nprogress";
+import { lazy } from 'react';
+import NProgress from 'nprogress';
 
 const lazyWrapper = (importFn) => {
   return lazy(() => {

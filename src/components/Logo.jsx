@@ -4,21 +4,25 @@ import { memo, useMemo } from 'react';
 
 const Logo = memo(({ options, action, width, height }) => {
   const { options: op } = useOptions();
-  
+
   const style = useMemo(() => {
     const lightAdj = op.type === 'light' ? { filter: 'invert(80%)' } : {};
     const dimensions = {
       ...(width && { width }),
-      ...(height && { height })
+      ...(height && { height }),
     };
     return { ...lightAdj, ...dimensions };
   }, [op.type, width, height]);
-  
-  const className = useMemo(() => clsx(
-    options,
-    action && 'cursor-pointer duration-300 ease-out scale-[1.12] hover:scale-[1.15]',
-    'select-none'
-  ), [options, action]);
+
+  const className = useMemo(
+    () =>
+      clsx(
+        options,
+        action && 'cursor-pointer duration-300 ease-out scale-[1.12] hover:scale-[1.15]',
+        'select-none',
+      ),
+    [options, action],
+  );
 
   return (
     <img

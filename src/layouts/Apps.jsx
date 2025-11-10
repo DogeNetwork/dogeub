@@ -1,13 +1,13 @@
 import Nav from '../layouts/Nav';
-import { useState, useMemo, useRef, useEffect, useCallback, memo } from 'react';
+import { useState, useMemo, useRef, useEffect, useCallback, memo, lazy, Suspense } from 'react';
 import { Search, ChevronDown, LayoutGrid } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useOptions } from '/src/utils/optionsContext';
-import appsData from '../data/apps.json';
 import styles from '../styles/apps.module.css';
 import theme from '../styles/theming.module.css';
-import Pagination from '@mui/material/Pagination';
 import clsx from 'clsx';
+
+const Pagination = lazy(() => import('@mui/material/Pagination'));
 
 const SORT_OPTIONS = [
   { value: 'categorical', label: 'Categorical' },
@@ -18,14 +18,25 @@ const SORT_OPTIONS = [
 const AppCard = memo(({ app, onClick, fallbackMap, onImgError, itemTheme, itemStyles }) => (
   <div
     key={app.appName}
-    className={clsx(itemStyles.app, itemTheme.appItemColor, itemTheme[`theme-${itemTheme.current || 'default'}`], app.disabled ? 'disabled cursor-not-allowed' : 'cursor-pointer')}
+    className={clsx(
+      itemStyles.app,
+      itemTheme.appItemColor,
+      itemTheme[`theme-${itemTheme.current || 'default'}`],
+      app.disabled ? 'disabled cursor-not-allowed' : 'cursor-pointer',
+    )}
     onClick={!app.disabled ? () => onClick(app) : undefined}
   >
     <div className="w-20 h-20 rounded-[12px] mb-4 overflow-hidden">
       {fallbackMap[app.appName] ? (
         <LayoutGrid className="w-full h-full" />
       ) : (
-        <img src={app.icon} draggable="false" className="w-full h-full object-cover" onError={() => onImgError(app.appName)} />
+        <img
+          src={app.icon}
+          draggable="false"
+          loading="lazy"
+          className="w-full h-full object-cover"
+          onError={() => onImgError(app.appName)}
+        />
       )}
     </div>
     <p className="text-m font-semibold">{app.appName.split('').join('\u200B')}</p>
@@ -33,10 +44,18 @@ const AppCard = memo(({ app, onClick, fallbackMap, onImgError, itemTheme, itemSt
   </div>
 ));
 
-const Apps = memo(({ type = 'default', data = appsData }) => {
+const Apps = memo(({ type = 'default' }) => {
   const nav = useNavigate();
   const { options } = useOptions();
-  const appsList = useMemo(() => data[type] || [], [data, type]);
+
+  const [appsList, setAppsList] = useState([]);
+  useEffect(() => {
+    let a = true;
+    import('../data/apps.json').then((m) => a && setAppsList(m.default?.[type] || []));
+    return () => {
+      a = false;
+    };
+  }, [type]);
 
   const [q, setQ] = useState('');
   const [sort, setSort] = useState('categorical');
@@ -58,9 +77,15 @@ const Apps = memo(({ type = 'default', data = appsData }) => {
   const sortedApps = useMemo(() => {
     switch (sort) {
       case 'alphabetical':
-        return [...indexedApps].sort((a, b) => a.appName.localeCompare(b.appName, undefined, { sensitivity: 'base' }));
+        return [...indexedApps].sort((a, b) =>
+          a.appName.localeCompare(b.appName, undefined, { sensitivity: 'base' }),
+        );
       case 'categorical':
-        return [...indexedApps].sort((a, b) => (a.desc || '').localeCompare(b.desc || '', undefined, { sensitivity: 'base' }) || a.appName.localeCompare(b.appName, undefined, { sensitivity: 'base' }));
+        return [...indexedApps].sort(
+          (a, b) =>
+            (a.desc || '').localeCompare(b.desc || '', undefined, { sensitivity: 'base' }) ||
+            a.appName.localeCompare(b.appName, undefined, { sensitivity: 'base' }),
+        );
       case 'newest':
         return [...indexedApps].sort((a, b) => b.__i - a.__i);
       default:
@@ -80,40 +105,87 @@ const Apps = memo(({ type = 'default', data = appsData }) => {
     if (page > filtered.totalPages && filtered.totalPages > 0) setPage(1);
   }, [page, filtered.totalPages]);
 
-  const navApp = useCallback((app) => {
-    if (!app) return;
-    sessionStorage.setItem('query', app.url);
-    if (type != "apps") nav('/docs/r/', { state: { app } })
-    else nav('/indev');
-  }, [nav]);
+  const navApp = useCallback(
+    (app) => {
+      if (!app) return;
+      sessionStorage.setItem('query', app.url);
+      if (type != 'apps') nav('/docs/r/', { state: { app } });
+      else nav('/indev');
+    },
+    [nav],
+  );
 
   const handleSearch = useCallback((e) => {
     setQ(e.target.value);
     setPage(1);
   }, []);
 
-  const handleImgError = useCallback((name) => setFallback((prev) => ({ ...prev, [name]: true })), []);
+  const handleImgError = useCallback(
+    (name) => setFallback((prev) => ({ ...prev, [name]: true })),
+    [],
+  );
 
-  const searchBarCls = useMemo(() => clsx(theme.appsSearchColor, theme[`theme-${options.theme || 'default'}`]), [options.theme]);
+  const searchBarCls = useMemo(
+    () => clsx(theme.appsSearchColor, theme[`theme-${options.theme || 'default'}`]),
+    [options.theme],
+  );
 
   const placeholder = useMemo(() => `Search ${appsList.length} ${type}`, [appsList.length, type]);
 
   return (
     <div className={`${styles.appContainer} w-full mx-auto`}>
       <div className="w-full px-4 py-4 flex justify-center mt-3">
-        <div className={clsx('relative flex items-center gap-2.5 rounded-[10px] px-3 w-[600px] h-11', searchBarCls)}>
+        <div
+          className={clsx(
+            'relative flex items-center gap-2.5 rounded-[10px] px-3 w-[600px] h-11',
+            searchBarCls,
+          )}
+        >
           <Search className="w-4 h-4 shrink-0" />
-          <input type="text" placeholder={placeholder} value={q} onChange={handleSearch} className="flex-1 bg-transparent outline-none text-sm" />
+          <input
+            type="text"
+            placeholder={placeholder}
+            value={q}
+            onChange={handleSearch}
+            className="flex-1 bg-transparent outline-none text-sm"
+          />
           {type !== 'apps' && (
             <div ref={sortRef} className="relative flex items-center">
-              <button type="button" onClick={() => setShowSort((s) => !s)} className="flex items-center gap-1 text-xs md:text-sm rounded-md px-2 py-1 h-7 cursor-pointer bg-[#ffffff10] hover:bg-[#ffffff18] active:bg-[#ffffff25] border border-white/15">
-                <span className="capitalize hidden sm:inline">{SORT_OPTIONS.find((o) => o.value === sort)?.label}</span>
-                <ChevronDown size={14} className={showSort ? 'rotate-180 transition-transform' : 'transition-transform'} />
+              <button
+                type="button"
+                onClick={() => setShowSort((s) => !s)}
+                className="flex items-center gap-1 text-xs md:text-sm rounded-md px-2 py-1 h-7 cursor-pointer bg-[#ffffff10] hover:bg-[#ffffff18] active:bg-[#ffffff25] border border-white/15"
+              >
+                <span className="capitalize hidden sm:inline">
+                  {SORT_OPTIONS.find((o) => o.value === sort)?.label}
+                </span>
+                <ChevronDown
+                  size={14}
+                  className={showSort ? 'rotate-180 transition-transform' : 'transition-transform'}
+                />
               </button>
               {showSort && (
-                <ul className={clsx('absolute right-0 top-[calc(100%+0.5rem)] z-20 w-44 rounded-md border border-white/15 shadow-lg p-1', searchBarCls)} role="listbox">
+                <ul
+                  className={clsx(
+                    'absolute right-0 top-[calc(100%+0.5rem)] z-20 w-44 rounded-md border border-white/15 shadow-lg p-1',
+                    searchBarCls,
+                  )}
+                  role="listbox"
+                >
                   {SORT_OPTIONS.map(({ value, label }) => (
-                    <li key={value} role="option" aria-selected={sort === value} onClick={() => { setSort(value); setShowSort(false); setPage(1); }} className="px-2 py-1.5 rounded text-[0.8rem] cursor-pointer transition-colors text-inherit hover:bg-[#ffffff12]">{label}</li>
+                    <li
+                      key={value}
+                      role="option"
+                      aria-selected={sort === value}
+                      onClick={() => {
+                        setSort(value);
+                        setShowSort(false);
+                        setPage(1);
+                      }}
+                      className="px-2 py-1.5 rounded text-[0.8rem] cursor-pointer transition-colors text-inherit hover:bg-[#ffffff12]"
+                    >
+                      {label}
+                    </li>
                   ))}
                 </ul>
               )}
@@ -124,31 +196,41 @@ const Apps = memo(({ type = 'default', data = appsData }) => {
 
       <div className="flex flex-wrap justify-center pb-2">
         {filtered.paged.map((app) => (
-          <AppCard key={app.appName} app={app} onClick={navApp} fallbackMap={fallback} onImgError={handleImgError} itemTheme={{ ...theme, current: options.theme || 'default' }} itemStyles={styles} />
+          <AppCard
+            key={app.appName}
+            app={app}
+            onClick={navApp}
+            fallbackMap={fallback}
+            onImgError={handleImgError}
+            itemTheme={{ ...theme, current: options.theme || 'default' }}
+            itemStyles={styles}
+          />
         ))}
       </div>
 
       {filtered.filteredApps.length > perPage && (
         <div className="flex flex-col items-center pb-7">
-          <Pagination
-            count={filtered.totalPages}
-            page={page}
-            onChange={(_, v) => setPage(v)}
-            shape="rounded"
-            variant="outlined"
-            sx={{
-              '& .MuiPaginationItem-root': {
-                color: options.paginationTextColor || '#9baec8',
-                borderColor: options.paginationBorderColor || '#ffffff1c',
-                backgroundColor: options.paginationBgColor || '#141d2b',
-                fontFamily: 'SFProText',
-              },
-              '& .Mui-selected': {
-                backgroundColor: `${options.paginationSelectedColor || '#75b3e8'} !important`,
-                color: '#fff !important',
-              },
-            }}
-          />
+          <Suspense>
+            <Pagination
+              count={filtered.totalPages}
+              page={page}
+              onChange={(_, v) => setPage(v)}
+              shape="rounded"
+              variant="outlined"
+              sx={{
+                '& .MuiPaginationItem-root': {
+                  color: options.paginationTextColor || '#9baec8',
+                  borderColor: options.paginationBorderColor || '#ffffff1c',
+                  backgroundColor: options.paginationBgColor || '#141d2b',
+                  fontFamily: 'SFProText',
+                },
+                '& .Mui-selected': {
+                  backgroundColor: `${options.paginationSelectedColor || '#75b3e8'} !important`,
+                  color: '#fff !important',
+                },
+              }}
+            />
+          </Suspense>
         </div>
       )}
     </div>
@@ -159,7 +241,12 @@ Apps.displayName = 'Apps';
 
 const AppLayout = ({ type }) => {
   const { options } = useOptions();
-  const scrollCls = clsx('scrollbar scrollbar-thin scrollbar-track-transparent', !options?.type || options.type === 'dark' ? 'scrollbar-thumb-gray-600' : 'scrollbar-thumb-gray-500');
+  const scrollCls = clsx(
+    'scrollbar scrollbar-thin scrollbar-track-transparent',
+    !options?.type || options.type === 'dark'
+      ? 'scrollbar-thumb-gray-600'
+      : 'scrollbar-thumb-gray-500',
+  );
 
   return (
     <div className="flex flex-col h-screen overflow-hidden">
