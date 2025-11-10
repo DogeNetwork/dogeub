@@ -5,6 +5,8 @@ import theme from '../styles/theming.module.css';
 import { Search, HatGlasses, Palette, Globe, Wrench } from 'lucide-react';
 import { useOptions } from '/src/utils/optionsContext';
 import RenderSetting from '../components/Settings';
+import TabGroupsManager from '../components/TabGroupsManager';
+import { privacyConfig, customizeConfig, browsingConfig, advancedConfig } from '/src/data/settings';
 
 let asyncConfs = [];
 const baseConfigs = [
@@ -67,6 +69,7 @@ const Settings = () => {
   const { options, updateOption } = useOptions();
   const [q, setQ] = useState('');
   const [content, setContent] = useState('Privacy');
+  const [groupsOpen, setGroupsOpen] = useState(false);
 
   const [loaded, setLoaded] = useState(false);
   useEffect(() => {
@@ -197,6 +200,13 @@ const Settings = () => {
           </div>
         </div>
 
+        <RenderSetting setting={content} openTabGroups={() => setGroupsOpen(true)} />
+        <TabGroupsManager
+          state={groupsOpen}
+          set={setGroupsOpen}
+          groups={options.tabGroups ?? []}
+          setGroups={(g) => updateOption({ tabGroups: g })}
+        />
         {loaded ? (
           <RenderSetting setting={content} />
         ) : (

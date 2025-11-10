@@ -67,7 +67,7 @@ export const privacyConfig = ({ options, updateOption, openPanic }) => ({
   },
 });
 
-export const customizeConfig = ({ options, updateOption }) => ({
+export const customizeConfig = ({ options, updateOption, openTabGroups }) => ({
   1: {
     name: 'Site Theme',
     desc: 'Customize the appearance of the website by selecting a theme.',
@@ -113,6 +113,14 @@ export const customizeConfig = ({ options, updateOption }) => ({
     value: options.donationBtn ?? true,
     type: 'switch',
     action: (b) => setTimeout(() => updateOption({ donationBtn: b }), 100),
+  },
+  7: {
+    name: 'Tab groups',
+    desc: 'Manage named tab groups (create, rename, color, delete).',
+    value: 'Manage',
+    type: 'button',
+    action: openTabGroups ?? (() => {}),
+    disabled: !openTabGroups,
   },
 });
 

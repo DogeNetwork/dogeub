@@ -22,7 +22,7 @@ const FieldOption = ({ name, type, state }) => {
   );
 };
 
-const NewQuickLink = ({ state, set, update }) => {
+const NewQuickLink = ({ state, set, update, onConfirm }) => {
   const { options } = useOptions();
   const [form, setForm] = useState({
     name: '',
@@ -38,11 +38,13 @@ const NewQuickLink = ({ state, set, update }) => {
     });
   const action = () => {
     set(false);
-    update({
+    const payload = {
       ...form,
       link: regex(form.link.trim()),
       icon: regex(form.icon.trim()),
-    });
+    };
+    if (onConfirm && typeof onConfirm === 'function') onConfirm(payload);
+    else update && update(payload);
     clear();
   };
   const filled = () => {
