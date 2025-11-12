@@ -61,14 +61,14 @@ npm run dev
 
 | Name          | Role               | GitHub |
 | ------------- | ------------------ | ------ |
-| Derpman | Lead Developer     |      [@stellarcase](https://github.com/stellarcase) |
-| Fowntain | Lead Developer | [@fowntain](https://github.com/fowntain)     |
+| Derpman | Lead Developer     |      [@qerionx](https://github.com/qerionx) |
+| Fowntain | Project Manager | [@fowntain](https://github.com/fowntain)     |
 | Akane | Contributor | [@genericness](https://github.com/genericness)     |
 | hackz00 | Contributor | [@hackz00](https://github.com/hackz00)     |
-
+| DJshelfmushroom | Contributor | [@DJshelfmushroom](https://github.com/DJshelfmushroom)     |
 
 > [!NOTE]
-> Want to be on this list? Make a pull request!
+> Want to be on this list? Make a few pull requests!
 
 ---
 
