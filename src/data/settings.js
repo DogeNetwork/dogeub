@@ -63,7 +63,7 @@ export const privacyConfig = ({ options, updateOption, openPanic }) => ({
     value: 'Set Key',
     type: 'button',
     action: openPanic,
-    disabled: !!!options.panicToggleEnabled,
+  disabled: !options.panicToggleEnabled,
   },
 });
 

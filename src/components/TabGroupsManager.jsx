@@ -3,6 +3,7 @@ import { useOptions } from '/src/utils/optionsContext';
 import { useState } from 'react';
 import { Trash2 } from 'lucide-react';
 import clsx from 'clsx';
+import Button from './settings/components/Button';
 
 const GroupRow = ({ group, idx, onChange, onDelete, isDarkTheme }) => {
   const [local, setLocal] = useState({ name: group.name || '', color: group.color || '#6b8cff' });
@@ -83,25 +84,9 @@ const TabGroupsManager = ({ state, set, groups, setGroups }) => {
           </div>
 
           <div className="flex items-center gap-3 mt-3">
-            <button
-              className={clsx(
-                'px-3 py-1 rounded transition-opacity hover:opacity-80',
-                isDarkTheme ? 'bg-gray-700 text-white' : 'bg-gray-300 text-black'
-              )}
-              onClick={addGroup}
-            >
-              + Add group
-            </button>
+            <Button value={'+ Add group'} action={addGroup} />
             <div className="ml-auto">
-              <button
-                className={clsx(
-                  'px-3 py-1 rounded transition-opacity hover:opacity-80',
-                  isDarkTheme ? 'bg-gray-700 text-white' : 'bg-gray-300 text-black'
-                )}
-                onClick={done}
-              >
-                Done
-              </button>
+              <Button value={'Done'} action={done} />
             </div>
           </div>
         </DialogPanel>

@@ -5,6 +5,7 @@ import { Plus, CircleX, Globe } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import LinkDialog from './NewQuickLink';
 import TabGroupsManager from './TabGroupsManager';
+import Button from './settings/components/Button';
 
 const QuickLinks = ({ cls, nav = true }) => {
   const { options, updateOption } = useOptions();
@@ -92,22 +93,13 @@ const QuickLinks = ({ cls, nav = true }) => {
 
   // If groups exist, render grouped layout
   if (tabGroups && Array.isArray(tabGroups)) {
-    const isDarkTheme = options.type === 'dark' || !options.type;
     
     return (
       <div className={clsx(!cls ? 'w-full max-w-[48rem] mx-auto mt-20' : cls)}>
         <div className="flex items-center justify-between mb-4">
           <div className="text-lg font-semibold">Tab groups</div>
           <div className="flex items-center gap-3">
-            <button
-              className={clsx(
-                'px-3 py-1 rounded transition-opacity hover:opacity-80',
-                isDarkTheme ? 'bg-gray-700 text-white' : 'bg-gray-300 text-black'
-              )}
-              onClick={() => setGroupsOpen(true)}
-            >
-              Manage groups
-            </button>
+            <Button value={'Manage groups'} action={() => setGroupsOpen(true)} />
           </div>
         </div>
 
