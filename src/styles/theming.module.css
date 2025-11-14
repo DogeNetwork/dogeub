@@ -5,7 +5,8 @@
 .settings-contentColor,
 .appsSearchColor,
 .appItemColor {
-  transition: all 100ms ease-in-out,
+  transition:
+    all 100ms ease-in-out,
     box-shadow 100ms ease-in-out;
 }
 
@@ -17,7 +18,6 @@
 .appsSearchColor input {
   transition: color 100ms ease-in-out;
 }
-
 
 .theme-default {
   --nav-bg: #0a141bb7;

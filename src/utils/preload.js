@@ -7,10 +7,10 @@ export function initPreload(path, fn) {
 
 export function preload(path) {
   if (cache.has(path)) return cache.get(path);
-  
+
   const fn = preloaders.get(path);
   if (!fn) return;
-  
+
   try {
     const result = fn();
     if (result && typeof result.then === 'function') {

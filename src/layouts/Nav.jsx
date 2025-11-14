@@ -21,23 +21,30 @@ const navItems = [
 const Nav = memo(() => {
   const navigate = useNavigate();
   const { options } = useOptions();
-  
+
   const scale = Number(options.navScale || 1);
-  const dimensions = useMemo(() => ({
-    navHeight: Math.round(69 * scale),
-    logoWidth: Math.round(122 * scale),
-    logoHeight: Math.round(41 * scale),
-    versionFont: Math.round(9 * scale),
-    versionMargin: Math.round(-10 * scale)
-  }), [scale]);
-  
+  const dimensions = useMemo(
+    () => ({
+      navHeight: Math.round(69 * scale),
+      logoWidth: Math.round(122 * scale),
+      logoHeight: Math.round(41 * scale),
+      versionFont: Math.round(9 * scale),
+      versionMargin: Math.round(-10 * scale),
+    }),
+    [scale],
+  );
+
   const handleLogoClick = useCallback(() => navigate('/'), [navigate]);
-  
-  const items = useMemo(() => navItems.map((item) => ({
-    ...item,
-    size: itemSize,
-    onClick: () => navigate(item.route),
-  })), [navigate]);
+
+  const items = useMemo(
+    () =>
+      navItems.map((item) => ({
+        ...item,
+        size: itemSize,
+        onClick: () => navigate(item.route),
+      })),
+    [navigate],
+  );
 
   return (
     <div
@@ -49,11 +56,7 @@ const Nav = memo(() => {
       )}
       style={{ height: `${dimensions.navHeight}px` }}
     >
-      <Logo
-        width={dimensions.logoWidth}
-        height={dimensions.logoHeight}
-        action={handleLogoClick}
-      />
+      <Logo width={dimensions.logoWidth} height={dimensions.logoHeight} action={handleLogoClick} />
       <div
         className="border rounded-full text-center"
         style={{
@@ -65,10 +68,7 @@ const Nav = memo(() => {
       >
         v{version}
       </div>
-      <div
-        className="flex items-center gap-5 ml-auto"
-        style={{ height: 'calc(100% - 0.5rem)' }}
-      >
+      <div className="flex items-center gap-5 ml-auto" style={{ height: 'calc(100% - 0.5rem)' }}>
         <NavItem items={items} />
       </div>
     </div>

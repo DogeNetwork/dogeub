@@ -12,6 +12,7 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "@fastify/compress": "^8.1.0",
     "@fastify/cookie": "^11.0.2",
     "@fastify/express": "^4.0.2",
     "@fastify/static": "^8.2.0",

@@ -22,7 +22,7 @@ export const ckOff = () => {
     const { tabName: ogName, tabIcon: ogIcon } = meta[0].value;
     const set = (title, icon) => {
       document.title = title;
-      document.querySelector("link[rel~='icon']")?.setAttribute("href", icon);
+      document.querySelector("link[rel~='icon']")?.setAttribute('href', icon);
     };
     blur && window.removeEventListener('blur', blur);
     focus && window.removeEventListener('focus', focus);

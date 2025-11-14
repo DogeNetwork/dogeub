@@ -7,14 +7,14 @@ export function unbind(): void {
       cur.contentWindow?.document.removeEventListener('click', curClick);
     } catch {}
   }
-  
+
   cur = null;
   curClick = null;
 }
 
 export function bind(): void {
   const f = Array.from(document.querySelectorAll('iframe')).find(
-    (f): f is HTMLIFrameElement => getComputedStyle(f).display === 'block'
+    (f): f is HTMLIFrameElement => getComputedStyle(f).display === 'block',
   );
   if (!f || f === cur) return;
 
@@ -29,7 +29,7 @@ export function bind(): void {
       d.setAttribute('aria-hidden', 'true');
     }
     // dot dot dot
-  }
+  };
 
   const tryBind = () => {
     try {

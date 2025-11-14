@@ -8,4 +8,3 @@ Add an advertisment service in the background  🔴
 
 change from ultraviolet to thunderproxies likely 🟡
 
-Edit the games tab to fit needs of students 🟢

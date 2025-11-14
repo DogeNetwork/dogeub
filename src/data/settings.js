@@ -5,7 +5,7 @@ import {
   navScaleConfig,
   searchConfig,
   prConfig,
-  designConfig
+  designConfig,
 } from '/src/utils/config';
 
 export const privacyConfig = ({ options, updateOption, openPanic }) => ({
@@ -78,7 +78,7 @@ export const customizeConfig = ({ options, updateOption }) => ({
   },
   2: {
     name: 'Background Design',
-    desc: 'Customize the site\'s background design.',
+    desc: "Customize the site's background design.",
     config: designConfig,
     value: find(designConfig, (c) => c.value?.bgDesign === options.bgDesign, 0),
     type: 'select',
@@ -93,19 +93,19 @@ export const customizeConfig = ({ options, updateOption }) => ({
     action: (a) => updateOption(a),
   },
   4: {
-    name: 'Tabs Bar',
-    desc: 'Show the tabs bar, allowing you to open multiple sites when browsing.',
-    value: options.showTb ?? true,
-    type: 'switch',
-    action: (b) => setTimeout(() => updateOption({ showTb: b }), 100),
-  },
-  5: {
     name: 'Navigation Scale',
     desc: 'Scale navigation bar size (logo & font) globally.',
     config: navScaleConfig,
     value: find(navScaleConfig, (c) => c.value.navScale === (options.navScale ?? 1), 3),
     type: 'select',
     action: (a) => updateOption(a),
+  },
+  5: {
+    name: 'Tabs Bar',
+    desc: 'Show the tabs bar, allowing you to open multiple sites when browsing.',
+    value: options.showTb ?? true,
+    type: 'switch',
+    action: (b) => setTimeout(() => updateOption({ showTb: b }), 100),
   },
   6: {
     name: 'Donation button',
@@ -127,7 +127,7 @@ export const browsingConfig = ({ options, updateOption }) => ({
   },
   2: {
     name: 'Backend Engine',
-    desc: 'Choose the default proxy engine used for browsing.',
+    desc: 'Choose the default engine used for browsing.',
     config: prConfig,
     value: find(prConfig, (c) => c.value?.prType === options.prType, 0),
     type: 'select',
@@ -137,7 +137,7 @@ export const browsingConfig = ({ options, updateOption }) => ({
 
 export const advancedConfig = ({ options, updateOption }) => ({
   1: {
-    name: 'beforeunload Event',
+    name: 'Confirm Leave',
     desc: 'Show a confirmation when attempting to leave the site.',
     value: !!options.beforeUnload,
     type: 'switch',
@@ -149,7 +149,9 @@ export const advancedConfig = ({ options, updateOption }) => ({
   2: {
     name: 'Wisp Config',
     desc: 'Configure the websocket server location.',
-    value: options.wServer || `${location.protocol === 'https:' ? 'wss:' : 'ws:'}//${location.host}/wisp/`,
+    value:
+      options.wServer ||
+      `${location.protocol === 'https:' ? 'wss:' : 'ws:'}//${location.host}/wisp/`,
     type: 'input',
     action: (b) => updateOption({ wServer: b }),
   },

@@ -1,6 +1,7 @@
 import dotenv from "dotenv";
 import Fastify from "fastify";
 import fastifyStatic from "@fastify/static";
+import compress from "@fastify/compress";
 import fastifyCookie from "@fastify/cookie";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -47,6 +48,7 @@ const app = Fastify({
 });
 
 await app.register(fastifyCookie);
+await app.register(compress, { global: true, encodings: ['gzip','deflate','br'] });
 
 app.register(fastifyStatic, {
   root: join(__dirname, "dist"),

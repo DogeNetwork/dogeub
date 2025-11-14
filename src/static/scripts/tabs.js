@@ -10,12 +10,12 @@ const createIframe = (url, manager, tab, srcPrefix = '') => {
   Object.assign(f, {
     id: `iframe-${tab.id}`,
     className: manager.fCss,
-    src: srcPrefix + url
+    src: srcPrefix + url,
   });
   Object.assign(f.style, {
     zIndex: '10',
     opacity: '1',
-    pointerEvents: 'auto'
+    pointerEvents: 'auto',
   });
   manager.ic.appendChild(f);
   return f;
@@ -48,22 +48,38 @@ export const TYPE = {
 
   uv: {
     create: (url, manager, tab) => createIframe(manager.enc(url), manager, tab, '/uv/service/'),
-    navigate: (url, manager, tab, iframe) => iframe && (iframe.src = '/uv/service/' + manager.enc(url)),
+    navigate: (url, manager, tab, iframe) =>
+      iframe && (iframe.src = '/uv/service/' + manager.enc(url)),
   },
 
   uv1: {
     create: (url, manager, tab) => createIframe(manager.enc(url), manager, tab, '/assignments/'),
-    navigate: (url, manager, tab, iframe) => iframe && (iframe.src = '/assignments/' + manager.enc(url)),
+    navigate: (url, manager, tab, iframe) =>
+      iframe && (iframe.src = '/assignments/' + manager.enc(url)),
   },
 
   auto: {
     create: (url, manager, tab) => {
-      const matched = manager.filter?.find(f => url.toLowerCase().includes(f.url.toLowerCase()));
-      return TYPE[matched?.type || (manager.filter?.some(f => f.type === 'scr' && url.toLowerCase().includes(f.url.toLowerCase())) ? 'scr' : 'uv')].create(url, manager, tab);
+      const matched = manager.filter?.find((f) => url.toLowerCase().includes(f.url.toLowerCase()));
+      return TYPE[
+        matched?.type ||
+          (manager.filter?.some(
+            (f) => f.type === 'scr' && url.toLowerCase().includes(f.url.toLowerCase()),
+          )
+            ? 'scr'
+            : 'uv')
+      ].create(url, manager, tab);
     },
     navigate: (url, manager, tab, iframe) => {
-      const matched = manager.filter?.find(f => url.toLowerCase().includes(f.url.toLowerCase()));
-      return TYPE[matched?.type || (manager.filter?.some(f => f.type === 'scr' && url.toLowerCase().includes(f.url.toLowerCase())) ? 'scr' : 'uv')].navigate(url, manager, tab, iframe);
+      const matched = manager.filter?.find((f) => url.toLowerCase().includes(f.url.toLowerCase()));
+      return TYPE[
+        matched?.type ||
+          (manager.filter?.some(
+            (f) => f.type === 'scr' && url.toLowerCase().includes(f.url.toLowerCase()),
+          )
+            ? 'scr'
+            : 'uv')
+      ].navigate(url, manager, tab, iframe);
     },
   },
 };
@@ -90,11 +106,13 @@ class TabManager {
       maxTabs: 10,
       minW: 50,
       maxW: 200,
-      urlInterval: 1000
+      urlInterval: 1000,
     });
 
-    const els = ['tabs-cont', 'tab-btn', 'fcn', 'url', 'class-portal']
-      .reduce((acc, id) => ({ ...acc, [id]: document.getElementById(id) }), {});
+    const els = ['tabs-cont', 'tab-btn', 'fcn', 'url', 'class-portal'].reduce(
+      (acc, id) => ({ ...acc, [id]: document.getElementById(id) }),
+      {},
+    );
 
     Object.assign(this, {
       tc: els['tabs-cont'],
@@ -102,7 +120,7 @@ class TabManager {
       ic: els['fcn'],
       ui: els['url'],
       bg: els['class-portal'],
-      fCss: 'w-full h-full border-0 absolute top-0 left-0 z-0 transition-opacity duration-200 ease-in-out opacity-0 pointer-events-none'
+      fCss: 'w-full h-full border-0 absolute top-0 left-0 z-0 transition-opacity duration-200 ease-in-out opacity-0 pointer-events-none',
     });
 
     this.ab.onclick = () => this.add();
@@ -144,12 +162,16 @@ class TabManager {
 
   ex = (() => {
     const endpoints = Object.values(TYPE)
-      .map(p => {
+      .map((p) => {
         switch (p) {
-          case TYPE.scr: return 'scramjet';
-          case TYPE.uv: return 'uv/service';
-          case TYPE.uv1: return 'assignments';
-          default: return null;
+          case TYPE.scr:
+            return 'scramjet';
+          case TYPE.uv:
+            return 'uv/service';
+          case TYPE.uv1:
+            return 'assignments';
+          default:
+            return null;
         }
       })
       .filter(Boolean)
@@ -199,7 +221,7 @@ class TabManager {
 
   showActive = () => {
     const activeTab = this.active();
-    this.tabs.forEach(t => this.setFrameState(t.id, t === activeTab));
+    this.tabs.forEach((t) => this.setFrameState(t.id, t === activeTab));
   };
 
   startTracking = () => this.tabs.forEach((t) => this.track(t.id));
@@ -227,7 +249,10 @@ class TabManager {
         if (this.isNewTab(t.url)) {
           f.src = t.url;
           f.onload = () => {
-            try { contentObserver.unbind(); contentObserver.bind(); } catch { }
+            try {
+              contentObserver.unbind();
+              contentObserver.bind();
+            } catch {}
           };
         }
         this.ic.appendChild(f);
@@ -306,13 +331,14 @@ class TabManager {
       if (!t) return;
       try {
         const newUrl = f.contentWindow.location.href;
-        if (newUrl && newUrl !== t.url && newUrl !== 'about:blank') this.updateTabMeta(t, f, newUrl);
-      } catch { }
+        if (newUrl && newUrl !== t.url && newUrl !== 'about:blank')
+          this.updateTabMeta(t, f, newUrl);
+      } catch {}
     });
   };
 
   checkStudentUrl = (id) => {
-    const t = this.tabs.find(t => t.id === id);
+    const t = this.tabs.find((t) => t.id === id);
     const f = document.getElementById(`iframe-${id}`);
     if (!t?.url || !f || t.url === this.newTabUrl) return;
     try {
@@ -322,19 +348,24 @@ class TabManager {
         contentObserver.unbind?.();
         contentObserver.bind?.();
       }
-    } catch { this.addLoadListener(id); }
+    } catch {
+      this.addLoadListener(id);
+    }
   };
 
   updateTabMeta = (t, f, newUrl) => {
     try {
       const doc = f.contentDocument || f.contentWindow.document;
-      if (doc?.body?.innerText?.includes('Error processing your request') || doc?.body?.innerText?.includes('Scramjet v2.0.0-alpha (build f9f5232)')) {
+      if (
+        doc?.body?.innerText?.includes('Error processing your request') ||
+        doc?.body?.innerText?.includes('Scramjet v2.0.0-alpha (build f9f5232)')
+      ) {
         f.style.opacity = 0;
         f.contentWindow.location.reload();
         f.style.opacity = 1;
         return;
       }
-    } catch { }
+    } catch {}
 
     const decodedUrl = this.ex(newUrl);
     const hist = this.history.get(t.id) || { urls: [decodedUrl], position: 0 };
@@ -371,11 +402,16 @@ class TabManager {
     }
   };
 
-
   add = () => {
     if (this.tabs.length >= this.maxTabs) return;
-    this.tabs.forEach(t => t.active = false);
-    const t = { id: this.nextId++, title: this.newTabTitle, url: this.newTabUrl, active: true, justAdded: true };
+    this.tabs.forEach((t) => (t.active = false));
+    const t = {
+      id: this.nextId++,
+      title: this.newTabTitle,
+      url: this.newTabUrl,
+      active: true,
+      justAdded: true,
+    };
     this.tabs.push(t);
     this.render();
     this.createIframes();
@@ -385,10 +421,9 @@ class TabManager {
     this.emitNewFrame();
   };
 
-
   close = (id) => {
     if (this.tabs.length === 1) return;
-    const i = this.tabs.findIndex(t => t.id === id);
+    const i = this.tabs.findIndex((t) => t.id === id);
     if (i === -1) return;
     const wasActive = this.tabs[i].active;
     this.tabs.splice(i, 1);
@@ -397,10 +432,11 @@ class TabManager {
     document.getElementById(`iframe-${id}`)?.remove();
     if (wasActive) {
       const newIdx = Math.min(i, this.tabs.length - 1);
-      this.tabs.forEach(t => t.active = false);
+      this.tabs.forEach((t) => (t.active = false));
       this.tabs[newIdx].active = true;
       this.showActive();
-      if (this.ui) this.ui.value = this.isNewTab(this.tabs[newIdx].url) ? '' : this.ex(this.tabs[newIdx].url);
+      if (this.ui)
+        this.ui.value = this.isNewTab(this.tabs[newIdx].url) ? '' : this.ex(this.tabs[newIdx].url);
       this.emitNewFrame();
     }
     this.render();
@@ -410,7 +446,7 @@ class TabManager {
 
   activate = (id) => {
     if (this.active()?.id === id) return;
-    this.tabs.forEach(t => t.active = t.id === id);
+    this.tabs.forEach((t) => (t.active = t.id === id));
     this.render();
     this.showActive();
     if (this.ui) {
@@ -423,7 +459,7 @@ class TabManager {
   returnMeta = () => {
     const t = this.active();
     if (!t) return { name: '', url: '' };
-    const url = (t.url && !this.isNewTab(t.url)) ? this.ex(t.url) : '';
+    const url = t.url && !this.isNewTab(t.url) ? this.ex(t.url) : '';
     return { name: t.title || '', url };
   };
 
@@ -432,15 +468,19 @@ class TabManager {
     const meta = this.returnMeta();
     const detail = { ...meta, tabId: t?.id };
     const ev = new CustomEvent('newFrame', { detail });
-    try { document.dispatchEvent(ev); } catch (err) { }
-    try { window.dispatchEvent(ev); } catch (err) { }
+    try {
+      document.dispatchEvent(ev);
+    } catch (err) {}
+    try {
+      window.dispatchEvent(ev);
+    } catch (err) {}
   };
 
   updateUrl = async (input) => {
     if (!input) return;
     const t = this.active();
     if (!t) return;
-    if (this.unsupported.some(s => input.includes(s))) {
+    if (this.unsupported.some((s) => input.includes(s))) {
       alert(`The website "${input}" is not supported at this time`);
       return;
     }
@@ -458,7 +498,12 @@ class TabManager {
       t.url = this.newTabUrl;
       t.title = this.newTabTitle;
       if (this.ui) this.ui.value = '';
-      f.onload = () => { try { contentObserver.unbind(); contentObserver.bind(); } catch { } };
+      f.onload = () => {
+        try {
+          contentObserver.unbind();
+          contentObserver.bind();
+        } catch {}
+      };
       this.showActive();
       this.render();
       return;
@@ -474,7 +519,11 @@ class TabManager {
     } else handler.navigate(url, this, t, f);
 
     t.url = url;
-    try { t.title = new URL(url).hostname.replace('www.', ''); } catch { t.title = input; }
+    try {
+      t.title = new URL(url).hostname.replace('www.', '');
+    } catch {
+      t.title = input;
+    }
     this.showActive();
     this.render();
     if (t.active) this.emitNewFrame();
@@ -487,7 +536,7 @@ class TabManager {
 
   updateWidths = () => {
     const w = this.getTabWidth();
-    this.tc.querySelectorAll('.tab-item').forEach(el => {
+    this.tc.querySelectorAll('.tab-item').forEach((el) => {
       el.style.width = w + 'px';
       el.style.minWidth = this.minW + 'px';
     });
@@ -504,10 +553,14 @@ class TabManager {
   };
 
   render = (() => {
-    const tabTemplate = (t, w, i, op, showClose) => `
+    const tabTemplate = (t, w, i, op, showClose) =>
+      `
       <div ${t.justAdded ? 'data-m="bounce-up" data-m-duration="0.2"' : ''} 
-           class="tab-item relative flex items-center rounded-b-none justify-between pl-2.5 pr-1.5 py-[0.28rem] rounded-[6px] cursor-pointer transition-all duration-200 ease-in-out ${t.active ? `border border-b-0 text-[${op.bodyText || '#8a9bb8'}]` : 'hover:bg-[#cccccc2f]'
-      } ${i === 0 ? 'ml-0' : '-ml-px'}" 
+           class="tab-item relative flex items-center rounded-b-none justify-between pl-2.5 pr-1.5 py-[0.28rem] rounded-[6px] cursor-pointer transition-all duration-200 ease-in-out ${
+             t.active
+               ? `border border-b-0 text-[${op.bodyText || '#8a9bb8'}]`
+               : 'hover:bg-[#cccccc2f]'
+           } ${i === 0 ? 'ml-0' : '-ml-px'}" 
            style="width:${w}px;min-width:${this.minW}px;background-color:${t.active ? op.urlBarBg || '#1d303f' : undefined}" 
            data-tab-id="${t.id}">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
@@ -520,11 +573,9 @@ class TabManager {
       const op = JSON.parse(localStorage.getItem('options') || '{}');
       const showClose = this.tabs.length > 1;
 
-      this.tc.innerHTML = this.tabs
-        .map((t, i) => tabTemplate(t, w, i, op, showClose))
-        .join('');
+      this.tc.innerHTML = this.tabs.map((t, i) => tabTemplate(t, w, i, op, showClose)).join('');
 
-      this.tabs.forEach(t => delete t.justAdded);
+      this.tabs.forEach((t) => delete t.justAdded);
     };
   })();
 }
@@ -573,10 +624,7 @@ window.addEventListener('load', async () => {
     throw err;
   }
 
-  const sws = [
-    { path: '/s_sw.js', scope: '/scramjet/' },
-    { path: '/uv/sw.js' },
-  ];
+  const sws = [{ path: '/s_sw.js', scope: '/scramjet/' }, { path: '/uv/sw.js' }];
 
   for (const sw of sws) {
     try {
@@ -609,9 +657,19 @@ window.addEventListener('load', async () => {
     'tbtog': () => {
       document.getElementById('tb')?.classList.add('hidden');
       if (!localStorage.getItem('tip0')) {
-        document.dispatchEvent(new CustomEvent('basecoat:toast', {
-          detail: { config: { category: 'info', title: 'Tips Notifier', duration: Math.pow(6400, 2), description: 'You can hide the tab bar automatically in Settings!', cancel: { label: 'Got it!' } } }
-        }));
+        document.dispatchEvent(
+          new CustomEvent('basecoat:toast', {
+            detail: {
+              config: {
+                category: 'info',
+                title: 'Tips Notifier',
+                duration: Math.pow(6400, 2),
+                description: 'You can hide the tab bar automatically in Settings!',
+                cancel: { label: 'Got it!' },
+              },
+            },
+          }),
+        );
         localStorage.setItem('tip0', '1');
       }
     },
@@ -621,37 +679,39 @@ window.addEventListener('load', async () => {
   };
 
   (tabManager.options.showTb ?? true) && domMap['tabs-btn']();
-  Object.entries(domMap).forEach(([id, fn]) => document.getElementById(id)?.addEventListener('click', fn));
+  Object.entries(domMap).forEach(([id, fn]) =>
+    document.getElementById(id)?.addEventListener('click', fn),
+  );
 
-  document.getElementById("bookmark-btn").addEventListener("click", () => {
-    const bookmark = document.getElementById("bookmark");
-    const setBookmark = add => {
+  document.getElementById('bookmark-btn').addEventListener('click', () => {
+    const bookmark = document.getElementById('bookmark');
+    const setBookmark = (add) => {
       const old = JSON.parse(localStorage.getItem('options'));
       const metaInfo = tabManager.returnMeta();
       const result = {
         ...old,
         quickLinks: add
-          ? [...old.quickLinks, { link: metaInfo.url, icon: "null", name: metaInfo.name }]
-          : old.quickLinks.filter(q => !(q.link === metaInfo.url && q.name === metaInfo.name))
+          ? [...old.quickLinks, { link: metaInfo.url, icon: 'null', name: metaInfo.name }]
+          : old.quickLinks.filter((q) => !(q.link === metaInfo.url && q.name === metaInfo.name)),
       };
       localStorage.setItem('options', JSON.stringify(result));
     };
 
-    if (bookmark.getAttribute("fill") === "currentColor") {
-      bookmark.setAttribute("fill", "none");
+    if (bookmark.getAttribute('fill') === 'currentColor') {
+      bookmark.setAttribute('fill', 'none');
       setBookmark(false);
     } else {
-      bookmark.setAttribute("fill", "currentColor");
+      bookmark.setAttribute('fill', 'currentColor');
       setBookmark(true);
     }
   });
 
-  document.addEventListener('newFrame', e => {
-    const bookmark = document.getElementById("bookmark");
+  document.addEventListener('newFrame', (e) => {
+    const bookmark = document.getElementById('bookmark');
     const options = JSON.parse(localStorage.getItem('options')) || { quickLinks: [] };
     bookmark.setAttribute(
-      "fill",
-      options.quickLinks.some(q => q.link === e.detail.url) ? "currentColor" : "none"
+      'fill',
+      options.quickLinks.some((q) => q.link === e.detail.url) ? 'currentColor' : 'none',
     );
   });
 });

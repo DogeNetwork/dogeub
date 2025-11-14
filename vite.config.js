@@ -121,6 +121,8 @@ export default defineConfig(({ command }) => {
       }
     ],
     build: {
+      target: 'es2022',
+      reportCompressedSize: false,
       esbuild: { 
         legalComments: 'none',
         treeShaking: true
@@ -132,10 +134,19 @@ export default defineConfig(({ command }) => {
         },
         output: {
           entryFileNames: '[hash].js',
-          chunkFileNames: (chunk) =>
-            chunk.name === 'vendor-modules' ? 'chunks/vendor-modules.[hash].js' : 'chunks/[hash].js',
+          chunkFileNames: 'chunks/[name].[hash].js',
           assetFileNames: 'assets/[hash].[ext]',
-          manualChunks: (id) => (id.includes('node_modules') ? 'vendor-modules' : undefined),
+          manualChunks: (id) => {
+            if (!id.includes('node_modules')) return;
+            const m = id.split('node_modules/')[1];
+            const pkg = m.startsWith('@') ? m.split('/').slice(0,2).join('/') : m.split('/')[0];
+            if (/react-router|react-dom|react\b/.test(pkg)) return 'react';
+            if (/^@mui\//.test(pkg) || /^@emotion\//.test(pkg)) return 'mui';
+            if (/lucide/.test(pkg)) return 'icons';
+            if (/react-ga4/.test(pkg)) return 'analytics';
+            if (/nprogress/.test(pkg)) return 'progress';
+            return 'vendor';
+          },
         },
         treeshake: {
           moduleSideEffects: 'no-external'

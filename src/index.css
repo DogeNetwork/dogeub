@@ -5,7 +5,8 @@
 
 @font-face {
   font-family: 'SFProText';
-  src: url('https://cdn.jsdelivr.net/gh/nerocdn/assets-8bH2k/subset-SFProText-Semibold.woff2')
+  src:
+    url('https://cdn.jsdelivr.net/gh/nerocdn/assets-8bH2k/subset-SFProText-Semibold.woff2')
       format('woff2'),
     url('https://cdn.jsdelivr.net/gh/nerocdn/assets-8bH2k/subset-SFProText-Semibold.woff')
       format('woff');
@@ -15,7 +16,19 @@
 }
 
 body {
-  font-family: 'Geist', 'Inter', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family:
+    'Geist',
+    'Inter',
+    'SF Pro Text',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Helvetica Neue',
+    sans-serif;
   font-size: 14px;
   font-weight: 500;
   user-select: none;

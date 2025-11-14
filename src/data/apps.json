@@ -52,7 +52,7 @@
       "disabled": false
     },
     {
-      "appName": "CoolMathGames",
+      "appName": "CoolMathapps",
       "desc": "Fun logic and math games at Coolmath Games!",
       "icon": "/assets/img/cmg.webp",
       "url": "https://coolmathgames.com",
@@ -66,7 +66,7 @@
       "disabled": false
     },
     {
-      "appName": "CrazyGames",
+      "appName": "Crazyapps",
       "desc": "Play free browser games instantly, no install.",
       "icon": "https://play-lh.googleusercontent.com/91TVBW8CFsOsbh7r3Y-kACNVYely0I7C-UcYP3-Jw-_MHCtfa_18i_4L7ozvGMoI9bk",
       "url": "https://crazygames.com",
@@ -117,7 +117,7 @@
     {
       "appName": "GitHub",
       "desc": "Host, review, and collaborate on code.",
-      "icon": "https://www.google.com/s2/favicons?sz=128&domain=github.com",
+      "icon": "https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU",
       "url": "https://github.com",
       "disabled": false
     },
@@ -138,14 +138,14 @@
     {
       "appName": "Netflix",
       "desc": "Watch TV shows, movies, and originals.",
-      "icon": "https://www.google.com/s2/favicons?sz=128&domain=netflix.com",
+      "icon": "https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI",
       "url": "https://netflix.com",
       "disabled": false
     },
     {
       "appName": "Amazon",
       "desc": "Shop millions of products online.",
-      "icon": "https://www.google.com/s2/favicons?sz=128&domain=amazon.com",
+      "icon": "https://play-lh.googleusercontent.com/1Ns1T_qN0pEXMvZeZ5lQNAR8z4blP7ce2J2Nn5doXvt2T1g_W7VMORdWHaApkOooupI=w240-h480-rw",
       "url": "https://amazon.com",
       "disabled": false
     },
@@ -188,1561 +188,1561 @@
     },
     {
       "appName": "1v1.lol",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets/img/1v1.webp",
       "url": "https://1v1.lol",
       "disabled": false
     },
     {
       "appName": "Awesome Tanks 2",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets/img/atanks2.webp",
       "url": "https://derpman.codeberg.page/awesometanks2/",
       "disabled": false
     },
     {
       "appName": "Bounce Back",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/bounceback.jpg",
       "url": "https://skoolcdn.github.io/gfiles/gfiles/html5/bounceback",
       "disabled": false
     },
     {
       "appName": "BuildNow.GG",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets/img/buildnow.webp",
       "url": "https://games.crazygames.com/en_US/buildnow-gg/index.html",
       "disabled": false
     },
     {
       "appName": "Counter Strike",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "https://cdn2.iconfinder.com/data/icons/popular-games-1/50/csgo_squircle-512.png",
       "url": "https://play-cs.com",
       "disabled": false
     },
     {
       "appName": "Defly.io",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "https://cdn.glitch.global/82c5292a-89b3-4a53-84e2-abbc0fa27724/defly_io.webp?v=1679319580067",
       "url": "https://defly.io/",
       "disabled": false
     },
     {
       "appName": "Diep.io",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "https://play-lh.googleusercontent.com/6lO401fxwNTk919VwTKOdKGot82kf1WFBYGdhnVgDVsmkdK6Nv6d2ZDpmKBVO9CW2s8",
       "url": "https://diep.io/",
       "disabled": false
     },
     {
       "appName": "Florr.io",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets/img/florr.webp",
       "url": "https://florr.io",
       "disabled": false
     },
     {
       "appName": "Funny Shooter 2",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets/img/funnyshooter2.webp",
       "url": "https://htmlxm.github.io/h4/funny-shooter-2",
       "disabled": false
     },
     {
       "appName": "Janissary Battles",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/janissary.png",
       "url": "https://html5.gamedistribution.com/rvvASMiM/8b55f4f729be4e70b6155f27d2e04690/?gd_sdk_referrer_url=https://gamedistribution.com/games/janissary-battles",
       "disabled": false
     },
     {
       "appName": "Kirka.io",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "https://cdn.glitch.global/40d8a6f7-c124-43fe-8544-1617c1dcc948/download%20(1).jpeg?v=1680006191209",
       "url": "https://kirka.io/",
       "disabled": false
     },
     {
       "appName": "Krunker.io",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets/img/krunker.webp",
       "url": "https://krunker.io",
       "disabled": false
     },
     {
       "appName": "Master Archer",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/masterarcher.jpg",
       "url": "https://playcanv.as/p/JERg21J8",
       "disabled": false
     },
     {
       "appName": "Missiles",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/missiles/miss.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/missiles/index.html",
       "disabled": false
     },
     {
       "appName": "Robostorm",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/robostorm.jpg",
       "url": "https://robostorm.io",
       "disabled": false
     },
     {
       "appName": "Rocket Bot Royale",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets/img/rocketbotroyale.webp",
       "url": "https://rocketbotroyale.winterpixel.io/",
       "disabled": false
     },
     {
       "appName": "Rooftop Snipers",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/c127771edb0e821e4109b7058ae3f094.jpeg",
       "url": "https://dogeub-assets.ftp.sh/rooftop-snipers/index.html",
       "disabled": false
     },
     {
       "appName": "Station 141",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets/img/station141.webp",
       "url": "https://dogeub-assets.ftp.sh/station-141/index.html",
       "disabled": false
     },
     {
       "appName": "Stick Archers",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/stick-archers/splash.jpg",
       "url": "https://dogeub-assets.ftp.sh/stick-archers/index.html",
       "disabled": false
     },
     {
       "appName": "Stick Merge",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/stick-merge/splash.png",
       "url": "https://dogeub-assets.ftp.sh/stick-merge/index.html",
       "disabled": false
     },
     {
       "appName": "Superhot",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/superhot/hot.jpg",
       "url": "https://dogeub-assets.ftp.sh/superhot/index.html",
       "disabled": false
     },
     {
       "appName": "Time Shooter SWAT",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets/img/time-shooter-3.webp",
       "url": "https://html5.gamedistribution.com/rvvASMiM/6493b872f0564380a7adad671d1e0a57/index.html",
       "disabled": false
     },
     {
       "appName": "Wolfenstein",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/wolfenstein-3d/art/wolf3d.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/wolfenstein-3d/index.html",
       "disabled": false
     },
     {
       "appName": "Aquapark.io",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "/assets/img/aquapark.webp",
       "url": "https://classroom6x.gitlab.io/aquaparkio/",
       "disabled": false
     },
     {
       "appName": "Archery World Tour",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/awt.jpg",
       "url": "https://gamesnacks.com/embed/games/archery",
       "disabled": false
     },
     {
       "appName": "Basket Bros",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/basketbros.jpg",
       "url": "https:https://dogeub-assets.ftp.sh/basketbros-io/index.html",
       "disabled": false
     },
     {
       "appName": "Basket Random",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "/assets/img/basketrandom.webp",
       "url": "https://files.twoplayergames.org/files/games/other/Basket_Random/index.html",
       "disabled": false
     },
     {
       "appName": "BasketBros.io",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "/assets/img/basketbros.webp",
       "url": "https://basketbros.io",
       "disabled": false
     },
     {
       "appName": "Basketball FRVR",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/5aae527bebe68094c3d3276387150197.png",
       "url": "https://3997788263113448673.playables.usercontent.goog/v/assets/index.html#origin=https%3A%2F%2Fwww.youtube.com",
       "disabled": false
     },
     {
       "appName": "Basketball Stars",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "/assets/img/basketballstars.webp",
       "url": "https://html5.gamedistribution.com/rvvASMiM/69d78d071f704fa183d75b4114ae40ec/?gd_sdk_referrer_url=https://gamedistribution.com/games/basketball-stars",
       "disabled": false
     },
     {
       "appName": "Cannon Basketball 4",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "/assets-fb/cannon-basketball-4/img/splash.png",
       "url": "https://dogeub-assets.ftp.sh/cannon-basketball-4/index.html",
       "disabled": false
     },
     {
       "appName": "Champion Island",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "/assets-fb/champion-island/splash.png",
       "url": "https://dogeub-assets.ftp.sh/champion-island/index.html",
       "disabled": false
     },
     {
       "appName": "Let's Surf",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/ltsf.png",
       "url": "https://dogeub-assets.ftp.sh/edge-surf/index.html",
       "disabled": false
     },
     {
       "appName": "Penalty Kicks",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/penaltykicks.png",
       "url": "https://www.mathplayground.com/penalty-kicks/index.html",
       "disabled": false
     },
     {
       "appName": "Retro Bowl",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "/assets/img/retro.webp",
       "url": "retroBowl()",
       "disabled": true
     },
     {
       "appName": "Soccer Random",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "https://img.gamedistribution.com/308d826f20034d7b972f25258c8d0a44-512x512.jpeg",
       "url": "https://html5.gamedistribution.com/rvvASMiM/308d826f20034d7b972f25258c8d0a44/?gd_sdk_referrer_url=https://gamedistribution.com/games/soccer-random",
       "disabled": false
     },
     {
       "appName": "Soccer Skills",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "/assets-fb/soccer-skills/splash.png",
       "url": "https://dogeub-assets.ftp.sh/soccer-skills/index.html",
       "disabled": false
     },
     {
       "appName": "Volley Random",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "/assets/img/volley-random.webp",
       "url": "https://files.twoplayergames.org/files/games/o1/Volley_random/index.html",
       "disabled": false
     },
     {
       "appName": "99 Balls 3D",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets/img/99balls3d.webp",
       "url": "https://gamesnacks.com/games/99balls3d",
       "disabled": false
     },
     {
       "appName": "99 Balls Evo",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets/img/99ballsevo.webp",
       "url": "https://dogeub-assets.ftp.sh/99balls/index.html",
       "disabled": false
     },
     {
       "appName": "Achievement Unlocked",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/achievementunlocked/achievementunlocked.png",
       "url": "https://dogeub-assets.ftp.sh/achievementunlocked/index.html",
       "disabled": false
     },
     {
       "appName": "Amidst The Clouds",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/amidst-the-clouds/splash.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/amidst-the-clouds/index.html",
       "disabled": false
     },
     {
       "appName": "Appel",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://store-images.s-microsoft.com/image/apps.14476.13631454430641262.37c87ec2-8482-46a7-a63a-261257b0eba0.238f1630-e1a2-4cdc-ab31-ae80905aacb4?mode=scale&q=90&h=300&w=300",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/appel/index.html",
       "disabled": false
     },
     {
       "appName": "Big NEON Tower Tiny Square",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/bntts/icons/icon-256.png",
       "url": "https://www.coolmathgames.com/0-big-neon-tower-tiny-square/play",
       "disabled": false
     },
     {
       "appName": "Big Tower Tiny Square",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/btts/images.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/btts/index.html",
       "disabled": false
     },
     {
       "appName": "Bob The Robber 2",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/btr2.jpeg",
       "url": "https://dogeub-assets.ftp.sh/bobtherobber2/index.html",
       "disabled": false
     },
     {
       "appName": "Boxel Rebound",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets/img/boxelrebound.webp",
       "url": "https://trinculo54.github.io/Boxel-rebound-hope/Newer/index.html",
       "disabled": false
     },
     {
       "appName": "Circlo",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/circlo/img/circlo.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/circlo/index.html",
       "disabled": false
     },
     {
       "appName": "Cubeform",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets/img/cubeform.webp",
       "url": "https://www.mathplayground.com/cubeform/index.html",
       "disabled": false
     },
     {
       "appName": "Doodle Jump",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/doodle-jump/doodle.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/doodle-jump/index.html",
       "disabled": false
     },
     {
       "appName": "Fireboy and Watergirl",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets/img/fireboy-and-watergirl.webp",
       "url": "https://ubg100.github.io/games/fbwg1/index.html",
       "disabled": false
     },
     {
       "appName": "Geometry Dash Lite",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets/img/geometrydash.webp",
       "url": "https://geometrydash-lite.io/",
       "disabled": false
     },
     {
       "appName": "Happy Wheels",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/happywheels.jpeg",
       "url": "https://games-online.io/game/HappyWheels",
       "disabled": false
     },
     {
       "appName": "Henry Stickmin: Breaking the Bank",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/breakingthebank/breakingthebank.png",
       "url": "https://dogeub-assets.ftp.sh/breakingthebank/index.html",
       "disabled": false
     },
     {
       "appName": "Henry Stickmin: Escaping The Prision",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/escapingtheprison/escapingtheprison.jpg",
       "url": "https://dogeub-assets.ftp.sh/escapingtheprison/index.html",
       "disabled": false
     },
     {
       "appName": "Henry Stickmin: Fleeing The Complex",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets/img/fleeingthecomplex.webp",
       "url": "https://dogeub-assets.ftp.sh/fleeingthecomplex/index.html",
       "disabled": false
     },
     {
       "appName": "Offline Paradise",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/offline-paradise/assets/icon.webp",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/offline-paradise/index.html",
       "disabled": false
     },
     {
       "appName": "Pizza Tower",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0d55ae41-e76d-4375-b2d9-5b40b36a2f82/dfy6oec-3cccc997-2959-4bd2-a2ee-32e7442e6bbd.png/v1/fill/w_894,h_894/pizza_tower_icon_by_kingkenny11_dfy6oec-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzBkNTVhZTQxLWU3NmQtNDM3NS1iMmQ5LTViNDBiMzZhMmY4MlwvZGZ5Nm9lYy0zY2NjYzk5Ny0yOTU5LTRiZDItYTJlZS0zMmU3NDQyZTZiYmQucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.7hNeai6noPkCoPf1YXkrj7t8u6oQAJSpv1hiw0YpiyY",
       "url": "https://kdata1.com/2021/03/3527391/2.1/",
       "disabled": false
     },
     {
       "appName": "Rolling Forests",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/rolling-forests/icon.png",
       "url": "https://dogeub-assets.ftp.sh/rolling-forests/index.html",
       "disabled": false
     },
     {
       "appName": "Rolly Vortex",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/rolly-vortex/icon-256.png",
       "url": "https://dogeub-assets.ftp.sh/rolly-vortex/index.html",
       "disabled": false
     },
     {
       "appName": "Rotate",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://img.gamedistribution.com/0faa4468d18e4f7aa2e0161b4fefa193-512x512.jpeg",
       "url": "https://html5.gamedistribution.com/rvvASMiM/0faa4468d18e4f7aa2e0161b4fefa193/?gd_sdk_referrer_url=https://gamedistribution.com/games/rotate",
       "disabled": false
     },
     {
       "appName": "Run 3",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets/img/run3.webp",
       "url": "https://bonbang.github.io/store99/run-3",
       "disabled": false
     },
     {
       "appName": "Slope",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets/img/slope.webp",
       "url": "https://dogeub-assets.ftp.sh/slope/",
       "disabled": false
     },
     {
       "appName": "Slope 2",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/slope-2/slope-2-logo.png",
       "url": "https://dogeub-assets.ftp.sh/slope-2/index.html",
       "disabled": false
     },
     {
       "appName": "Slope Ball",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/slope-ball/splash.png",
       "url": "https://dogeub-assets.ftp.sh/slope-ball/index.html",
       "disabled": false
     },
     {
       "appName": "Stack Bounce",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets/img/stackbounce.webp",
       "url": "https://gamesnacks.com/games/stackbounce",
       "disabled": false
     },
     {
       "appName": "Stickman Hook",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets/img/stickmanhook.webp",
       "url": "https://stickman-hook.io/iframe/index.html",
       "disabled": false
     },
     {
       "appName": "Super Mario 64",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://nintendocore.org/cdn/shop/products/Super-Mario-64-1.png",
       "url": "https://ultimatemen.github.io/games/superm64/index.html",
       "disabled": false
     },
     {
       "appName": "Super Mario Bros",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://lh3.googleusercontent.com/PwJw4lIjmSVwOkpaeYigpJgwzEnTKIRQhxy7PmV0qnEVh4xuHb2vojFtNU4JCrCJL5YL5xi8WG7peK2kscQXjaEQ=w640-h400-e365-rj-sc0x00ffffff",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/mario/index.html",
       "disabled": false
     },
     {
       "appName": "Tunnel Rush",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://images.hellokids.com/_uploads/_tiny_galerie/20180415/vign-tunnel-rush-hk-w8v_u89.jpg",
       "url": "https://tunnelrush.app/iframe/index.html",
       "disabled": false
     },
     {
       "appName": "10 Minutes Till dawn",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/tmtd.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/10-minutes-till-dawn/index.html",
       "disabled": false
     },
     {
       "appName": "Ages of Conflict",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets-fb/ages-of-conflict/splash.jpg",
       "url": "https://dogeub-assets.ftp.sh/ages-of-conflict/index.html",
       "disabled": false
     },
     {
       "appName": "Alien Hominid",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/alienhominid/alienhominid.jpg",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/alienhominid/index.html",
       "disabled": false
     },
     {
       "appName": "Alien Shooter",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://www2.minijuegosgratis.com/v3/games/thumbnails/241062_7_sq.jpg",
       "url": "https://691164868467584636.playables.usercontent.goog/v/assets/index.html#origin=https%3A%2F%2Fwww.youtube.com",
       "disabled": false
     },
     {
       "appName": "Amongus",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec",
       "url": "https://dogeub-assets.ftp.sh/among-us/index.html",
       "disabled": false
     },
     {
       "appName": "Ashbelt",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://f4.bcbits.com/img/a4238131019_10.jpg",
       "url": "https://ultimatemen.github.io/games/ashbelt/index.html",
       "disabled": false
     },
     {
       "appName": "Bacon May Die",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets/img/baconmaydie.webp",
       "url": "https://game.enjoy4fun.com/baconmaydie/v2/index.html",
       "disabled": false
     },
     {
       "appName": "Deepest Sword",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://images.sftcdn.net/images/t_app-icon-m/p/f97701fd-a064-4cac-9247-9793e72d8220/2271577798/deepest-sword-logo",
       "url": "https://html-classic.itch.zone/html/4017918/index.html",
       "disabled": false
     },
     {
       "appName": "Evowars.io",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://play-lh.googleusercontent.com/8MffWSh6-Onwm--Hb5r7UUi21c7MxurIFIrNbBfIPHbb6KIcthHB2PUKcch6L0dO7HA",
       "url": "https://evowars.io",
       "disabled": false
     },
     {
       "appName": "Genshin Impact",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets/img/genshin.webp",
       "url": "https://www.easyfun.gg/cloud-games/genshin-impact.html",
       "disabled": false
     },
     {
       "appName": "Hole.io",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets/img/hole-io.webp",
       "url": "https://hole-io.com",
       "disabled": false
     },
     {
       "appName": "Knife Master",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets-fb/knife-master/512x512.jpg",
       "url": "https://dogeub-assets.ftp.sh/knife-master/index.html",
       "disabled": false
     },
     {
       "appName": "Om-Nom Bounce",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets-fb/om-bounce/assets/icon.webp",
       "url": "https://dogeub-assets.ftp.sh/om-bounce/index.html",
       "disabled": false
     },
     {
       "appName": "Paper.io",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets/img/paperio.webp",
       "url": "https://paper-io.com",
       "disabled": false
     },
     {
       "appName": "Rabbit Samurai",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets-fb/rabbit-samurai/splash.png",
       "url": "https://dogeub-assets.ftp.sh/rabbit-samurai/index.html",
       "disabled": false
     },
     {
       "appName": "Rabbit Samurai 2",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets-fb/rabbit-samurai2/splash.png",
       "url": "https://dogeub-assets.ftp.sh/rabbit-samurai2/index.html",
       "disabled": false
     },
     {
       "appName": "Radius Raid",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/radiusraid.jpg",
       "url": "https://jackrugile.com/radius-raid/",
       "disabled": false
     },
     {
       "appName": "Slither.io",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://play-lh.googleusercontent.com/oObkhKfUXOY5yzheKe9w1Y1pXZBgdiSksMeNmT0BijoQ8J75maTCIW2TA7-6pA6EMA",
       "url": "https://slither.io",
       "disabled": false
     },
     {
       "appName": "Snowbattle.io",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets-fb/snowbattle/img/logo.png",
       "url": "https://dogeub-assets.ftp.sh/snowbattle/index.html",
       "disabled": false
     },
     {
       "appName": "Stickman Archero Fight",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://www5.minijuegosgratis.com/v3/games/thumbnails/241942_7_sq.jpg",
       "url": "https://html5.gamedistribution.com/rvvASMiM/3f4c166817ad4fd4b5b05d9adba22fcd/?gd_sdk_referrer_url=https://www.gamegab.com/play/16561/Stickman-Archero-Fight/",
       "disabled": false
     },
     {
       "appName": "Stickman Survival",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets-fb/Stickman-Survival/Icon.png",
       "url": "https://dogeub-assets.ftp.sh/Stickman-Survival/index.html",
       "disabled": false
     },
     {
       "appName": "Territorial.io",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets/img/territorial.webp",
       "url": "https://territorial.io",
       "disabled": false
     },
     {
       "appName": "The Chroma Incident",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/thechromaincident.png",
       "url": "https://js13kgames.com/games/the-chroma-incident/index.html",
       "disabled": false
     },
     {
       "appName": "Veloce",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://img.itch.zone/aW1nLzI1NjI0MjgucG5n/original/qN6zkD.png",
       "url": "https://dogeub-assets.ftp.sh/veloce/index.html",
       "disabled": false
     },
     {
       "appName": "Yohoho.io",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://lh3.googleusercontent.com/BulAgT61Ocg2r5obu2apG_IOYUi3t16vdmBwy0uAgmiOatFUfcRVuRKFPGSsz0kRJN8N",
       "url": "https://rawcdn.githack.com/GameHub88/Yexex-Assets/main/yohoho/index.html",
       "disabled": false
     },
     {
       "appName": "Avalanche",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/avalanche/avalanche.png",
       "url": "https://dogeub-assets.ftp.sh/avalanche/index.html",
       "disabled": false
     },
     {
       "appName": "Backrooms",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/backrooms.jpg",
       "url": "https://dogeub-assets.ftp.sh/backrooms/index.html",
       "disabled": false
     },
     {
       "appName": "Chrome Dino",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets/img/chromedino.webp",
       "url": "https://dogeub-assets.ftp.sh/chrome-dino/index.html",
       "disabled": false
     },
     {
       "appName": "Cluster Truck",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets/img/clustertruck.webp",
       "url": "https://www.snake-games.io/localgames/cluster-rush/",
       "disabled": false
     },
     {
       "appName": "Crossy Road",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/crossy-road/icon.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/crossy-road/index.html",
       "disabled": false
     },
     {
       "appName": "Crowd Run 3D",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets/img/crowd-run-3d.webp",
       "url": "https://games.cdn.famobi.com/html5games/c/crowd-run-3d/v040/",
       "disabled": false
     },
     {
       "appName": "Death Run 3D",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/death-run-3d/img/death.png",
       "url": "https://dogeub-assets.ftp.sh/death-run-3d/index.html",
       "disabled": false
     },
     {
       "appName": "Dino Run 3d",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/dino3d.jpg",
       "url": "https://russell2259.github.io/dino3d/",
       "disabled": false
     },
     {
       "appName": "Ducklife",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/ducklife1/ducklife.png",
       "url": "https://dogeub-assets.ftp.sh/ducklife1/index.html",
       "disabled": false
     },
     {
       "appName": "Ducklife 2",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/ducklife2/ducklife2.png",
       "url": "https://dogeub-assets.ftp.sh/ducklife2/index.html",
       "disabled": false
     },
     {
       "appName": "Ducklife 3",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/ducklife3/duck.png",
       "url": "https://dogeub-assets.ftp.sh/ducklife3/index.html",
       "disabled": false
     },
     {
       "appName": "Ducklife 4",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/ducklife4/splash.jpg",
       "url": "https://dogeub-assets.ftp.sh/ducklife4/index.html",
       "disabled": false
     },
     {
       "appName": "Getaway Shootout",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/getaway-shootout/img/index.jpg",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/getaway-shootout/index.html",
       "disabled": false
     },
     {
       "appName": "Jetpack Joyride",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/jetpack-joyride/splash.jpg",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/jetpack-joyride/index.html",
       "disabled": false
     },
     {
       "appName": "OvO",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets/img/ovo.webp",
       "url": "https://ovo.onrender.com/versions/1.4.4b/index.html",
       "disabled": false
     },
     {
       "appName": "OvO 2",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://lh3.googleusercontent.com/FOaLiWCIhdC5K-oE5UofoDpn3w2ZEAq359yAembr-Q-7mRqNd9ramV97FqyqPuqohwDdQZOm5MF9DL-QcTliLNmf=w640-h400-e365-rj-sc0x00ffffff",
       "url": "https://dthesle.github.io/OvO2/",
       "disabled": false
     },
     {
       "appName": "OvO Dimensions",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets/img/ovodimensions.webp",
       "url": "https://www.miniplay.com/embed/ovo-dimensions",
       "disabled": false
     },
     {
       "appName": "Papery Planes",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/papery-planes/splash.jpg",
       "url": "https://dogeub-assets.ftp.sh/papery-planes/index.html",
       "disabled": false
     },
     {
       "appName": "Polybranch",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/polybranch/img/pic1.png",
       "url": "https://dogeub-assets.ftp.sh/polybranch/index.html",
       "disabled": false
     },
     {
       "appName": "Snow Rider 3D",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://img.gamepix.com/games/snow-rider-3d/cover/snow-rider-3d.png?width=600&height=340&fit=cover&quality=90",
       "url": "https://23azostore.github.io/s8/snow-rider-3d/",
       "disabled": false
     },
     {
       "appName": "Subway Surfers",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets/img/subway.webp",
       "url": "https://dogeub-assets.ftp.sh/subway-surfers/index.html",
       "disabled": false
     },
     {
       "appName": "Subway Surfers: New York",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/subway-surfers-ny/NewYorkIcon.png",
       "url": "https://dogeub-assets.ftp.sh/subway-surfers-ny/index.html",
       "disabled": false
     },
     {
       "appName": "Tall Man Run",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets/img/tall-man-run.webp",
       "url": "https://html5.gamedistribution.com/rvvASMiM/7980c23fbbae4af6851e01052fce3cce/index.html",
       "disabled": false
     },
     {
       "appName": "Temple Run",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets/img/temple-run.webp",
       "url": "https://burgerbounty.github.io/s8/temple-run-2/",
       "disabled": false
     },
     {
       "appName": "Temple Run 2",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://upload.wikimedia.org/wikipedia/en/9/98/Temple_Run_2.png",
       "url": "https://dogeub-assets.ftp.sh/temple-run-2/index.html",
       "disabled": false
     },
     {
       "appName": "Tube Jumpers",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/tube-jumpers/img/shark.jpg",
       "url": "https://dogeub-assets.ftp.sh/tube-jumpers/index.html",
       "disabled": false
     },
     {
       "appName": "Tunnel Rush Mania",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://play-lh.googleusercontent.com/tl2qr3PCg-vpzloUgjMAY9eXz9y58Gdmb77_d9RbmrWoQu8rIvj4Fn3eCurqBoWsY84",
       "url": "https://html5.gamemonetize.co/2fp4sd31llh6u6vjxe1wxbx8meapsgop/",
       "disabled": false
     },
     {
       "appName": "Vex 3",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets/img/vex3.webp",
       "url": "https://dogeub-assets.ftp.sh/vex3/index.html",
       "disabled": false
     },
     {
       "appName": "Vex 4",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://mobimg.b-cdn.net/v2/fetch/1d/1d957ad4cb8024ec9b63d54d6c61235b.png",
       "url": "https://html5.gamedistribution.com/rvvASMiM/80e6a5ae477f4d4fbcd1ea293d10087d/?gd_sdk_referrer_url=https://gamedistribution.com/games/vex-4",
       "disabled": false
     },
     {
       "appName": "Vex 5",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://img.gamedistribution.com/f120262ab72743039fbce88c1f370df8-512x512.jpeg",
       "url": "https://html5.gamedistribution.com/rvvASMiM/f120262ab72743039fbce88c1f370df8/?gd_sdk_referrer_url=https://gamedistribution.com/games/vex-5",
       "disabled": false
     },
     {
       "appName": "Vex 6",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/vex-6.png",
       "url": "https://html5.gamedistribution.com/rvvASMiM/4925e12574364121a48c61c35f649c36/?gd_sdk_referrer_url=https://gamedistribution.com/games/vex-6",
       "disabled": false
     },
     {
       "appName": "Vex 7",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://img.gamedistribution.com/0c454c9562d249d28ba3a2b50564042c-512x512.jpg",
       "url": "https://html5.gamedistribution.com/rvvASMiM/rvvASMiM/0c454c9562d249d28ba3a2b50564042c/index.html?gd_sdk_referrer_url=https%3A%2F%2Ftr.y8.com%2Fgames%2Fvex_7&key=y8&value=default&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3RyLnk4LmNvbS9nYW1lcy92ZXhfNyIsInBhcmVudERvbWFpbiI6InRyLnk4LmNvbSIsInRvcERvbWFpbiI6InRyLnk4LmNvbSIsImhhc0ltcHJlc3Npb24iOmZhbHNlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE2In0%253D",
       "disabled": false
     },
     {
       "appName": "Vex 8",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets/img/vex8.webp",
       "url": "https://html5.gamedistribution.com/rvvASMiM/949009d40a2846f89f887de2285d6c28/index.html",
       "disabled": false
     },
     {
       "appName": "Asphalt Retro",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/asr.jpg",
       "url": "https://html5.gamedistribution.com/rvvASMiM/2c122cee7ef04222a962449e32a34e98/?gd_sdk_referrer_url=https://gamedistribution.com/games/asphalt-retro",
       "disabled": false
     },
     {
       "appName": "Cars Simulator",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets-fb/cars-simulator/splash.png",
       "url": "https://dogeub-assets.ftp.sh/cars-simulator/index.html",
       "disabled": false
     },
     {
       "appName": "Draw the Hill",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets/img/drawthehill.webp",
       "url": "https://www.mathplayground.com/draw-the-hill/index.html",
       "disabled": false
     },
     {
       "appName": "Drift Boss",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/driftboss.png",
       "url": "https://www.mathplayground.com/drift-boss-v3/index.html",
       "disabled": false
     },
     {
       "appName": "Drift Hunters",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets/img/drifthunters.webp",
       "url": "https://webglmath.github.io/drift-hunters/index.html",
       "disabled": false
     },
     {
       "appName": "Drive Mad",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets/img/drive-mad.webp",
       "url": "https://drivemad.me/iframe/index.html",
       "disabled": false
     },
     {
       "appName": "Eggy Car",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets/img/eggycar.webp",
       "url": "https://webglmath.github.io/eggy-car/",
       "disabled": false
     },
     {
       "appName": "HexGL",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets/img/hexgl.webp",
       "url": "https://hexgl.bkcore.com/play/",
       "disabled": false
     },
     {
       "appName": "Madalin Stunt Cars 2",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets-fb/madalin-stunt-cars-2/img/logo.jpg",
       "url": "https://dogeub-assets.ftp.sh/madalin-stunt-cars-2/index.html",
       "disabled": false
     },
     {
       "appName": "Madalin Stunt Cars 3",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets-fb/madalin-stunt-cars-3/img/index.jpg",
       "url": "https://dogeub-assets.ftp.sh/madalin-stunt-cars-3/index.html",
       "disabled": false
     },
     {
       "appName": "Monster Tracks",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets/img/monstertracks.webp",
       "url": "https://dogeub-assets.ftp.sh/monster-tracks/index.html",
       "disabled": false
     },
     {
       "appName": "Monster Truck Stunts",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "https://images.twoplayergames.org/files/games/other/Monster_Truck_Port_Stunt/MonsterTruckPortStunt_180x135.jpg?auto=format&w=100",
       "url": "https://files.twoplayergames.org/files/games/other/Monster_Truck_Port_Stunt/index.html",
       "disabled": false
     },
     {
       "appName": "Moto X3M",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets/img/motox3m.webp",
       "url": "https://www.coolmathgames.com/0-moto-x3m/play",
       "disabled": false
     },
     {
       "appName": "Moto X3M Pool Party",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/motox3m-pool/splash.jpg",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/motox3m-pool/index.html",
       "disabled": false
     },
     {
       "appName": "Moto X3M Spooky",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/motox3m-spooky/splash.jpeg",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/motox3m-spooky/index.html",
       "disabled": false
     },
     {
       "appName": "Moto X3M Winter",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/motox3m-winter/download.jpeg",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/motox3m-winter/index.html",
       "disabled": false
     },
     {
       "appName": "Rocket League 2D",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "https://img.itch.zone/aW1hZ2UvMTcwNjIyLzgyMDkwMS5wbmc=/original/j3UIZb.png",
       "url": "https://v6p9d9t4.ssl.hwcdn.net/html/3325334/index.html",
       "disabled": false
     },
     {
       "appName": "Smash Karts",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "https://img.gamepix.com/games/smash-karts/icon/smash-karts.png",
       "url": "https://smartcart1.github.io/s/smash-karts/",
       "disabled": false
     },
     {
       "appName": "Swerve",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets-fb/swerve/img/favicon.jpg",
       "url": "https://dogeub-assets.ftp.sh/swerve/index.html",
       "disabled": false
     },
     {
       "appName": "2048",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets/img/2048.webp",
       "url": "https://dogeub-assets.ftp.sh/2048/index.html",
       "disabled": false
     },
     {
       "appName": "Amaze!",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://play-lh.googleusercontent.com/hypAu2hPcTpg-FkZr7CjrWDspK_9Nm3UKvPWln9zaFUnIr-m6WQvEZ2baAaG0ufzrg",
       "url": "https://580820627722902829.playables.usercontent.goog/v/assets/index.html#origin=https%3A%2F%2Fwww.youtube.com",
       "disabled": false
     },
     {
       "appName": "Bad Ice Cream",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/bad-ice-cream/bad-ice-cream.png",
       "url": "https://dogeub-assets.ftp.sh/bad-ice-cream/index.html",
       "disabled": false
     },
     {
       "appName": "Bad Ice Cream 2",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/bad-ice-cream-2/bad-ice-cream-2.png",
       "url": "https://dogeub-assets.ftp.sh/bad-ice-cream-2/index.html",
       "disabled": false
     },
     {
       "appName": "Bad Ice Cream 3",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/bad-ice-cream-3/bad-ice-cream-3.png",
       "url": "https://dogeub-assets.ftp.sh/bad-ice-cream-3/index.html",
       "disabled": false
     },
     {
       "appName": "Bitlife",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets/img/bitlife.webp",
       "url": "https://dogeub-assets.ftp.sh/bitlife/index.html",
       "disabled": false
     },
     {
       "appName": "Black Hole Square",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/blackholesquare.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/black-hole-square/index.html",
       "disabled": false
     },
     {
       "appName": "Bloxorz",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/bloxorz.png",
       "url": "https://raw.githack.com/Skoolgq/flashgamedump/main/bloxorz.html",
       "disabled": false
     },
     {
       "appName": "Chess.com",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets/img/chess.webp",
       "url": "https://chess.com",
       "disabled": false
     },
     {
       "appName": "Connect 3",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/connect3/connect3.png",
       "url": "https://dogeub-assets.ftp.sh/connect3/index.html",
       "disabled": false
     },
     {
       "appName": "Core Ball",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/core-ball/pr_source.png",
       "url": "https://dogeub-assets.ftp.sh/core-ball/index.html",
       "disabled": false
     },
     {
       "appName": "Cut the Rope",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/ctr.png",
       "url": "https://dogeub-assets.ftp.sh/ctr/index.html",
       "disabled": false
     },
     {
       "appName": "Cut the Rope Holiday",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/ctr-holiday/Holiday_Gift.webp",
       "url": "https://dogeub-assets.ftp.sh/ctr-holiday/index.html",
       "disabled": false
     },
     {
       "appName": "Cut the Rope Time Travel",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/ctr-tr/logo.png",
       "url": "https://dogeub-assets.ftp.sh/ctr-tr/index.html",
       "disabled": false
     },
     {
       "appName": "Google Feud",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/google-feud/splash.png",
       "url": "https://dogeub-assets.ftp.sh/google-feud/index.html",
       "disabled": false
     },
     {
       "appName": "Grey Box",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/greybox/ico.png",
       "url": "https://dogeub-assets.ftp.sh/greybox/index.html",
       "disabled": false
     },
     {
       "appName": "Hacker Tetris",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/hackertetris.png",
       "url": "https://dogeub-assets.ftp.sh/twitch-tetris/index.html",
       "disabled": false
     },
     {
       "appName": "Hextris",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets/img/hextris.webp",
       "url": "https://dogeub-assets.ftp.sh/hextris/index.html",
       "disabled": false
     },
     {
       "appName": "Jstris",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets/img/jstris.webp",
       "url": "https://jstris.jezevec10.com",
       "disabled": false
     },
     {
       "appName": "Pokemon 2048",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets/img/p2048.webp",
       "url": "https://filipekiss.github.io/2048",
       "disabled": false
     },
     {
       "appName": "Polka Dot Game",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://img.gamepix.com/games/polka-dot-game/icon/polka-dot-game.png",
       "url": "https://www.polkadotgame.com/game.html",
       "disabled": false
     },
     {
       "appName": "Riddle School",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/riddleschool/riddleschool.png",
       "url": "https://dogeub-assets.ftp.sh/riddleschool/index.html",
       "disabled": false
     },
     {
       "appName": "Riddle School 2",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/riddleschool2/riddleschool2.png",
       "url": "https://dogeub-assets.ftp.sh/riddleschool2/index.html",
       "disabled": false
     },
     {
       "appName": "Riddle School 3",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/riddleschool3/riddleschool3.png",
       "url": "https://dogeub-assets.ftp.sh/riddleschool3/index.html",
       "disabled": false
     },
     {
       "appName": "Riddle School 4",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/riddleschool4/riddleschool4.png",
       "url": "https://dogeub-assets.ftp.sh/riddleschool4/index.html",
       "disabled": false
     },
     {
       "appName": "Riddle School 5",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/riddleschool5/riddleschool5.png",
       "url": "https://dogeub-assets.ftp.sh/riddleschool5/index.html",
       "disabled": false
     },
     {
       "appName": "Riddle Transfer",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/riddletransfer/riddletransfer.png",
       "url": "https://dogeub-assets.ftp.sh/riddletransfer/index.html",
       "disabled": false
     },
     {
       "appName": "Riddle Transfer 2",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/riddletransfer2/riddletransfer2.png",
       "url": "https://dogeub-assets.ftp.sh/riddletransfer2/index.html",
       "disabled": false
     },
     {
       "appName": "Watermelon Game (Suika)",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets/img/suika.webp",
       "url": "https://watermelongame.com",
       "disabled": false
     },
     {
       "appName": "World's Hardest GM",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets/img/worldshardestgm.webp",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/worlds-hardest-game/index.html",
       "disabled": false
     },
     {
       "appName": "World's Hardest Game 2",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/worlds-hardest-game-2/the-worlds-hardest-game-2.jpg",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/worlds-hardest-game-2/index.html",
       "disabled": false
     },
     {
       "appName": "osu!",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/osu.png",
       "url": "https://dogeub-assets.ftp.sh/osu%21/index.html",
       "disabled": false
     },
     {
       "appName": "xx142-b2.exe",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/xx142-b2exe/splash.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/xx142-b2exe/index.html",
       "disabled": false
     },
     {
       "appName": "Adventure Capitalist",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/adventurecapitalist.png",
       "url": "https://than1089.github.io/adventure-capitalist/",
       "disabled": false
     },
     {
       "appName": "Bloons TD",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/bloonstd/bloonstd.jpg",
       "url": "https://dogeub-assets.ftp.sh/bloonstd/index.html",
       "disabled": false
     },
     {
       "appName": "Candy Jump",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets/img/candyjump.webp",
       "url": "https://candyjump.games235.com/",
       "disabled": false
     },
     {
       "appName": "Cookie Clicker",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets/img/cookieclicker.webp",
       "url": "https://orteil.dashnet.org/cookieclicker",
       "disabled": false
     },
     {
       "appName": "DogeMiner",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/dogeminer.png",
       "url": "https://dogeub-assets.ftp.sh/DogeMiner/index.html",
       "disabled": false
     },
     {
       "appName": "Flappy Bird",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/fp.png",
       "url": "https://dogeub-assets.ftp.sh/flappybird/index.html",
       "disabled": false
     },
     {
       "appName": "Idle Breakout",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets/img/idlebreakout.webp",
       "url": "https://www.onlinegames.io/games/2024/more/idle-breakout/index.html",
       "disabled": false
     },
     {
       "appName": "Monkey Mart",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets/img/monkeymart.webp",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/monkey-mart/index.html",
       "disabled": false
     },
     {
       "appName": "Papa's Burgeria",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/papasburgeria/splash.jpg",
       "url": "https://dogeub-assets.ftp.sh/papasburgeria/index.html",
       "disabled": false
     },
     {
       "appName": "Papa's Freezeria",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "https://www.speedrun.com/static/game/k6q4wmxd/cover.png?v=7eb2e2d",
       "url": "https://en.gameslol.net/data/awayjs/papa/freezeria.html",
       "disabled": false
     },
     {
       "appName": "Papa's Pizzeria",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/pizzeria.jpeg",
       "url": "https://dogeub-assets.ftp.sh/papaspizzaria/index.html",
       "disabled": false
     },
     {
       "appName": "Papa's Taco Mia",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "https://static.wikia.nocookie.net/fliplinestudios/images/d/d6/Taco_Mia_oldicon.jpg/revision/latest?cb=20121130030830",
       "url": "https://www.numuki.com/gameframe/papa-s-taco-mia",
       "disabled": false
     },
     {
       "appName": "Slime Rush TD",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/slime-rush-td/splash.png",
       "url": "https://dogeub-assets.ftp.sh/slime-rush-td/index.html",
       "disabled": false
     },
     {
       "appName": "Angry Birds: Showdown",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://static.wikia.nocookie.net/angrybirdsfanon/images/0/0a/Angry_Birds_Showdown_App_Icon_%28Alpha%29.png/revision/latest?cb=20190801034150",
       "url": "https://6381249690777614785.playables.usercontent.goog/v/assets/index.html",
       "disabled": false
     },
     {
       "appName": "Bloons TD 2",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/btd2.png",
       "url": "https://dogeub-assets.ftp.sh/bloonstd2/index.html",
       "disabled": false
     },
     {
       "appName": "Bonk.io",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://b.thumbs.redditmedia.com/9p8-wn2_KPdgjPTaR9fx-NIVgFhvsgBL0WPdbv5GMkA.png",
       "url": "https://bonk.io",
       "disabled": false
     },
     {
       "appName": "Burrito Bison: Launcha Libre",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://play-lh.googleusercontent.com/vpTgm9u7-GzZP_MceTWpDi0HbinXd_4phCoTwf4ZspFL-115FtNRdo_SU1p-khLDnLA",
       "url": "https://rawcdn.githack.com/GameHub88/Yexex-Assets/main/bb/index.html",
       "disabled": false
     },
     {
       "appName": "Cannon Balls 3D",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://gameforge.com/de-DE/littlegames/includes/images/games/7_5ea03e7e3fe27.jpg",
       "url": "https://14726002176993811037.playables.usercontent.goog/v/assets/index.html",
       "disabled": false
     },
     {
       "appName": "Cell Machine",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/cell-machine/img/te9nDu.png",
       "url": "https://dogeub-assets.ftp.sh/cell-machine/index.html",
       "disabled": false
     },
     {
       "appName": "Dante",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/dante/splash.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/dante/index.html",
       "disabled": false
     },
     {
       "appName": "Friday Night Funkin'",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/fnf.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/fridaynightfunkin/index.html",
       "disabled": false
     },
     {
       "appName": "Fruit Ninja",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/fruit-ninja/FruitNinjaTeaser.jpg",
       "url": "https://dogeub-assets.ftp.sh/fruitninja/index.html",
       "disabled": false
     },
     {
       "appName": "Glass City",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/glass-city/image.png",
       "url": "https://dogeub-assets.ftp.sh/glass-city/index.html",
       "disabled": false
     },
     {
       "appName": "Google Snake",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://play-lh.googleusercontent.com/p19u9SINIT3SZUQ8NcdcX5ROSFeEgTBc8J2okk8TsqSz2cq6eFJ0ekT-TwwqEXAKrQ",
       "url": "https://dogeub-assets.ftp.sh/google-snake/index.html",
       "disabled": false
     },
     {
       "appName": "GunSpin",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://play-lh.googleusercontent.com/fLqvWSVq5rENEvu32xl0hf96wwSHVwQm-_9xc6KZg9Vgv9PbAtf1CyBYW7i1mlAXoSA",
       "url": "https://ubg365.github.io/gunspin/play.html",
       "disabled": false
     },
     {
       "appName": "Kick The Buddy",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets/img/super-buddy-kick.webp",
       "url": "https://html5.gamedistribution.com/rvvASMiM/09399bfcb6e8462b873a6154b506ea99/index.html?gdpr-targeting=1&gd_sdk_referrer_url=https%3A%2F%2Fwww.silvergames.com%2Fen%2Fsuper-buddy-kick&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5zaWx2ZXJnYW1lcy5jb20vZW4vc3VwZXItYnVkZHkta2ljayIsInBhcmVudERvbWFpbiI6InNpbHZlcmdhbWVzLmNvbSIsInRvcERvbWFpbiI6InNpbHZlcmdhbWVzLmNvbSIsImhhc0ltcHJlc3Npb24iOmZhbHNlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D",
       "disabled": false
     },
     {
       "appName": "Learn To Fly",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/learntofly.png",
       "url": "https://dogeub-assets.ftp.sh/learntofly/index.html",
       "disabled": false
     },
     {
       "appName": "Learn To Fly 2",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/ltf2.jpg",
       "url": "https://dogeub-assets.ftp.sh/learntofly2/index.html",
       "disabled": false
     },
     {
       "appName": "Line Rider",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://play-lh.googleusercontent.com/G5DWbtulfohlQU3Pwp8_pfyMzL66Ry-V1fDR3Su8ISNCoJ6--wP1DQ3DUwSgHZUiZQ=w240-h480-rw",
       "url": "https://www.linerider.com/",
       "disabled": false
     },
     {
       "appName": "Little Alchemy",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets/img/littlealchemy.webp",
       "url": "https://littlealchemy.com",
       "disabled": false
     },
     {
       "appName": "Little Alchemy 2",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaLDbrBKQlCSOXK7WNgx3myLJKrMD--5F8YkpI7ILih54J3ka6hyXDGOmZJr8_aXhuQA4&usqp=CAU",
       "url": "https://littlealchemy2.com",
       "disabled": false
     },
     {
       "appName": "Melon Sandbox",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://play-lh.googleusercontent.com/6q7J7_wky8t9gMihsZsvmKAIvfJ1h1gen2SwakrzN7OGigFFN2_VUycZBaOTn2Qs6_E",
       "url": "https://nowgg.nl/play/playducky/7199/melon-sandbox.html",
       "disabled": false
     },
     {
       "appName": "Mindustry",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/mindustry/splash.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/mindustry/index.html",
       "disabled": false
     },
     {
       "appName": "Minecraft (Java Edition)",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets/img/minecraft.webp",
       "url": "https://mcraft.fun",
       "disabled": false
     },
     {
       "appName": "Pool/Billiards Classic",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://play-lh.googleusercontent.com/KAyIN39YIUSorZxZ8iDtwO12C4V90ZSdi3tO7RUfxPxqGOhF6BYXv5VpAxlvfUWozI18",
       "url": "https://13739011225202344337.playables.usercontent.goog/v/assets/index.html#origin=https%3A%2F%2Fwww.youtube.com",
       "disabled": false
     },
     {
       "appName": "Portal",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/portalflash/portaltheflashversion.jpg",
       "url": "https://dogeub-assets.ftp.sh/portalflash/index.html",
       "disabled": false
     },
     {
       "appName": "Rise Higher",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/risehigher.jpg",
       "url": "https://www.mathplayground.com/rise-higher/index.html",
       "disabled": false
     },
     {
       "appName": "Stack",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/stack/stack.png",
       "url": "https://dogeub-assets.ftp.sh/stack/index.html",
       "disabled": false
     },
     {
       "appName": "Stack Bump 3D",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/stack-bump-3d/thumbnail.jpg",
       "url": "https://dogeub-assets.ftp.sh/stack-bump-3d/index.html",
       "disabled": false
     },
     {
       "appName": "Taming.io",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://play-lh.googleusercontent.com/EoY1Ey67rMjTHXIUqZCL3m4Ad4Of8BQr7tUHIcHWkM4YEiMugylaTPBNPAZQ6J8jumI=w240-h480-rw",
       "url": "https://taming.io",
       "disabled": false
     },
     {
       "appName": "The Final Earth",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/the-final-earth/images.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/the-final-earth/index.html",
       "disabled": false
     },
     {
       "appName": "The Final Earth 2",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/the-final-earth-2/thumb.png",
       "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/the-final-earth-2/index.html",
       "disabled": false
     },
     {
       "appName": "There is No Game",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets/img/there-is-no-gms.webp",
       "url": "https://23azostore.github.io/s/there-is-no-game/",
       "disabled": false
@@ -1756,1057 +1756,1057 @@
     },
     {
       "appName": "100ng",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/100ng/100ng-logo.png",
       "url": "https://dogeub-assets.ftp.sh/100ng/index.html",
       "disabled": false
     },
     {
       "appName": "2048 Multitask",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://lh3.googleusercontent.com/x7qbQKPHcGheSAiY0Ehyb_9wianRS91C4uiRI3Llr8PBx1Fbg5I5372WjHzNfBCajISDG0O_p2U_VgM_oHTa7X6uyw=s128-rj-sc0x00ffffff",
       "url": "https://dogeub-assets.ftp.sh/2048-multitask/index.html",
       "disabled": false
     },
     {
       "appName": "9007199254740992",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/9007199254740992/logo-4.png",
       "url": "https://dogeub-assets.ftp.sh/9007199254740992/index.html",
       "disabled": false
     },
     {
       "appName": "A Dance of Fire and Ice",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/a-dance-of-fire-and-ice/splash.png",
       "url": "https://dogeub-assets.ftp.sh/a-dance-of-fire-and-ice/index.html",
       "disabled": false
     },
     {
       "appName": "A Dark Room",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/adarkroom/splash.png",
       "url": "https://dogeub-assets.ftp.sh/adarkroom/index.html",
       "disabled": false
     },
     {
       "appName": "Adrenaline Challenge",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets-fb/adrenalinechallenge/adrenalinechallenge.jpg",
       "url": "https://dogeub-assets.ftp.sh/adrenalinechallenge/index.html",
       "disabled": false
     },
     {
       "appName": "Adventure Drivers",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets-fb/adventure-drivers/splash.png",
       "url": "https://dogeub-assets.ftp.sh/adventure-drivers/index.html",
       "disabled": false
     },
     {
       "appName": "Align 4",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/align-4/board.png",
       "url": "https://dogeub-assets.ftp.sh/align-4/index.html",
       "disabled": false
     },
     {
       "appName": "Angry Sharks",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/angry-sharks/splash.png",
       "url": "https://dogeub-assets.ftp.sh/angry-sharks/index.html",
       "disabled": false
     },
     {
       "appName": "Aquapark Slides",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/aquapark-slides/splash.png",
       "url": "https://dogeub-assets.ftp.sh/aquapark-slides/index.html",
       "disabled": false
     },
     {
       "appName": "Astray",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/astray/splash.png",
       "url": "https://dogeub-assets.ftp.sh/astray/index.html",
       "disabled": false
     },
     {
       "appName": "Baldi's Basics",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/baldis-basics/splash.png",
       "url": "https://dogeub-assets.ftp.sh/baldis-basics/index.html",
       "disabled": false
     },
     {
       "appName": "Ball Dodge",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://cdn-icons-png.flaticon.com/512/5930/5930147.png",
       "url": "https://dogeub-assets.ftp.sh/ball-dodge/index.html",
       "disabled": false
     },
     {
       "appName": "Ballistic Chickens",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/ballistic-chickens/logo.png",
       "url": "https://dogeub-assets.ftp.sh/ballistic-chickens/index.html",
       "disabled": false
     },
     {
       "appName": "Battle for Gondor",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets-fb/battleforgondor/battleforgondor.JPG",
       "url": "https://dogeub-assets.ftp.sh/battleforgondor/index.html",
       "disabled": false
     },
     {
       "appName": "Big Red Button",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/bigredbutton/bigredbutton.png",
       "url": "https://dogeub-assets.ftp.sh/bigredbutton/index.html",
       "disabled": false
     },
     {
       "appName": "Black Knight",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/blackknight/blackknight.png",
       "url": "https://dogeub-assets.ftp.sh/blackknight/index.html",
       "disabled": false
     },
     {
       "appName": "Boxhead 2Play",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/boxhead2play/boxhead2play.jpg",
       "url": "https://dogeub-assets.ftp.sh/boxhead2play/index.html",
       "disabled": false
     },
     {
       "appName": "Boxing Random",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "/assets-fb/boxing-random/512x340.jpg",
       "url": "https://dogeub-assets.ftp.sh/boxing-random/index.html",
       "disabled": false
     },
     {
       "appName": "Burger & Frights",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/burger-and-frights/icon.png",
       "url": "https://dogeub-assets.ftp.sh/burger-and-frights/index.html",
       "disabled": false
     },
     {
       "appName": "Canyon Defense",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/canyondefense/canyondefense.png",
       "url": "https://dogeub-assets.ftp.sh/canyondefense/index.html",
       "disabled": false
     },
     {
       "appName": "Champion Archer",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/championarcher/championarcher.png",
       "url": "https://dogeub-assets.ftp.sh/championarcher/index.html",
       "disabled": false
     },
     {
       "appName": "CN Ping Pong",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "/assets-fb/cnpingpong/tabletennisultimate.png",
       "url": "https://dogeub-assets.ftp.sh/cnpingpong/index.html",
       "disabled": false
     },
     {
       "appName": "Craftmine",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/craftmine/craftmine.png",
       "url": "https://dogeub-assets.ftp.sh/craftmine/index.html",
       "disabled": false
     },
     {
       "appName": "Creative Kill Chamber",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/creativekillchamber/creativekillchamber.jpg",
       "url": "https://dogeub-assets.ftp.sh/creativekillchamber/index.html",
       "disabled": false
     },
     {
       "appName": "CS:GO Clicker",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/csgo-clicker/case1.png",
       "url": "https://dogeub-assets.ftp.sh/csgo-clicker/index.html",
       "disabled": false
     },
     {
       "appName": "Cubefield",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/cubefield/splash.png",
       "url": "https://dogeub-assets.ftp.sh/cubefield/index.html",
       "disabled": false
     },
     {
       "appName": "Cupcake 2048",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/cupcake2048/favicon.png",
       "url": "https://dogeub-assets.ftp.sh/cupcake2048/index.html",
       "disabled": false
     },
     {
       "appName": "Deal or No Deal",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/deal-or-no-deal/index.jpg",
       "url": "https://dogeub-assets.ftp.sh/deal-or-no-deal/index.html",
       "disabled": false
     },
     {
       "appName": "Defend The Tank",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/defend-the-tank/landscape.jpg",
       "url": "https://dogeub-assets.ftp.sh/defend-the-tank/index.html",
       "disabled": false
     },
     {
       "appName": "Doctor Acorn 2",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/doctor-acorn2/loading-logo.png",
       "url": "https://dogeub-assets.ftp.sh/doctor-acorn2/index.html",
       "disabled": false
     },
     {
       "appName": "Doge 2048",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/doge2048/doge1.jpeg",
       "url": "https://dogeub-assets.ftp.sh/doge2048/index.html",
       "disabled": false
     },
     {
       "appName": "Double Wires",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/doublewires/doublewires.png",
       "url": "https://www.gamenora.com/upload/games/swf/Double%20Wires/",
       "disabled": false
     },
     {
       "appName": "Dragon vs Bricks",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/dragon-vs-bricks/icon.jpg",
       "url": "https://dogeub-assets.ftp.sh/dragon-vs-bricks/index.html",
       "disabled": false
     },
     {
       "appName": "Edge Not Found",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/edgenotfound/edge.png",
       "url": "https://dogeub-assets.ftp.sh/edgenotfound/index.html",
       "disabled": false
     },
     {
       "appName": "Eel Slap",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/eel-slap/eel-slap.png",
       "url": "https://dogeub-assets.ftp.sh/eel-slap/index.html",
       "disabled": false
     },
     {
       "appName": "Elastic Man",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/elasticman/elasticman.jpg",
       "url": "https://dogeub-assets.ftp.sh/elasticman/index.html",
       "disabled": false
     },
     {
       "appName": "Endless War 3",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/endlesswar3/endlesswar3.png",
       "url": "https://dogeub-assets.ftp.sh/endlesswar3/index.html",
       "disabled": false
     },
     {
       "appName": "Evil Glitch",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/evil-glitch/icon.jpeg",
       "url": "https://dogeub-assets.ftp.sh/evil-glitch/index.html",
       "disabled": false
     },
     {
       "appName": "Evolution",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/evolution/icon.png",
       "url": "https://dogeub-assets.ftp.sh/evolution/index.html",
       "disabled": false
     },
     {
       "appName": "Exo",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/exo/small.jpg",
       "url": "https://dogeub-assets.ftp.sh/exo/index.html",
       "disabled": false
     },
     {
       "appName": "Factory Balls",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://play-lh.googleusercontent.com/s2kqCYcsYoDKz18p7EvCW7FAkE4tKoABJJg5Zvo5EQxUfmQXX01bXs7wYyZVjM7puQ=w240-h480-rw",
       "url": "https://dogeub-assets.ftp.sh/factoryballs/index.html",
       "disabled": false
     },
     {
       "appName": "Fair Squares",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/fairsquares/index.apple-touch-icon.png",
       "url": "https://dogeub-assets.ftp.sh/fairsquares/index.html",
       "disabled": false
     },
     {
       "appName": "Fake Virus",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/fake-virus/icon.png",
       "url": "https://dogeub-assets.ftp.sh/fake-virus/index.html",
       "disabled": false
     },
     {
       "appName": "Fancy Pants Adventures",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/fancypantsadventures/fancypantsadventure.png",
       "url": "https://dogeub-assets.ftp.sh/fancypantsadventures/index.html",
       "disabled": false
     },
     {
       "appName": "Flappy 2048",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/flappy-2048/ClearSans-Bold-webfont.svg",
       "url": "https://dogeub-assets.ftp.sh/flappy-2048/index.html",
       "disabled": false
     },
     {
       "appName": "Flash Tetris",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/flashtetris/flashtetris.png",
       "url": "https://dogeub-assets.ftp.sh/flashtetris/index.html",
       "disabled": false
     },
     {
       "appName": "Flippy Fish",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/flippy-fish/2022_10_28_0jt_Kleki.png",
       "url": "https://dogeub-assets.ftp.sh/flippy-fish/index.html",
       "disabled": false
     },
     {
       "appName": "FNAW",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/fnaw/splash.png",
       "url": "https://dogeub-assets.ftp.sh/fnaw/index.html",
       "disabled": false
     },
     {
       "appName": "Froggy's Battle",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/froggys-battle/splash.png",
       "url": "https://dogeub-assets.ftp.sh/froggys-battle/index.html",
       "disabled": false
     },
     {
       "appName": "Frying Nemo",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/frying-nemo/icon.png",
       "url": "https://dogeub-assets.ftp.sh/frying-nemo/index.html",
       "disabled": false
     },
     {
       "appName": "Game Inside",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/game-inside/icon.png",
       "url": "https://dogeub-assets.ftp.sh/game-inside/index.html",
       "disabled": false
     },
     {
       "appName": "Generic Fishing Game",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/generic-fishing-game/icon.png",
       "url": "https://dogeub-assets.ftp.sh/generic-fishing-game/index.html",
       "disabled": false
     },
     {
       "appName": "George and the Printer",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "https://img.itch.zone/aW1nLzQyODUxNTUucG5n/original/nUotXS.png",
       "url": "https://dogeub-assets.ftp.sh/georgeandtheprinter/index.html",
       "disabled": false
     },
     {
       "appName": "Gimme The Airpod",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/gimme-the-airpod/logo.png",
       "url": "https://dogeub-assets.ftp.sh/gimme-the-airpod/index.html",
       "disabled": false
     },
     {
       "appName": "Go Ball",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/go-ball/loading-logo.png",
       "url": "https://dogeub-assets.ftp.sh/go-ball/index.html",
       "disabled": false
     },
     {
       "appName": "Goodnight",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/goodnight/goodnight.jpg",
       "url": "https://dogeub-assets.ftp.sh/goodnight/index.html",
       "disabled": false
     },
     {
       "appName": "Gravity Soccer",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/gravity-soccer/splash.png",
       "url": "https://dogeub-assets.ftp.sh/gravity-soccer/index.html",
       "disabled": false
     },
     {
       "appName": "Grindcraft",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/grindcraft/splash.png",
       "url": "https://dogeub-assets.ftp.sh/grindcraft/index.html",
       "disabled": false
     },
     {
       "appName": "Hacker Typer",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/hackertype/logo192.png",
       "url": "https://dogeub-assets.ftp.sh/hackertype/index.html",
       "disabled": false
     },
     {
       "appName": "Handshakes",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/handshakes/splash.jpg",
       "url": "https://dogeub-assets.ftp.sh/handshakes/index.html",
       "disabled": false
     },
     {
       "appName": "Happy Hop",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/happy-hop/loading-logo.png",
       "url": "https://dogeub-assets.ftp.sh/happy-hop/index.html",
       "disabled": false
     },
     {
       "appName": "Helicopter",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "/assets-fb/helicopter/helicopter.png",
       "url": "https://dogeub-assets.ftp.sh/helicopter/index.html",
       "disabled": false
     },
     {
       "appName": "Hex Empire",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets-fb/hexempire/hexempire.jpg",
       "url": "https://dogeub-assets.ftp.sh/hexempire/index.html",
       "disabled": false
     },
     {
       "appName": "Hungry Lamu",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/hungry-lamu/splash.png",
       "url": "https://dogeub-assets.ftp.sh/hungry-lamu/index.html",
       "disabled": false
     },
     {
       "appName": "Idle Shark",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/idle-shark/favicon.png",
       "url": "https://dogeub-assets.ftp.sh/idle-shark/index.html",
       "disabled": false
     },
     {
       "appName": "Impossible Quiz",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/impossiblequiz/impossiblequiz.png",
       "url": "https://dogeub-assets.ftp.sh/impossiblequiz/index.html",
       "disabled": false
     },
     {
       "appName": "Interactive Buddy",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/interactivebuddy/interactivebuddy.jpg",
       "url": "https://dogeub-assets.ftp.sh/interactivebuddy/index.html",
       "disabled": false
     },
     {
       "appName": "Just Fall",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets-fb/just-fall/splash.jpg",
       "url": "https://dogeub-assets.ftp.sh/just-fall/index.html",
       "disabled": false
     },
     {
       "appName": "Just One Boss",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/just-one-boss/pv1Gr5.png",
       "url": "https://dogeub-assets.ftp.sh/just-one-boss/index.html",
       "disabled": false
     },
     {
       "appName": "Kitchen Gun Game",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/kitchen-gun-game/splash.png",
       "url": "https://dogeub-assets.ftp.sh/kitchen-gun-game/index.html",
       "disabled": false
     },
     {
       "appName": "Kitten Cannon",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/kittencannon/kittencannon.png",
       "url": "https://dogeub-assets.ftp.sh/kittencannon/index.html",
       "disabled": false
     },
     {
       "appName": "Marvin Spectrum",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/marvinspectrum/marvinspectrum.png",
       "url": "https://dogeub-assets.ftp.sh/marvinspectrum/index.html",
       "disabled": false
     },
     {
       "appName": "Matrix Rampage",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/matrixrampage/matrixrampage.jpg",
       "url": "https://dogeub-assets.ftp.sh/matrixrampage/index.html",
       "disabled": false
     },
     {
       "appName": "Meme 2048",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/meme2048/advice_dog_background.jpg",
       "url": "https://dogeub-assets.ftp.sh/meme2048/index.html",
       "disabled": false
     },
     {
       "appName": "Merge Round Racers",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/merge-round-racers/splash.png",
       "url": "https://dogeub-assets.ftp.sh/merge-round-racers/index.html",
       "disabled": false
     },
     {
       "appName": "Mine Blocks",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/mineblocks/splash.png",
       "url": "https://dogeub-assets.ftp.sh/mineblocks/index.html",
       "disabled": false
     },
     {
       "appName": "Minecraft Classic",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/minecraft-classic/pack.png",
       "url": "https://dogeub-assets.ftp.sh/minecraft-classic/index.html",
       "disabled": false
     },
     {
       "appName": "Minecraft Beta",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/minecraftbeta/bg_main.png",
       "url": "https://dogeub-assets.ftp.sh/minecraftbeta/index.html",
       "disabled": false
     },
     {
       "appName": "Minesweeper",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "hthttps://play-lh.googleusercontent.com/eX5S3Tv3eSO1aWDMQ7MGRO1AaZM-mF0EvRbNsUM887kJVHj0aKv4GnDNj6ds_qvhpakg",
       "url": "https://dogeub-assets.ftp.sh/minesweeper/index.html",
       "disabled": false
     },
     {
       "appName": "Mini Putt",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "/assets-fb/miniputt/miniputt.png",
       "url": "https://dogeub-assets.ftp.sh/miniputt/index.html",
       "disabled": false
     },
     {
       "appName": "My Rusty Submarine",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/my-rusty-submarine/splash.png",
       "url": "https://dogeub-assets.ftp.sh/my-rusty-submarine/index.html",
       "disabled": false
     },
     {
       "appName": "n-gon",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/n-gon/bot.png",
       "url": "https://dogeub-assets.ftp.sh/n-gon/index.html",
       "disabled": false
     },
     {
       "appName": "Ninja",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/ninja/logo1.png",
       "url": "https://dogeub-assets.ftp.sh/ninja/index.html",
       "disabled": false
     },
     {
       "appName": "Ninja vs Evilcorp",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/ninjavsevilcorp/splash.png",
       "url": "https://dogeub-assets.ftp.sh/ninjavsevilcorp/index.html",
       "disabled": false
     },
     {
       "appName": "Noob Steve Parkour",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/noob-steve-parkour/logo.png",
       "url": "https://dogeub-assets.ftp.sh/noob-steve-parkour/index.html",
       "disabled": false
     },
     {
       "appName": "NS Shaft",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/ns-shaft/icon.png",
       "url": "https://dogeub-assets.ftp.sh/ns-shaft/index.html",
       "disabled": false
     },
     {
       "appName": "NS Resurgence",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/nsresurgence/neon.png",
       "url": "https://dogeub-assets.ftp.sh/nsresurgence/index.html",
       "disabled": false
     },
     {
       "appName": "Pandemic 2",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/pandemic2/pandemic2.png",
       "url": "https://dogeub-assets.ftp.sh/pandemic2/index.html",
       "disabled": false
     },
     {
       "appName": "Paper.io 2",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets-fb/paperio2/logo.png",
       "url": "https://dogeub-assets.ftp.sh/paperio2/index.html",
       "disabled": false
     },
     {
       "appName": "Particle Clicker",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/particle-clicker/icon.png",
       "url": "https://dogeub-assets.ftp.sh/particle-clicker/index.html",
       "disabled": false
     },
     {
       "appName": "Physibox",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn-icons-png.flaticon.com/512/5930/5930147.png",
       "url": "https://dogeub-assets.ftp.sh/physibox/index.html",
       "disabled": false
     },
     {
       "appName": "Pixel Gun Survival",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/pixel-gun-survival/512x384.jpg",
       "url": "https://dogeub-assets.ftp.sh/pixel-gun-survival/index.html",
       "disabled": false
     },
     {
       "appName": "Popcat Classic",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/popcat-classic/splash.png",
       "url": "https://dogeub-assets.ftp.sh/popcat-classic/index.html",
       "disabled": false
     },
     {
       "appName": "Precision Client",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/precision-client/logo.png",
       "url": "https://dogeub-assets.ftp.sh/precision-client/index.html",
       "disabled": false
     },
     {
       "appName": "Protektor",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/protektor/loading-logo.png",
       "url": "https://dogeub-assets.ftp.sh/protektor/index.html",
       "disabled": false
     },
     {
       "appName": "Push The Square",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/push-the-square/icon.png",
       "url": "https://dogeub-assets.ftp.sh/push-the-square/index.html",
       "disabled": false
     },
     {
       "appName": "Push Your Luck",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/push-your-luck/Bg.jpg",
       "url": "https://dogeub-assets.ftp.sh/push-your-luck/index.html",
       "disabled": false
     },
     {
       "appName": "Resent Client",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/resent-client/splash.jpg",
       "url": "https://dogeub-assets.ftp.sh/resent-client/index.html",
       "disabled": false
     },
     {
       "appName": "Ruffle",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/ruffle/logo.svg",
       "url": "https://dogeub-assets.ftp.sh/ruffle/index.html",
       "disabled": false
     },
     {
       "appName": "Sand Game",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/sand-game/sand-game.PNG",
       "url": "https://dogeub-assets.ftp.sh/sand-game/index.html",
       "disabled": false
     },
     {
       "appName": "Sandboxels",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/sandboxels/sandboxels.jpg",
       "url": "https://dogeub-assets.ftp.sh/sandboxels/index.html",
       "disabled": false
     },
     {
       "appName": "Santy Is Home",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/santy-is-home/splash.png",
       "url": "https://dogeub-assets.ftp.sh/santy-is-home/index.html",
       "disabled": false
     },
     {
       "appName": "Scrap Metal",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets-fb/scrapmetal/1run4progresslogo-light_orig.png",
       "url": "https://dogeub-assets.ftp.sh/scrapmetal/index.html",
       "disabled": false
     },
     {
       "appName": "Shell Shockers",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/shellshockers/favicon.jpg",
       "url": "https://dogeub-assets.ftp.sh/shellshockers/index.html",
       "disabled": false
     },
     {
       "appName": "Shot in the Dark",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/shotinthedark/shot.png",
       "url": "https://dogeub-assets.ftp.sh/shotinthedark/index.html",
       "disabled": false
     },
     {
       "appName": "Shuttle Deck",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/shuttledeck/splash.png",
       "url": "https://dogeub-assets.ftp.sh/shuttledeck/index.html",
       "disabled": false
     },
     {
       "appName": "Sky Car Stunt",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets-fb/sky-car-stunt/512x384.jpg",
       "url": "https://dogeub-assets.ftp.sh/sky-car-stunt/index.html",
       "disabled": false
     },
     {
       "appName": "Sleeping Beauty",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/sleepingbeauty/splash.png",
       "url": "https://dogeub-assets.ftp.sh/sleepingbeauty/index.html",
       "disabled": false
     },
     {
       "appName": "Smoking Barrels",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/smokingbarrels/smokingbarrels.jpg",
       "url": "https://dogeub-assets.ftp.sh/smokingbarrels/index.html",
       "disabled": false
     },
     {
       "appName": "Soldier Legend",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/soldier-legend/logo.jpg",
       "url": "https://dogeub-assets.ftp.sh/soldier-legend/index.html",
       "disabled": false
     },
     {
       "appName": "Solitaire",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/solitaire/screen-shot-win.png",
       "url": "https://dogeub-assets.ftp.sh/solitaire/index.html",
       "disabled": false
     },
     {
       "appName": "Sort the Court",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/sort-the-court/icon.png",
       "url": "https://dogeub-assets.ftp.sh/sort-the-court/index.html",
       "disabled": false
     },
     {
       "appName": "Space Company",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/space-company/whiteLogo.png",
       "url": "https://dogeub-assets.ftp.sh/space-company/index.html",
       "disabled": false
     },
     {
       "appName": "Space Garden",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/spacegarden/spl.png",
       "url": "https://dogeub-assets.ftp.sh/spacegarden/index.html",
       "disabled": false
     },
     {
       "appName": "Spinning Rat",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/spinningrat/apple-touch-icon.png",
       "url": "https://dogeub-assets.ftp.sh/spinningrat/index.html",
       "disabled": false
     },
     {
       "appName": "Starve",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/starve/favicon.png",
       "url": "https://dogeub-assets.ftp.sh/starve/index.html",
       "disabled": false
     },
     {
       "appName": "Stick Duel Battle",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/stick-duel-battle/512x340.jpg",
       "url": "https://dogeub-assets.ftp.sh/stick-duel-battle/index.html",
       "disabled": false
     },
     {
       "appName": "Stickman Boost",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/stickman-boost/icon-256.png",
       "url": "https://dogeub-assets.ftp.sh/stickman-boost/index.html",
       "disabled": false
     },
     {
       "appName": "Stickman Golf",
-      "desc": "Sport Games",
+      "desc": "Sport apps",
       "icon": "/assets-fb/stickman-golf/splash.png",
       "url": "https://dogeub-assets.ftp.sh/stickman-golf/index.html",
       "disabled": false
     },
     {
       "appName": "Stick War",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets-fb/stickwar/stickwar.jpg",
       "url": "https://dogeub-assets.ftp.sh/stickwar/index.html",
       "disabled": false
     },
     {
       "appName": "Storm the House 2",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/stormthehouse2/stormthehouse2.jpg",
       "url": "https://dogeub-assets.ftp.sh/stormthehouse2/index.html",
       "disabled": false
     },
     {
       "appName": "Super Mario Construct",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/supermarioconstruct/textareaimage.png",
       "url": "https://dogeub-assets.ftp.sh/supermarioconstruct/index.html",
       "disabled": false
     },
     {
       "appName": "Surviv.io",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/surviv/favicon.png",
       "url": "https://dogeub-assets.ftp.sh/surviv/index.html",
       "disabled": false
     },
     {
       "appName": "Sushi Unroll",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/sushi-unroll/favicon.png",
       "url": "https://dogeub-assets.ftp.sh/sushi-unroll/index.html",
       "disabled": false
     },
     {
       "appName": "Synesthesia",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/synesthesia/index.apple-touch-icon.png",
       "url": "https://dogeub-assets.ftp.sh/synesthesia/index.html",
       "disabled": false
     },
     {
       "appName": "Tactical Weapon Pack 2",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/tactical-weapon-pack-2/splash.jpg",
       "url": "https://dogeub-assets.ftp.sh/tactical-weapon-pack-2/index.html",
       "disabled": false
     },
     {
       "appName": "Tactical Assassin 2",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/tacticalassasin2/tacticalassassin2.png",
       "url": "https://dogeub-assets.ftp.sh/tacticalassasin2/index.html",
       "disabled": false
     },
     {
       "appName": "Tank Trouble 2",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/tank-trouble-2/loading-logo.png",
       "url": "https://dogeub-assets.ftp.sh/tank-trouble-2/index.html",
       "disabled": false
     },
     {
       "appName": "Tanuki Sunset",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets-fb/tanuki-sunset/logo.png",
       "url": "https://dogeub-assets.ftp.sh/tanuki-sunset/index.html",
       "disabled": false
     },
     {
       "appName": "The Hotel",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/the-hotel/splash.png",
       "url": "https://dogeub-assets.ftp.sh/the-hotel/index.html",
       "disabled": false
     },
     {
       "appName": "The Battle",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "/assets-fb/thebattle/thebattle.png",
       "url": "https://dogeub-assets.ftp.sh/thebattle/index.html",
       "disabled": false
     },
     {
       "appName": "The Heist",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets-fb/theheist/theheist.jpg",
       "url": "https://dogeub-assets.ftp.sh/theheist/index.html",
       "disabled": false
     },
     {
       "appName": "This Is The Only Level",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/thisistheonlylevel/thisistheonlylevel.png",
       "url": "https://dogeub-assets.ftp.sh/thisistheonlylevel/index.html",
       "disabled": false
     },
     {
       "appName": "Tiny Islands",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/tiny-islands/splash.png",
       "url": "https://dogeub-assets.ftp.sh/tiny-islands/index.html",
       "disabled": false
     },
     {
       "appName": "Toss the Turtle",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/tosstheturtle/tosstheturtle.png",
       "url": "https://dogeub-assets.ftp.sh/tosstheturtle/index.html",
       "disabled": false
     },
     {
       "appName": "Townscaper",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/townscaper/WebGL.jpg",
       "url": "https://dogeub-assets.ftp.sh/townscaper/index.html",
       "disabled": false
     },
     {
       "appName": "TV Static",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/tv-static/static.png",
       "url": "https://dogeub-assets.ftp.sh/tv-static/index.html",
       "disabled": false
     },
     {
       "appName": "Wall Smash",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/wallsmash/thumb.png",
       "url": "https://dogeub-assets.ftp.sh/wallsmash/index.html",
       "disabled": false
     },
     {
       "appName": "Waterworks",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/waterworks/icon.png",
       "url": "https://dogeub-assets.ftp.sh/waterworks/index.html",
       "disabled": false
     },
     {
       "appName": "Weave Silk",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/weavesilk/thumb.png",
       "url": "https://dogeub-assets.ftp.sh/weavesilk/index.html",
       "disabled": false
     },
     {
       "appName": "WebGL Fluid Simulation",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/webgl-fluid-simulation/logo.png",
       "url": "https://dogeub-assets.ftp.sh/webgl-fluid-simulation/index.html",
       "disabled": false
     },
     {
       "appName": "WebRetro",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "/assets-fb/webretro/Flint_sprite.png",
       "url": "https://dogeub-assets.ftp.sh/webretro/index.html",
       "disabled": false
     },
     {
       "appName": "Win the Whitehouse",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/win-the-whitehouse/splash.png",
       "url": "https://dogeub-assets.ftp.sh/win-the-whitehouse/index.html",
       "disabled": false
     },
     {
       "appName": "Wordle",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "/assets-fb/wordle/logo_144x144.png",
       "url": "https://dogeub-assets.ftp.sh/wordle/index.html",
       "disabled": false
     },
     {
       "appName": "X Trial Racing",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "/assets-fb/x-trial-racing/splash.png",
       "url": "https://dogeub-assets.ftp.sh/x-trial-racing/index.html",
       "disabled": false
     },
     {
       "appName": "Yoshi Fabrication",
-      "desc": "Ball/Platformer Games",
+      "desc": "Ball/Platformer apps",
       "icon": "/assets-fb/yoshifabrication/flowwatertm0.png",
       "url": "https://dogeub-assets.ftp.sh/yoshifabrication/index.html",
       "disabled": false
     },
     {
       "appName": "You Are Bezos",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "/assets-fb/you-are-bezos/icon.png",
       "url": "https://dogeub-assets.ftp.sh/you-are-bezos/index.html",
       "disabled": false
     },
     {
       "appName": "Zombs Royale",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "/assets-fb/zombs-royale/zomb.png",
       "url": "https://dogeub-assets.ftp.sh/zombs-royale/index.html",
       "disabled": false
     },
     {
       "appName": "People Playground",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://img.tapimg.net/market/images/f3f8c0d88767c8b847dd476179ff5634.png?imageView2/0/h/270/format/jpg/interlace/1/ignore-error/1&t=1",
       "url": "https://html-classic.itch.zone/html/14803006/ppg/index.html",
       "disabled": false
     },
     {
       "appName": "Amanda The Adventurer",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/450.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/amanda-the-adventurer/index.html",
       "disabled": false,
@@ -2814,7 +2814,7 @@
     },
     {
       "appName": "Baldi's Basics Plus",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/467.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/baldi-plus/index.html",
       "disabled": false,
@@ -2822,7 +2822,7 @@
     },
     {
       "appName": "Bendy and the Ink Machine",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/215.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/bendy/index.html",
       "disabled": false,
@@ -2830,7 +2830,7 @@
     },
     {
       "appName": "Bergentruck 201x",
-      "desc": "Car/Racing Games",
+      "desc": "Car/Racing apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/455.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/bergentruck/BERGENTRUCK_201X.html",
       "disabled": false,
@@ -2838,7 +2838,7 @@
     },
     {
       "appName": "BLOODMONEY!",
-      "desc": "Idle/Clicking Games",
+      "desc": "Idle/Clicking apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/454.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/bloodmoney/index.html",
       "disabled": false,
@@ -2846,7 +2846,7 @@
     },
     {
       "appName": "Buckshot Roulette",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/205.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/buckshot-roulette/index.html",
       "disabled": false,
@@ -2854,7 +2854,7 @@
     },
     {
       "appName": "Class of '09",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/259.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/class-of-09/index.html",
       "disabled": false,
@@ -2862,14 +2862,14 @@
     },
     {
       "appName": "Cuphead",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/465.png",
       "url": "https://rawcdn.githack.com/web-ports/cuphead/734089aa8d8a82017733717dece88c83ba952a98/index.html",
       "disabled": false
     },
     {
       "appName": "Deltarune",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/425.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/deltarune/index.html",
       "disabled": false,
@@ -2877,42 +2877,42 @@
     },
     {
       "appName": "Five Nights at Freddy's",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/38.png",
       "url": "https://rawcdn.githack.com/genizy/fnaf/7be68ae3d98c60a9a62b4164c2d61a416a0beb1a/1/index.html",
       "disabled": false
     },
     {
       "appName": "Five Nights at Freddy's 2",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/39.png",
       "url": "https://rawcdn.githack.com/genizy/fnaf/7be68ae3d98c60a9a62b4164c2d61a416a0beb1a/2/index.html",
       "disabled": false
     },
     {
       "appName": "Five Nights at Freddy's 3",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/40.png",
       "url": "https://rawcdn.githack.com/genizy/fnaf/7be68ae3d98c60a9a62b4164c2d61a416a0beb1a/3/index.html",
       "disabled": false
     },
     {
       "appName": "Five Nights at Freddy's 4",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/41.png",
       "url": "https://rawcdn.githack.com/genizy/fnaf/7be68ae3d98c60a9a62b4164c2d61a416a0beb1a/4/index.html",
       "disabled": false
     },
     {
       "appName": "Five Nights at Freddy's 4 (Halloween Edition)",
-      "desc": "Domination Games",
+      "desc": "Domination-type fun",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/428.png",
       "url": "https://rawcdn.githack.com/genizy/fnaf/7be68ae3d98c60a9a62b4164c2d61a416a0beb1a/4-halloween/index.html",
       "disabled": false
     },
     {
       "appName": "Raft",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/457.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/raft/index.html",
       "disabled": false,
@@ -2920,7 +2920,7 @@
     },
     {
       "appName": "R.E.P.O (REPO)",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/195.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/repo/index.html",
       "disabled": false,
@@ -2928,7 +2928,7 @@
     },
     {
       "appName": "Undertale",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/184.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/undertale/index.html",
       "disabled": false,
@@ -2936,7 +2936,7 @@
     },
     {
       "appName": "Undertale (Yellow)",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/456.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/undertale-yellow/index.html",
       "disabled": false,
@@ -2944,7 +2944,7 @@
     },
     {
       "appName": "WebFishing",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/423.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/webfishing/index.html",
       "disabled": false,
@@ -2952,7 +2952,7 @@
     },
     {
       "appName": "Andy's Apple Farm",
-      "desc": "Survival/Horror Games",
+      "desc": "Survival/Horror apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/426.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/andys-apple-farm/index.html",
       "disabled": false,
@@ -2960,7 +2960,7 @@
     },
     {
       "appName": "Baldi's Basics Classic Remastered",
-      "desc": "Survival/Horror Games",
+      "desc": "Survival/Horror apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/466.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/baldi-remaster/index.html",
       "disabled": false,
@@ -2968,7 +2968,7 @@
     },
     {
       "appName": "Dead Plate",
-      "desc": "Survival/Horror Games",
+      "desc": "Survival/Horror apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/462.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/dead-plate/index.html",
       "disabled": false,
@@ -2976,7 +2976,7 @@
     },
     {
       "appName": "The Deadseat",
-      "desc": "Survival/Horror Games",
+      "desc": "Survival/Horror apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/458.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/deadseat/index.html",
       "disabled": false,
@@ -2984,7 +2984,7 @@
     },
     {
       "appName": "Do NOT Take This Cat Home",
-      "desc": "Survival/Horror Games",
+      "desc": "Survival/Horror apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/193.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/donottakethiscathome/index.html",
       "disabled": false,
@@ -2992,7 +2992,7 @@
     },
     {
       "appName": "Fears to Fathom: Home Alone",
-      "desc": "Survival/Horror Games",
+      "desc": "Survival/Horror apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/460.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/fears-to-fathom/index.html",
       "disabled": false,
@@ -3000,7 +3000,7 @@
     },
     {
       "appName": "Happy Sheepies",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/351.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/happy-sheepies/index.html",
       "disabled": false,
@@ -3008,7 +3008,7 @@
     },
     {
       "appName": "Hotline Miami",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/217.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/hotline-miami/index.html",
       "disabled": false,
@@ -3016,7 +3016,7 @@
     },
     {
       "appName": "Human Expenditure Program",
-      "desc": "Survival/Horror Games",
+      "desc": "Survival/Horror apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/482.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/human-expenditure-program/index.html",
       "disabled": false,
@@ -3024,7 +3024,7 @@
     },
     {
       "appName": "Kindergarten",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/445.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/kindergarten/1/index.html",
       "disabled": false,
@@ -3032,15 +3032,15 @@
     },
     {
       "appName": "Kindergarten 2",
-      "desc": "Brain Games",
+      "desc": "Brain apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/446.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/kindergarten/2/index.html",
       "disabled": false,
       "local": true
     },
     {
-      "appName": "Lacey's Flash Games",
-      "desc": "Brain Games",
+      "appName": "Lacey's Flash apps",
+      "desc": "Brain apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/463.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/lacysflashgames/index.html",
       "disabled": false,
@@ -3048,7 +3048,7 @@
     },
     {
       "appName": "Omori",
-      "desc": "Survival/Horror Games",
+      "desc": "Survival/Horror apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/427.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/omori-fixed/index.html",
       "disabled": false,
@@ -3056,7 +3056,7 @@
     },
     {
       "appName": "Slender: The Eight Pages",
-      "desc": "Survival/Horror Games",
+      "desc": "Survival/Horror apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/451.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/slender/index.html",
       "disabled": false,
@@ -3064,7 +3064,7 @@
     },
     {
       "appName": "Speed Stars",
-      "desc": "Running Games",
+      "desc": "Running apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/266.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/speed-stars/index.html",
       "disabled": false,
@@ -3072,7 +3072,7 @@
     },
     {
       "appName": "That's Not My Neighbor",
-      "desc": "Survival/Horror Games",
+      "desc": "Survival/Horror apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/216.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/thats-not-my-neighbor/index.html",
       "disabled": false,
@@ -3080,7 +3080,7 @@
     },
     {
       "appName": "The Man From The Window",
-      "desc": "Survival/Horror Games",
+      "desc": "Survival/Horror apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/459.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/the-man-in-the-window/index.html",
       "disabled": false,
@@ -3088,7 +3088,7 @@
     },
     {
       "appName": "ULTRAKILL",
-      "desc": "Shooter Games",
+      "desc": "Fun Action",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/196.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/ultrakill/index.html",
       "disabled": false,
@@ -3096,7 +3096,7 @@
     },
     {
       "appName": "Yume Nikki",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/433.png",
       "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/yume-nikki/index.html",
       "disabled": false,
@@ -3104,7 +3104,7 @@
     },
     {
       "appName": "Crazy Cattle 3D",
-      "desc": "Sandbox/Arcade Games",
+      "desc": "Sandbox/Arcade apps",
       "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/164.png",
       "url": "https://1games.io/game/crazy-cattle-3d/",
       "disabled": false
