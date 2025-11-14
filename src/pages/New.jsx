@@ -1,4 +1,4 @@
-eimport { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useOptions } from '../utils/optionsContext';
 import Search from '../components/SearchContainer';
 import QuickLinks from '../components/QuickLinks';
