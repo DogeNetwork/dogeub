@@ -18,7 +18,7 @@ const store = create((set) => ({
   iframeUrls: {},
   activeFrameRef: null,
   showUI: true,
-  toggleUI: () => set((state) => ({ showUI: !state.showUI, showMenu: false })),
+  toggleUI: () => set((state) => ({ showUI: !state.showUI })),
   setShowTabs: (value) => set({ showTabs: value }),
   toggleTabs: () => set((state) => ({ showTabs: !state.showTabs })),
   toggleMenu: () => set((state) => ({ showMenu: !state.showMenu })),
