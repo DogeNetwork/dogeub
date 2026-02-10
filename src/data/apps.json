@@ -624,18 +624,10 @@
         "local": false
       },
       {
-        "appName": "Krunker",
+        "appName": "Krunker.io",
         "desc": "Fun Action",
         "icon": "/assets/img/krunker.webp",
         "url": "https://krunker.io/",
-        "disabled": false,
-        "local": false
-      },
-      {
-        "appName": "Fortnite",
-        "desc": "Fun Action",
-        "icon": "/assets/img/fortnite.webp",
-        "url": "https://nowgg.fun/apps/aptoide/5874/aptoide.html?deep_link=aptoidesearch://com.epicgames.fortnite",
         "disabled": false,
         "local": false
       },
@@ -4251,14 +4243,6 @@
         "local": false
       },
       {
-        "appName": "Bonk",
-        "desc": "Sandbox/Arcade apps",
-        "icon": "/assets/img/bonk.webp",
-        "url": "https://multiplayer.gg/physics/",
-        "disabled": false,
-        "local": false
-      },
-      {
         "appName": "Break Stick Completely",
         "desc": "Sandbox/Arcade apps",
         "icon": "/assets/img/break-stick-completly.webp",
@@ -4999,14 +4983,6 @@
         "local": false
       },
       {
-        "appName": "Diep.io",
-        "desc": "Fun Action",
-        "icon": "https://play-lh.googleusercontent.com/6lO401fxwNTk919VwTKOdKGot82kf1WFBYGdhnVgDVsmkdK6Nv6d2ZDpmKBVO9CW2s8",
-        "url": "https://diep.io/",
-        "disabled": false,
-        "local": false
-      },
-      {
         "appName": "Florr.io",
         "desc": "Fun Action",
         "icon": "/assets/img/florr.webp",
@@ -5019,14 +4995,6 @@
         "desc": "Fun Action",
         "icon": "https://cdn.glitch.global/40d8a6f7-c124-43fe-8544-1617c1dcc948/download%20(1).jpeg?v=1680006191209",
         "url": "https://kirka.io/",
-        "disabled": false,
-        "local": false
-      },
-      {
-        "appName": "Krunker.io",
-        "desc": "Fun Action",
-        "icon": "/assets/img/krunker.webp",
-        "url": "https://krunker.io",
         "disabled": false,
         "local": false
       },
@@ -5191,7 +5159,7 @@
         "local": false
       },
       {
-        "appName": "Diep",
+        "appName": "Diep.io",
         "desc": "Fun Action",
         "icon": "/assets/img/diep.jfif",
         "url": "https://diep.io",

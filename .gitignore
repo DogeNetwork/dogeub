@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# fowntain's Python dev utils
+tools
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
