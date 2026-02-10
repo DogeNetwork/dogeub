@@ -42,7 +42,7 @@ const Viewer = ({ zoom }) => {
         setLoading(tab.id, false);
         try {
           const d = iframe.contentWindow?.document;
-          if (d?.getElementById('errorTrace-wrapper')) {
+          if (d?.getElementById('errorTrace-wrapper') || d?.getElementById('fetchedURL')) {
             iframe.contentWindow.location.replace(tab.url);
           }
         } catch {}
