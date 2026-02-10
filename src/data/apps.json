@@ -566,6 +566,182 @@
         "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/ultrakill/index.html",
         "disabled": false,
         "local": false
+      },
+      {
+        "appName": "Kour",
+        "desc": "Fun Action",
+        "icon": "/assets/img/kour.webp",
+        "url": "https://kour.io/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Pixel Gun 4D",
+        "desc": "Fun Action",
+        "icon": "/assets/img/pixel-gun-4d.webp",
+        "url": "https://play.unity.com/api/v1/games/game/d4fc8fd5-f4eb-48e3-a64f-a76cceef7734/build/latest/frame",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Stick Fight The Chaos",
+        "desc": "Fun Action",
+        "icon": "/assets/img/Stick-Fight-The-Chaos.webp",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/06cdcc1cd320472ab3f3574d702ff217/index.html?gd_sdk_referrer_url=https%3A%2F%2Fgamedistribution.com%2Fgames%2Fstick-fight-the-chaos%2F&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2dhbWVkaXN0cmlidXRpb24uY29tL2dhbWVzL3N0aWNrLWZpZ2h0LXRoZS1jaGFvcy8iLCJwYXJlbnREb21haW4iOiJnYW1lZGlzdHJpYnV0aW9uLmNvbSIsInRvcERvbWFpbiI6ImFnZW9md2FyZ2FtZS5pbyIsImhhc0ltcHJlc3Npb24iOmZhbHNlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "War Bot",
+        "desc": "Fun Action",
+        "icon": "/assets/img/war-bot.webp",
+        "url": "https://warbot.io/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "CS",
+        "desc": "Fun Action",
+        "icon": "/assets/img/cs.webp",
+        "url": "https://db.duckmath.org/html/cs_online/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Ragdoll Hit",
+        "desc": "Fun Action",
+        "icon": "/assets/img/ragdoll-hit.webp",
+        "url": "https://ragdollhit.gitlab.io/file/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Front Wars IO",
+        "desc": "Fun Action",
+        "icon": "/assets/img/front-wars.webp",
+        "url": "https://frontwars.io/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Krunker",
+        "desc": "Fun Action",
+        "icon": "/assets/img/krunker.webp",
+        "url": "https://krunker.io/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Fortnite",
+        "desc": "Fun Action",
+        "icon": "/assets/img/fortnite.webp",
+        "url": "https://nowgg.fun/apps/aptoide/5874/aptoide.html?deep_link=aptoidesearch://com.epicgames.fortnite",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Doom",
+        "desc": "Fun Action",
+        "icon": "/assets/img/doom.webp",
+        "url": "https://raz0red.github.io/webprboom/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "GTA",
+        "desc": "Fun Action",
+        "icon": "/assets/img/gta.webp",
+        "url": "https://cbgamesdev.github.io/chilibowlflash/GBA-gh-pages/launcher.html#gta",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Narrow One",
+        "desc": "Fun Action",
+        "icon": "/assets/img/narrow-one.webp",
+        "url": "https://narrow.one/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Hasmob",
+        "desc": "Fun Action",
+        "icon": "/assets/img/hazmob.webp",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/623baec23d504c83acab0b5250859ba8/index.html?gd_sdk_referrer_url=https%3A%2F%2Fhazmob.io&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2hhem1vYi5pbyIsInBhcmVudERvbWFpbiI6Imhhem1vYi5pbyIsInRvcERvbWFpbiI6Imhhem1vYi5pbyIsImhhc0ltcHJlc3Npb24iOmZhbHNlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE4In0%253D",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Tag",
+        "desc": "Fun Action",
+        "icon": "/assets/img/tag.webp",
+        "url": "https://kdata1.com/2024/05/tag/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Cheese Chompers 3D",
+        "desc": "Fun Action",
+        "icon": "/assets/img/cheesechompers3d.webp",
+        "url": "https://nealfun.app/game/cheesechompers3d/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Among Us Singleplayer",
+        "desc": "Fun Action",
+        "icon": "/assets/img/among-us.webp",
+        "url": "https://kdata1.com/2020/12/3054073/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Kick The Teddy",
+        "desc": "Fun Action",
+        "icon": "/assets/img/kick-the-teddy.webp",
+        "url": "https://unblocked-games.s3.amazonaws.com/games/kick-the-teddy-bear/unblocked.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Solar Smash",
+        "desc": "Fun Action",
+        "icon": "/assets/img/solar-smash.webp",
+        "url": "https://noahsamazingtutoringhelp.github.io/Noahs-Calculus-Tutor/games/31.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Bloons Tower Defense",
+        "desc": "Fun Action",
+        "icon": "/assets/img/bloons-tower-defense.webp",
+        "url": "https://ad-freegames.github.io/flash/game/bloons-tower-defense.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Plants Versus Zombies",
+        "desc": "Fun Action",
+        "icon": "/assets/img/pvz.webp",
+        "url": "https://roblnet13.github.io/pvz/game/iframe",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Stickman Hook",
+        "desc": "Fun Action",
+        "icon": "/assets/img/stickmanhook.webp",
+        "url": "https://stickman-hook.io/iframe/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Getaway Shootout",
+        "desc": "Fun Action",
+        "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/getaway-shootout/img/index.jpg",
+        "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/getaway-shootout/index.html",
+        "disabled": false,
+        "local": false
       }
     ],
     "Sports": [
@@ -686,6 +862,78 @@
         "desc": "Sport apps",
         "icon": "/assets-fb/stickman-golf/splash.png",
         "url": "https://assets.hbmc.net/stickman-golf/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Backflip Dive 3D",
+        "desc": "Sport apps",
+        "icon": "/assets/img/backflip-dive-3D.webp",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/a9d7229d3be14c0284d5281d125f27f3/index.html?gd_sdk_referrer_url=https%3A%2F%2Fgamaverse.com%2Fbackflip-dive-3d-game%2F&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2dhbWF2ZXJzZS5jb20vYmFja2ZsaXAtZGl2ZS0zZC1nYW1lLyIsInBhcmVudERvbWFpbiI6ImdhbWF2ZXJzZS5jb20iLCJ0b3BEb21haW4iOiJnYW1hdmVyc2UuY29tIiwiaGFzSW1wcmVzc2lvbiI6ZmFsc2UsImxvYWRlckVuYWJsZWQiOnRydWUsImhvc3QiOiJodG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbSIsInZlcnNpb24iOiIxLjUuMTcifQ%253D%253D",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Backflipper",
+        "desc": "Sport apps",
+        "icon": "/assets/img/backflipper.webp",
+        "url": "https://ubg76.gitlab.io/backflipper/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Cat Tennis",
+        "desc": "Sport apps",
+        "icon": "/assets/img/cat-tennis.webp",
+        "url": "https://sz-games.github.io/Games11/cat%20tennis/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Google Baseball",
+        "desc": "Sport apps",
+        "icon": "/assets/img/google-baseball.webp",
+        "url": "https://freeonlinegames.github.io/fourth-of-july-2019.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Pool",
+        "desc": "Sport apps",
+        "icon": "/assets/img/pool.webp",
+        "url": "https://www.hoodamath.com/mobile/games/8-ball-pool/game.html?nocheckorient=1",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Rocket League",
+        "desc": "Sport apps",
+        "icon": "/assets/img/Rocket_League.webp",
+        "url": "https://ubg77.github.io/edit/rocket-soccer-derby/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Super Liquid Soccer",
+        "desc": "Sport apps",
+        "icon": "/assets/img/super-liquid-soccer.webp",
+        "url": "https://gnhustgames.github.io/super-liquid-soccer/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Retro Bowl College",
+        "desc": "Sport apps",
+        "icon": "/assets/img/retro-bowl-college.webp",
+        "url": "https://ethonion10.neocities.org/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Wacky Flip",
+        "desc": "Sport apps",
+        "icon": "/assets/img/wacky-flip.webp",
+        "url": "https://game.azgame.io/wacky-flip/",
         "disabled": false,
         "local": false
       }
@@ -908,14 +1156,6 @@
         "local": false
       },
       {
-        "appName": "Stickman Hook",
-        "desc": "Ball/Platformer apps",
-        "icon": "/assets/img/stickmanhook.webp",
-        "url": "https://stickman-hook.io/iframe/index.html",
-        "disabled": false,
-        "local": false
-      },
-      {
         "appName": "Super Mario 64",
         "desc": "Ball/Platformer apps",
         "icon": "https://nintendocore.org/cdn/shop/products/Super-Mario-64-1.png",
@@ -1056,6 +1296,238 @@
         "desc": "Ball/Platformer apps",
         "icon": "/assets-fb/yoshifabrication/flowwatertm0.png",
         "url": "https://assets.hbmc.net/yoshifabrication/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Geometry Dash",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/geometry-dash.webp",
+        "url": "https://geometrydashwave.io/game/gd/?v=5",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Obby Faster",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/obby-faster.webp",
+        "url": "https://4texas4.github.io/files/games/obbyfaster.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "A Difficult Game About Climbing",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/a-difficult-game-about-climbing.webp",
+        "url": "https://g.vseigru.net/10/igra-a-difficult-game-about-climbing/game.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Climbing Over It",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/getting-over-it.webp",
+        "url": "https://ubg76.gitlab.io/climbing-over-it/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Cluster Rush",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/cluster-rush.webp",
+        "url": "https://www.yoosfuhl.com/game/clusterrush/game.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Color Tunnel",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/color-tunnel.webp",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/b0ade7a13a4d50bc3f65e2401b55c8/index.html?gd_sdk_referrer_url=https://colortunnel.io&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2NvbG9ydHVubmVsLmlvIiwicGFyZW50RG9tYWluIjoiY29sb3J0dW5uZWwuaW8iLCJ0b3BEb21haW4iOiJjb2xvcnR1bm5lbC5pbyIsImhhc0ltcHJlc3Npb24iOmZhbHNlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Donkey Kong",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/donkey-kong.webp",
+        "url": "https://jiwjfowhfusfdgfigiydgsifygdiyfgdi.netlify.app/games/donkeykong64/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "DreadHead Parkour",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/dreadhead-parkour.webp",
+        "url": "https://bestofgooglesites.com/games/dreadhead-parkour/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Going Balls",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/going-balls.webp",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/2d44a0c8ce704965b2031bcc4ae6a9a8/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzJkNDRhMGM4Y2U3MDQ5NjViMjAzMWJjYzRhZTZhOWE4LyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNyJ9",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Helix Jump",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/helix-jump.webp",
+        "url": "https://cdn.gamesnacks.com/helixjump1/gameCode/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Obby But Your On A Bike",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/obby-but-youre-on-a-bike.webp",
+        "url": "https://db.duck.quackprep.com/html/obby_but_youre_on_a_bike/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Obby Robby",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/Obby-Robby-Only-up.webp",
+        "url": "https://www.rapidwebapp.com/game/obbyrobby/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Only Up",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/onlyup.webp",
+        "url": "https://g.vseigru.net/10/igra-onli-ap-2/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Pacman",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/Pacman.webp",
+        "url": "https://ad-freegames.github.io/flash/game/pacman.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Rolling Ball 3D",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/rolling-ball-3d.webp",
+        "url": "https://www.hoodamath.com/mobile/games/rolling-ball-3d/game.html?nocheckorient=1",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Stack Game",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/Stack.webp",
+        "url": "https://www.coolmathgames.com/sites/default/files/public_games/50382/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Tomb Of The Mask",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/totm.webp",
+        "url": "https://cbgamesdev.github.io/chilibowlflash/totm/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Spider Dude Parkour",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/Spider-Dude-Parkour.webp",
+        "url": "https://db.duck.quackprep.com/html/spider_dude_parkour/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "I Wanna Be That Guy",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/i-wanna-be-that-guy.webp",
+        "url": "https://copy.sh/iw/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Red Ball 4",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/red-ball-4.webp",
+        "url": "https://redball4online.github.io/file/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "The Little Giant",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/TheLittleGiant.webp",
+        "url": "https://grims.pro/_games/thelittlegiant/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Level Devil",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/level-devil.webp",
+        "url": "https://leveldevil2.io/game/level-devil-2/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Simply Up",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/simply-up.webp",
+        "url": "https://blob.gamezfun.com/807c4b26-8eff-492e-9ba9-88d6e3694295/index.html?noads=true",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Vex 3",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/vex3.webp",
+        "url": "https://assets.hbmc.net/vex3/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Vex 4",
+        "desc": "Ball/Platformer apps",
+        "icon": "https://mobimg.b-cdn.net/v2/fetch/1d/1d957ad4cb8024ec9b63d54d6c61235b.png",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/80e6a5ae477f4d4fbcd1ea293d10087d/?gd_sdk_referrer_url=https://gamedistribution.com/games/vex-4",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Vex 5",
+        "desc": "Ball/Platformer apps",
+        "icon": "https://img.gamedistribution.com/f120262ab72743039fbce88c1f370df8-512x512.jpeg",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/f120262ab72743039fbce88c1f370df8/?gd_sdk_referrer_url=https://gamedistribution.com/games/vex-5",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Vex 6",
+        "desc": "Ball/Platformer apps",
+        "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/vex-6.png",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/4925e12574364121a48c61c35f649c36/?gd_sdk_referrer_url=https://gamedistribution.com/games/vex-6",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Vex 7",
+        "desc": "Ball/Platformer apps",
+        "icon": "https://img.gamedistribution.com/0c454c9562d249d28ba3a2b50564042c-512x512.jpg",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/rvvASMiM/0c454c9562d249d28ba3a2b50564042c/index.html?gd_sdk_referrer_url=https%3A%2F%2Ftr.y8.com%2Fgames%2Fvex_7&key=y8&value=default&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3RyLnk4LmNvbS9nYW1lcy92ZXhfNyIsInBhcmVudERvbWFpbiI6InRyLnk4LmNvbSIsInRvcERvbWFpbiI6InRyLnk4LmNvbSIsImhhc0ltcHJlc3Npb24iOmZhbHNlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE2In0%253D",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "OvO",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/ovo.webp",
+        "url": "https://ovo.onrender.com/versions/1.4.4b/index.html",
         "disabled": false,
         "local": false
       }
@@ -1303,6 +1775,46 @@
         "url": "https://rawcdn.githack.com/genizy/fnaf/7be68ae3d98c60a9a62b4164c2d61a416a0beb1a/4-halloween/index.html",
         "disabled": false,
         "local": false
+      },
+      {
+        "appName": "The Binding Of Isaac",
+        "desc": "Domination-type fun",
+        "icon": "/assets/img/thebindingisaac.webp",
+        "url": "https://db.duck.quackprep.com/html/thebindingofisaac/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "60 Seconds",
+        "desc": "Domination-type fun",
+        "icon": "/assets/img/60seconds.webp",
+        "url": "https://www.puzzlegame.com/games/60-Seconds-Atomic-Adventure/index.html?yad",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Papers Grade Please",
+        "desc": "Domination-type fun",
+        "icon": "/assets/img/grade-papers-please.webp",
+        "url": "https://www.yad.com/games/Papers-Grade-Please/index.html?yad",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Pokemon Green",
+        "desc": "Domination-type fun",
+        "icon": "/assets/img/pokemon-green.webp",
+        "url": "https://script.google.com/macros/s/AKfycbxWYXzXN3TRwxELxgrTkjmE5hyqPMgzdNn6clWSzVcU-m0m9MDdHHb-VP-VDnz06vNe/exec",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Pokemon Red",
+        "desc": "Domination-type fun",
+        "icon": "/assets/img/pokemon-red.webp",
+        "url": "https://picklekid31.github.io/GBA-unblocked-games/launcher.html#pokemonred",
+        "disabled": false,
+        "local": false
       }
     ],
     "Running": [
@@ -1403,26 +1915,10 @@
         "local": false
       },
       {
-        "appName": "Getaway Shootout",
-        "desc": "Running apps",
-        "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/getaway-shootout/img/index.jpg",
-        "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/getaway-shootout/index.html",
-        "disabled": false,
-        "local": false
-      },
-      {
         "appName": "Jetpack Joyride",
         "desc": "Running apps",
         "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/jetpack-joyride/splash.jpg",
         "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/jetpack-joyride/index.html",
-        "disabled": false,
-        "local": false
-      },
-      {
-        "appName": "OvO",
-        "desc": "Running apps",
-        "icon": "/assets/img/ovo.webp",
-        "url": "https://ovo.onrender.com/versions/1.4.4b/index.html",
         "disabled": false,
         "local": false
       },
@@ -1519,46 +2015,6 @@
         "desc": "Running apps",
         "icon": "https://play-lh.googleusercontent.com/tl2qr3PCg-vpzloUgjMAY9eXz9y58Gdmb77_d9RbmrWoQu8rIvj4Fn3eCurqBoWsY84",
         "url": "https://html5.gamemonetize.co/2fp4sd31llh6u6vjxe1wxbx8meapsgop/",
-        "disabled": false,
-        "local": false
-      },
-      {
-        "appName": "Vex 3",
-        "desc": "Running apps",
-        "icon": "/assets/img/vex3.webp",
-        "url": "https://assets.hbmc.net/vex3/index.html",
-        "disabled": false,
-        "local": false
-      },
-      {
-        "appName": "Vex 4",
-        "desc": "Running apps",
-        "icon": "https://mobimg.b-cdn.net/v2/fetch/1d/1d957ad4cb8024ec9b63d54d6c61235b.png",
-        "url": "https://html5.gamedistribution.com/rvvASMiM/80e6a5ae477f4d4fbcd1ea293d10087d/?gd_sdk_referrer_url=https://gamedistribution.com/games/vex-4",
-        "disabled": false,
-        "local": false
-      },
-      {
-        "appName": "Vex 5",
-        "desc": "Running apps",
-        "icon": "https://img.gamedistribution.com/f120262ab72743039fbce88c1f370df8-512x512.jpeg",
-        "url": "https://html5.gamedistribution.com/rvvASMiM/f120262ab72743039fbce88c1f370df8/?gd_sdk_referrer_url=https://gamedistribution.com/games/vex-5",
-        "disabled": false,
-        "local": false
-      },
-      {
-        "appName": "Vex 6",
-        "desc": "Running apps",
-        "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/vex-6.png",
-        "url": "https://html5.gamedistribution.com/rvvASMiM/4925e12574364121a48c61c35f649c36/?gd_sdk_referrer_url=https://gamedistribution.com/games/vex-6",
-        "disabled": false,
-        "local": false
-      },
-      {
-        "appName": "Vex 7",
-        "desc": "Running apps",
-        "icon": "https://img.gamedistribution.com/0c454c9562d249d28ba3a2b50564042c-512x512.jpg",
-        "url": "https://html5.gamedistribution.com/rvvASMiM/rvvASMiM/0c454c9562d249d28ba3a2b50564042c/index.html?gd_sdk_referrer_url=https%3A%2F%2Ftr.y8.com%2Fgames%2Fvex_7&key=y8&value=default&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3RyLnk4LmNvbS9nYW1lcy92ZXhfNyIsInBhcmVudERvbWFpbiI6InRyLnk4LmNvbSIsInRvcERvbWFpbiI6InRyLnk4LmNvbSIsImhhc0ltcHJlc3Npb24iOmZhbHNlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE2In0%253D",
         "disabled": false,
         "local": false
       },
@@ -1865,6 +2321,214 @@
         "desc": "Car/Racing apps",
         "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/455.png",
         "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/bergentruck/BERGENTRUCK_201X.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Hill Climb Racing",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/hcr.webp",
+        "url": "https://4texas4.github.io/zenith/games/hillclimbracing.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Cyber Race",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/cyber-race.webp",
+        "url": "https://4texas4.github.io/files/games/cybercarspunkracing.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Earn To Die",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/Earn_to_Die.webp",
+        "url": "https://selenite.cc/semag/ern/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Italian Brainrot Bike Rush",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/italian-brainrot-bike-rush.webp",
+        "url": "https://files.twoplayergames.org/files/games/h1/italian-brainrot-bike-rush-v01f/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Jelly Truck",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/jelly-truck.webp",
+        "url": "https://t9lat22.github.io/jelly-truck/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Mario Kart 64",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/mk64.webp",
+        "url": "https://jiwjfowhfusfdgfigiydgsifygdiyfgdi.netlify.app/games/mariokart64/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "ShortCut Race",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/shortcut-race.webp",
+        "url": "https://www.hoodamath.com/mobile/games/shortcut-race/game.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Sky Race 3D",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/Sky Race 3D.webp",
+        "url": "https://4texas4.github.io/files/games/skyrace3d.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Fast Roads",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/slow-roads.webp",
+        "url": "https://siegfriedschmidt.github.io/fastroads/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Smashy Roads",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/smashy-roads.webp",
+        "url": "https://game.azgame.io/escape-road-city/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Smashyroads 2",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/smashy-roads2.webp",
+        "url": "https://azgames.io/escape-road-city-2.embed",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Snow Rider",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/snowrider3d.webp",
+        "url": "https://itsvijaysingh.github.io/Snow-Rider3D/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Wheelie Bike",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/wheelie-bike.webp",
+        "url": "https://www.hoodamath.com/mobile/games/wheelie-bike/game.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Race Survival Arena King",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/race-survival-king.webp",
+        "url": "https://db.duck.quackprep.com/html/race_survival_arena_king/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Summer Rider 3D",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/summer-rider-3d.webp",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/3ff5df9f5d0248fd9dcd70e2cc253de5/index.html?timestamp=-62135596800&siteid=88&siteLocale=en&locale=en&channelid=1&gd_sdk_referrer_url=https%3A%2F%2Fwww.gamesgames.com%2Fgame%2Fsummer-rider-3d%23theatermode&countryCode=en&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5nYW1lc2dhbWVzLmNvbS9nYW1lL3N1bW1lci1yaWRlci0zZCN0aGVhdGVybW9kZSIsInBhcmVudERvbWFpbiI6ImdhbWF2ZXJzZS5jb20iLCJ0b3BEb21haW4iOiJnYW1hdmVyc2UuY29tIiwiaGFzSW1wcmVzc2lvbiI6ZmFsc2UsImxvYWRlckVuYWJsZWQiOnRydWUsImhvc3QiOiJodG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbSIsInZlcnNpb24iOiIxLjUuMTcifQ%253D%253D",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "SoftWheelieLife",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/soflo-wheelie-life.webp",
+        "url": "https://scratch.mit.edu/projects/12310158/embed/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Night City Racing",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/nightcityracing.webp",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/837aa1aafa2442cf81a622b505bff752/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5mcml2LmNtLyIsInBhcmVudERvbWFpbiI6ImZyaXYuY20iLCJ0b3BEb21haW4iOiJmcml2LmNtIiwiaGFzSW1wcmVzc2lvbiI6ZmFsc2UsImxvYWRlckVuYWJsZWQiOnRydWUsImhvc3QiOiJodG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbSIsInZlcnNpb24iOiIxLjUuMTgifQ%253D%253D",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Water Rider 3D",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/Water-rider-3d.webp",
+        "url": "https://www.hoodamath.com/mobile/games/water-rider-3d/game.html?nocheckorient=1",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Extreme Car Driving Simulator",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/extreme-car-driving-simulator.webp",
+        "url": "https://ubg365.github.io/extreme-car-driving-simulator/play.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Wheelie Life",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/streetwheelie.webp",
+        "url": "https://1games.io/game/street-wheelie/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Car Simulator Arena",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/car-simulator-arena.webp",
+        "url": "https://files.vitalitygames.com/games/webgl/2017/12/13/car-simulator-arena/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Escape Road Winter",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/escaperoadwinter.webp",
+        "url": "https://azgames.io/escape-road-winter.embed",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Neon Rider",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/neon-riders.webp",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/3c48eb1a56064a83b3c2ca0acbe01bb2/index.html?gd_sdk_referrer_url=https%3A%2F%2Fwww.twoplayergames.org%2Fgame%2Fneon-rider&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy50d29wbGF5ZXJnYW1lcy5vcmcvZ2FtZS9uZW9uLXJpZGVyIiwicGFyZW50RG9tYWluIjoidHdvcGxheWVyZ2FtZXMub3JnIiwidG9wRG9tYWluIjoidHdvcGxheWVyZ2FtZXMub3JnIiwiaGFzSW1wcmVzc2lvbiI6ZmFsc2UsImxvYWRlckVuYWJsZWQiOnRydWUsImhvc3QiOiJodG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbSIsInZlcnNpb24iOiIxLjUuMTcifQ%253D%253D",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Overtake",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/overtake.webp",
+        "url": "https://play.fancade.com/621913A1EAF5CF24?istart=1&max_h=9999999&max_w=999999",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Pepsi Skate 3D",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/pepsi-skate-3d.webp",
+        "url": "https://the.deconstructors.co.uk/tam-pepi-skate-3d/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Free Rider Jumps",
+        "desc": "Car/Racing apps",
+        "icon": "/assets/img/free-rider-jumps.webp",
+        "url": "https://freeriderjumps.com/",
         "disabled": false,
         "local": false
       }
@@ -2405,6 +3069,174 @@
         "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/lacysflashgames/index.html",
         "disabled": false,
         "local": false
+      },
+      {
+        "appName": "Block Blast",
+        "desc": "Brain apps",
+        "icon": "/assets/img/block-blast.webp",
+        "url": "https://reunbozdo.github.io/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Draw Climber",
+        "desc": "Brain apps",
+        "icon": "/assets/img/draw-climber.webp",
+        "url": "https://unblockedgames76.gitlab.io/draw-climber/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Factory Balls Forever",
+        "desc": "Brain apps",
+        "icon": "/assets/img/factory-balls-forever.webp",
+        "url": "https://tylerpalko.github.io/gamehub/factoryballsforever/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Feud",
+        "desc": "Brain apps",
+        "icon": "/assets/img/Google_Feud.webp",
+        "url": "https://googlefeud.com/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Fire Boy Water Girl",
+        "desc": "Brain apps",
+        "icon": "/assets/img/fireboy&watergirl.webp",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/03f124074b0049f89fdace0cacf8ead5/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzAzZjEyNDA3NGIwMDQ5Zjg5ZmRhY2UwY2FjZjhlYWQ1LyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNyJ9",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Hoop Stack",
+        "desc": "Brain apps",
+        "icon": "/assets/img/hoop-stack.webp",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/4b17dd99b4b3438680a3051a44912adb/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzRiMTdkZDk5YjRiMzQzODY4MGEzMDUxYTQ0OTEyYWRiLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNyJ9",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Ludo",
+        "desc": "Brain apps",
+        "icon": "/assets/img/ludo.webp",
+        "url": "https://ludoking.com/play/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Make It Meme",
+        "desc": "Brain apps",
+        "icon": "/assets/img/make-it-meme.webp",
+        "url": "https://gnhustgames.org/makeitmeme-source/#/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Pull Pins",
+        "desc": "Brain apps",
+        "icon": "/assets/img/pull-pins.webp",
+        "url": "https://games.cdn.famobi.com/html5games/p/pull-pins/v220/?fg_domain=play.famobi.com&fg_aid=A-FAMOBI-COM&fg_uid=c24e5a78-927a-4b7c-a536-3452d1f57021&fg_pid=96ab9c2f-6013-4b31-96dc-ccb5c7a89329&fg_beat=955&original_ref=https%3A%2F%2Fgames.cdn.famobi.com%2F",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Skibidi Toilet Puzzle",
+        "desc": "Brain apps",
+        "icon": "/assets/img/skibidi-toilet-puzzle.webp",
+        "url": "https://g.igroutka.ru/games/23/sxwIYS2PNkzF9vul/rvvASMiM/0a5d7f62d76d464592bc5f99c2032b58/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "The Impossible Quiz",
+        "desc": "Brain apps",
+        "icon": "/assets/img/theimpossiblequiz.webp",
+        "url": "https://ad-freegames.github.io/flash/game/the-impossible-quiz.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Twisted Tangle",
+        "desc": "Brain apps",
+        "icon": "/assets/img/twisted-tangle.webp",
+        "url": "https://cargames.click/twisted-tangle/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "UNO",
+        "desc": "Brain apps",
+        "icon": "/assets/img/uno.webp",
+        "url": "https://www.xpgameplus.com/games/uno/default.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Wood Turning",
+        "desc": "Brain apps",
+        "icon": "/assets/img/wood-turning.webp",
+        "url": "https://www.bestgames.com/games/Woodturning-3d/index.html?bestgames",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Zuma",
+        "desc": "Brain apps",
+        "icon": "/assets/img/zuma.webp",
+        "url": "https://4texas4.github.io/files/games/Zuma.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Escape The Prison",
+        "desc": "Brain apps",
+        "icon": "/assets/img/escape-the-prison.webp",
+        "url": "https://db.duck.quackprep.com/html/escapetheprison/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Infinite Craft",
+        "desc": "Brain apps",
+        "icon": "/assets/img/infinite-craft.webp",
+        "url": "https://script.google.com/macros/s/AKfycby6VkmafM4044keDc4OclZ4Saq2a8lth-pAC1XY_7c1_qVsH9IsVKrqbuWH-SJO1puW/exec",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Angry Birds",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/angry-birds.webp",
+        "url": "https://funhtml5games.com/angrybirds/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Sandtris",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/sandtris.webp",
+        "url": "https://sandtris.com/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Car Drawing Game",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/Car-Drawing-Game.webp",
+        "url": "https://slope-game.github.io/car-drawing-game/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Happy Filled Glass",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/Happy-Filled-Glass.webp",
+        "url": "https://www.hoodamath.com/mobile/games/happy-filled-glass/game.html?nocheckorient=1",
+        "disabled": false,
+        "local": false
       }
     ],
     "Idle/Clicker": [
@@ -2629,6 +3461,54 @@
         "desc": "Idle/Clicking apps",
         "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/454.png",
         "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/bloodmoney/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Idle Ants",
+        "desc": "Idle/Clicking apps",
+        "icon": "/assets/img/idle-ants.webp",
+        "url": "https://szhong.4399.com/4399swf//upload_swf/ftp37/gamehwq/20211224/13/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Nut Clicker",
+        "desc": "Idle/Clicking apps",
+        "icon": "/assets/img/nutclicker.webp",
+        "url": "https://nutsimulator.github.io/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Duck Life 5",
+        "desc": "Idle/Clicking apps",
+        "icon": "/assets/img/duck-life5.webp",
+        "url": "https://elite-gamez.github.io/g/Duck%20Life%205.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Duck Life Battle",
+        "desc": "Idle/Clicking apps",
+        "icon": "/assets/img/duck-life-battle.webp",
+        "url": "https://elite-gamez.github.io/g/Duck%20Life%20Battle.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Pou",
+        "desc": "Idle/Clicking apps",
+        "icon": "/assets/img/pou.webp",
+        "url": "https://ubg98.github.io/Pou/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "67 clicker",
+        "desc": "Idle/Clicking apps",
+        "icon": "/assets/img/67clicker.webp",
+        "url": "https://2games.io/game/67-clicker/",
         "disabled": false,
         "local": false
       }
@@ -3289,6 +4169,630 @@
         "url": "https://1games.io/game/crazy-cattle-3d/",
         "disabled": false,
         "local": false
+      },
+      {
+        "appName": "Rat Simulator",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/rat.webp",
+        "url": "https://ratcar.netlify.app/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Minecraft",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/minecraft.webp",
+        "url": "https://4texas4.github.io/EaglyMC/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Daddy Long Legs",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/daddy-long-legs.webp",
+        "url": "https://class811.github.io/g50/daddy-long-legs/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Dune",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/dune.webp",
+        "url": "https://4texas4.github.io/zenith/games/dune.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Magic Tiles 3",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/magic-tiles-3.webp",
+        "url": "https://4texas4.github.io/zenith/games/magic-tiles-3.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Ball Hop",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/hop-ball.webp",
+        "url": "https://ug17.github.io/play/Ball-Hop/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Bit Planes",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/bit-planes.webp",
+        "url": "https://medv.io/bit-planes/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Blob Opera",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/blob-opera.webp",
+        "url": "https://gacembed.withgoogle.com/blob-opera/#/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Bloxd",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/bloxd.webp",
+        "url": "https://bloxd.io/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Bongo Cat",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/bongocat.webp",
+        "url": "https://bongo.cat/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Bonk",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/bonk.webp",
+        "url": "https://multiplayer.gg/physics/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Break Stick Completely",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/break-stick-completly.webp",
+        "url": "https://storage.y8.com/y8-studio/html5/Playgama/break_stick_completely/?key=y8&value=default",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Charlie The Steak",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/charlie-the-steak.webp",
+        "url": "https://charliethesteakonline.com/gg/charlie-the-steak-online/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Choir",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/choir.webp",
+        "url": "https://d21u3ic0kp9e91.cloudfront.net/choir/04/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Color Combat",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/color-combat.webp",
+        "url": "https://cbgamesdev.github.io/chilibowlflash/colorcombat.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Color Roll 3D",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/color-roll-3d.webp",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/a216492f41f74bd8ad98eb55ad097dda/index.html?gd_sdk_referrer_url=https://www.mathnook.com/fun-games-2/color-roll-3d.html&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5tYXRobm9vay5jb20vZnVuLWdhbWVzLTIvY29sb3Itcm9sbC0zZC5odG1sIiwicGFyZW50RG9tYWluIjoibWF0aG5vb2suY29tIiwidG9wRG9tYWluIjoibWF0aG5vb2suY29tIiwiaGFzSW1wcmVzc2lvbiI6ZmFsc2UsImxvYWRlckVuYWJsZWQiOnRydWUsImhvc3QiOiJodG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbSIsInZlcnNpb24iOiIxLjUuMTcifQ%253D%253D",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Crazy Chicken 3D",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/crazy-chicken-3d.webp",
+        "url": "https://html-classic.itch.zone/html/13448030/crazychicken%20web%20port/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Crazy Crash 3d",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/crazy-crash-3d.webp",
+        "url": "https://4texas4.github.io/files/games/crazycrash3d.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Crazy Kitty 3d",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/crazy-kitty-3d.webp",
+        "url": "https://1games.io/game/crazy-kitty-3d/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Creatur",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/creatur.webp",
+        "url": "https://www.creatur.io/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Defend Your Nuts",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/defend-your-nuts.webp",
+        "url": "https://www.friv.com/z/games/defendyournuts/game.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Digdig",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/digdig.webp",
+        "url": "https://digdig.io/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Doblox",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/doblox.webp",
+        "url": "https://4texas4.github.io/files/games/DOBLOX.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Doodle Cricket",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/doodle-cricket.webp",
+        "url": "https://f3.silvergames.com/m/doodle-cricket/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Flight",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/flight.webp",
+        "url": "https://games.engineering.com/PaperFlight1/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Flow Lines",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/flow-lines.webp",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/a7a0226fd3c349caaa3c41ca63680d3a/index.html?gd_sdk_referrer_url=https://www.y8.com/games/flow_lines&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy55OC5jb20vZ2FtZXMvZmxvd19saW5lcyIsInBhcmVudERvbWFpbiI6Ink4LmNvbSIsInRvcERvbWFpbiI6Ink4LmNvbSIsImhhc0ltcHJlc3Npb24iOmZhbHNlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D&key=y8&value=default",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Fluid Sim",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/fluid-sim.webp",
+        "url": "https://fivestarontop.pages.dev/fluidsim/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Fruit Basket",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/fruit-basket.webp",
+        "url": "https://html5.gamedistribution.com/rvvASMiM/634a50cca48b4c0d87cedb3add5c5c81/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzYzNGE1MGNjYTQ4YjRjMGQ4N2NlZGIzYWRkNWM1YzgxLyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNyJ9",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "G-Switch 4 Creator",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/g-switch-4.webp",
+        "url": "https://www.seriusgames.com/html5/g-switch-4-1.3.32/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Gobble",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/gobble.webp",
+        "url": "https://sz-games.github.io/Games11/Gobble/Gobble.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Google Snake Mods",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/google-snake.webp",
+        "url": "https://googlesnakemods.com/v/current/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Grow a Garden",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/grow-a-garden.webp",
+        "url": "https://script.google.com/macros/s/AKfycbwK_YDMKEccZyVOz_fpe66G4Je4VyFPdT10OdaKpM699Utzbq41n2m6OXqAzpX0oqrLTA/exec",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "House Of Hazards",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/house-of-hazards.webp",
+        "url": "https://t9lat22.github.io/house-of-hazards/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Hypersnake",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/hypersnake.webp",
+        "url": "https://game-cdn.ikop.xyz/uploads/game/html5/7297/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Incredibox",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/incredibox.webp",
+        "url": "https://incredibox-game.io/game/incredibox-mod/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Lay Eggs",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/lay-eggs.webp",
+        "url": "https://ubg76.gitlab.io/lay-eggs/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Long cat",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/longcat.webp",
+        "url": "https://game.enjoy4fun.com/longcat/v1/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Magic Cat",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/magiccat.webp",
+        "url": "https://html5-games.io/game/magic_cat/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Mini Monkey Mart",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/mini-monkey-mart.webp",
+        "url": "https://monkey-mart.io/iframe/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Neon Swing",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/NeonSwing.webp",
+        "url": "https://mazahackasgan.github.io/neon-swing/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Orange",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/orange.webp",
+        "url": "https://www.hoodamath.com/mobile/games/orange/game.html?nocheckorient=1",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Pointer Pointer",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/pointerpointer.webp",
+        "url": "https://pointerpointer.com/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Ragdoll Playground",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/ragdoll-playground.webp",
+        "url": "https://1games.io/game/ragdoll-playground/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Re Run",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/re-run.webp",
+        "url": "https://4texas4.github.io/files/games/RE_RUN.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Resizer",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/resizer.webp",
+        "url": "https://www.hoodamath.com/mobile/games/resizer/game.html?nocheckorient=1",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Rocket Pult",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/RocketPult.webp",
+        "url": "https://scrap-metal.github.io/s9/rocket-pult/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Rythem Heaven",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/RhythmHeaven.webp",
+        "url": "https://rightful-valuable-mum.glitch.me/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Sausage Flip",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/sausage-flip.webp",
+        "url": "https://t9lat22.github.io/sausage-flip/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "School Boy Escape",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/school-boy-escape.webp",
+        "url": "https://4texas4.github.io/files/games/schoolboyescape.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Sink It",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/sink-it.webp",
+        "url": "https://gamesonline86.github.io/sink-it/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Sky Riders",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/sky-riders.webp",
+        "url": "https://glseries.net/assets/applications/content/sky-riders/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Slice Master",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/slice-masters.webp",
+        "url": "https://bitlifeonline.github.io/slice-master/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Sprunki",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/sprunki.webp",
+        "url": "https://www.yoosfuhl.com/game/sprunkiincredibox/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Steal a Brainrot",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/steal-a-brainrot.webp",
+        "url": "https://script.google.com/macros/s/AKfycbxJalyip_ETy_kolDAlSVxdcnLtn16P6gIoJ5kDwt1abHFX32SUJEOLCWU31veTffv2/exec",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Stick RGP",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/stickrgp.webp",
+        "url": "https://ad-freegames.github.io/flash/game/stick-rpg.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "SWOOOP",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/swooops.webp",
+        "url": "https://playcanv.as/p/JtL2iqIH/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "This is Sand",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/thisissand.webp",
+        "url": "https://thisissand.com/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Thorns And Balloons",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/Thornsandballoons.webp",
+        "url": "https://www.hoodamath.com/mobile/games/thorn-and-balloons/game.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "We Become What We Behold",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/we-become-what-we-behold.webp",
+        "url": "https://unblocked-games.s3.amazonaws.com/games/2024/more/we-become-what-we-behold/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Whack Your Boss",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/whack-your-boss.webp",
+        "url": "https://ad-freegames.github.io/flash/game/whack-your-boss.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Zen Word",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/zen-word.webp",
+        "url": "https://4texas4.github.io/files/games/ZenWord.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Ragdoll Archers",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/ragdoll-archers.webp",
+        "url": "https://db.duck.quackprep.com/html/ragdoll_archers/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Hollow Knight",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/hollow-night.webp",
+        "url": "https://db.duck.quackprep.com/html/hollow_knight/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Growden IO",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/growden.webp",
+        "url": "https://db.duck.quackprep.com/html/growden_io/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Spiral Roll",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/spiral-roll.webp",
+        "url": "https://db.duck.quackprep.com/html/spiral_roll/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Bottle Jump 3d",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/bottle-jump-3d.webp",
+        "url": "https://game.azgame.io/bottle-jump/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Bottle Flip 3d",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/bottle-flip-3d.webp",
+        "url": "https://play.wgplayground.com/game/5fa116c15ddf2e4894b341fc1e3c1d8c/?r=bottleflip3d.com",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Bouncemasters",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/bounce_masters.webp",
+        "url": "https://maxwellstevenson.com/Vafor_IT/bouncemasters/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Bowmasters",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/bowmasters.webp",
+        "url": "https://g.igroutka.ru/games/3/igra_boumasters/7/igra-boumasters/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Flappy Dunk",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/flappydunk.webp",
+        "url": "https://flappydunk.com/wp-content/uploads/games/F/flappy-dunk/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Powder Game 2",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/powder-game.webp",
+        "url": "https://dan-ball.jp/en/javagame/dust2/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Free Head Skate",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/free-head-skate.webp",
+        "url": "https://www.hoodamath.com/mobile/games/freehead-skate/game.html?nocheckorient=1",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Color Block Jam",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/color-block-jam.webp",
+        "url": "https://gamedistro.rhenrywarren.workers.dev/rvvASMiM/bea1d886820c494091bf1df4e77b956a/index.html?gd_sdk_referrer_url=https://lupine.red#translate.google.com",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Talking Ben",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/talkingben.webp",
+        "url": "https://turbowarp.org/649123736/embed?autostart=true&fullscreen-background=true",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Under The Red Sky",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/under-the-red-sky.webp",
+        "url": "https://st.8games.net/7/8g/igra-parkur-pod-krasnym-nebom/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Overtide",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/overtide.webp",
+        "url": "https://overtide.io/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Poxel",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/poxel.webp",
+        "url": "https://poxel.io/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Handless Millionare",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/handless-millionaire.webp",
+        "url": "https://pixel-cave.com/games/hm/",
+        "disabled": false,
+        "local": false
       }
     ],
     "Horror/Survival": [
@@ -3377,6 +4881,110 @@
         "desc": "Survival/Horror apps",
         "icon": "https://cdn.jsdelivr.net/gh/gn-math/covers@main/459.png",
         "url": "https://rawcdn.githack.com/fowntain/web-port-doge/1102f068fff0083d2a5ed979ebac6425540d78a5/the-man-in-the-window/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Backrooms 2D",
+        "desc": "Survival/Horror apps",
+        "icon": "/assets/img/backrooms2d.webp",
+        "url": "https://selenite.cc/semag/2d/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Dreader",
+        "desc": "Survival/Horror apps",
+        "icon": "/assets/img/dreader.webp",
+        "url": "https://bidoofery.github.io/nativegames/dreader/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "FNAF 1",
+        "desc": "Survival/Horror apps",
+        "icon": "/assets/img/fnaf.webp",
+        "url": "https://run3.io/popgame/fnaf/fnaf1/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "FNAF 2",
+        "desc": "Survival/Horror apps",
+        "icon": "/assets/img/fnaf2.webp",
+        "url": "https://run3.io/popgame/fnaf/fnaf2.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "FNAF 4",
+        "desc": "Survival/Horror apps",
+        "icon": "/assets/img/fnaf4.webp",
+        "url": "https://run3.io/popgame/fnaf/fnaf4.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "FNAF 3",
+        "desc": "Survival/Horror apps",
+        "icon": "/assets/img/fnaf3.webp",
+        "url": "https://run3.io/popgame/fnaf/fnaf3.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Keep Out",
+        "desc": "Survival/Horror apps",
+        "icon": "/assets/img/keep-out.webp",
+        "url": "https://www.playkeepout.com/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "99 Nights In a Forest",
+        "desc": "Survival/Horror apps",
+        "icon": "/assets/img/99nights.webp",
+        "url": "https://db.duck.quackprep.com/html/99_nights_in_the_forest/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "FNAF Pizzaria Simulator",
+        "desc": "Survival/Horror apps",
+        "icon": "/assets/img/fnaf-pizzaria-simulator.webp",
+        "url": "https://db.duck.quackprep.com/html/fnaf_pizzeria_simulator/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Granny",
+        "desc": "Survival/Horror apps",
+        "icon": "/assets/img/granny.webp",
+        "url": "https://1games.io/game/granny-horror/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Bad Parenting",
+        "desc": "Survival/Horror apps",
+        "icon": "/assets/img/bad-parenting.webp",
+        "url": "https://4texas4.github.io/files/games/Bad%20Parenting%201.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Rainbow Friends Return",
+        "desc": "Survival/Horror apps",
+        "icon": "/assets/img/rainbow-friends.webp",
+        "url": "https://db.duck.quackprep.com/html/rainbow_friends_return/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Squid Game",
+        "desc": "Survival/Horror apps",
+        "icon": "/assets/img/Squid-Survival-Game-unblocked.webp",
+        "url": "https://www.yoosfuhl.com/game/squidgame/index.html",
         "disabled": false,
         "local": false
       }
@@ -3539,6 +5147,70 @@
         "desc": "Fun Action",
         "icon": "/assets-fb/surviv/favicon.png",
         "url": "https://assets.hbmc.net/surviv/index.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Clash Royale",
+        "desc": "Fun Action",
+        "icon": "/assets/img/clash.webp",
+        "url": "https://www.friv.com/z/games/clashofvikings/index-x.html",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "lolbeans.io",
+        "desc": "Fun Action",
+        "icon": "/assets/img/lolbeans.webp",
+        "url": "https://lolbeans.io/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Stumble Guys",
+        "desc": "Fun Action",
+        "icon": "/assets/img/stumble-guys.webp",
+        "url": "https://www.stumbleguys.com/play",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Attack Hole",
+        "desc": "Fun Action",
+        "icon": "/assets/img/attackhole.webp",
+        "url": "https://html5.gamedistribution.com/fb2c54f5d26c4009ae5b5dafca416c99/?gdpr-targeting=1&gd_sdk_referrer_url=https://www.silvergames.com/en/black-hole-attack",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Just Fall Lol",
+        "desc": "Fun Action",
+        "icon": "/assets/img/justfall-lol.webp",
+        "url": "https://just-fall-lol.github.io/file/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Diep",
+        "desc": "Fun Action",
+        "icon": "/assets/img/diep.jfif",
+        "url": "https://diep.io",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Skribbl",
+        "desc": "Fun Action",
+        "icon": "/assets/img/skribbl.jfif",
+        "url": "https://skribbl.io/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Paper IO",
+        "desc": "Sandbox/Arcade apps",
+        "icon": "/assets/img/paper-io.webp",
+        "url": "https://paperio-2.github.io/a9/paper-io-2/",
         "disabled": false,
         "local": false
       }
