@@ -1,7 +1,7 @@
 {
   "name": "v5-react-2",
   "private": true,
-  "version": "5.0.41",
+  "version": "5.0.42",
   "type": "module",
   "scripts": {
     "dev": "vite",
