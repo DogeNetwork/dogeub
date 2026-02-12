@@ -171,7 +171,7 @@ const Viewer = ({ zoom }) => {
                       <p className="mt-2">Finding a Wisp server to route your request...</p>
                     )}
                   </div>
-                ) : (
+                ) : wispStatus === false && (
                   <StaticError />
                 )}
               </div>
