@@ -1,6 +1,14 @@
 import { useRef, useState, useCallback } from 'react';
 import Search from '/src/pages/Search';
-import { Maximize2, SquareArrowOutUpRight, ZoomIn, ZoomOut, Cloud, HardDrive } from 'lucide-react';
+import {
+  Maximize2,
+  SquareArrowOutUpRight,
+  ZoomIn,
+  ZoomOut,
+  Cloud,
+  HardDrive,
+  Bug,
+} from 'lucide-react';
 import { useLocalGmLoader } from '/src/utils/hooks/player/useLocalGmLoader';
 import { useNavigate } from 'react-router-dom';
 import Control from './Controls';
@@ -54,7 +62,11 @@ const Loader = ({ theme, app }) => {
     >
       <div className="p-2 pl-1 border-b flex gap-2 items-center">
         <InfoCard app={app} theme={theme} />
-        <Tooltip title={isLocal ? 'Downloaded to device (local)' : 'Fetched from web'} arrow placement="top">
+        <Tooltip
+          title={isLocal ? 'Downloaded to device (local)' : 'Fetched from web'}
+          arrow
+          placement="top"
+        >
           <div className="flex items-center ml-auto mr-5">
             {isLocal ? (
               <HardDrive size={18} className="opacity-80" />
@@ -96,7 +108,17 @@ const Loader = ({ theme, app }) => {
         ) : (
           <Control icon={SquareArrowOutUpRight} fn={external} />
         )}
-        <Control icon={ZoomIn} fn={() => handleZoom('in')} className="ml-auto" />
+
+        <Control
+          icon={Bug}
+          fn={() =>
+            window.open('https://forms.gle/JnvtauV7vX5trxAy8', '_blank', 'noopener noreferrer')
+          }
+          className="ml-auto"
+        >
+          Report Issue
+        </Control>
+        <Control icon={ZoomIn} fn={() => handleZoom('in')} />
         <Control icon={ZoomOut} fn={() => handleZoom('out')} />
         <Control icon={Maximize2} fn={fs} />
       </div>

@@ -5,7 +5,7 @@ const InfoCard = ({ app, theme }) => {
   return (
     <div
       className={clsx(
-        'flex h-16 w-full p-4 items-center rounded-xl',
+        'flex h-13 w-full p-2.5 py-7 items-center rounded-xl',
         theming[`theme-${theme || 'default'}`],
       )}
     >
