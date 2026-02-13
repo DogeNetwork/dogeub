@@ -571,6 +571,65 @@ export const designConfig = [
     },
   },
   {
+    option: 'Carpet',
+    value: {
+      bgDesign: 'carpet',
+      getCSS: (color) => `
+        repeating-conic-gradient(
+          from 0deg at 50% 50%,
+          transparent 0deg,
+          rgba(${color},0.20) 1deg,
+          transparent 2deg,
+          transparent 8deg
+        ),
+        repeating-conic-gradient(
+          from 22.5deg at 50% 50%,
+          transparent 0deg,
+          rgba(${color},0.17) 0.5deg,
+          transparent 1deg,
+          transparent 8deg
+        )
+      `,
+    },
+  },
+  {
+    option: 'Crosshatch',
+    value: {
+      bgDesign: 'crosshatch',
+      getCSS: (color) => `
+        repeating-linear-gradient(
+          45deg,
+          rgba(${color},0.12) 0px,
+          rgba(${color},0.12) 1px,
+          transparent 1px,
+          transparent 6px
+        ),
+        repeating-linear-gradient(
+          -45deg,
+          rgba(${color},0.12) 0px,
+          rgba(${color},0.12) 1px,
+          transparent 1px,
+          transparent 6px
+        )
+      `,
+    },
+  },
+  {
+    option: 'Horizontal Lines',
+    value: {
+      bgDesign: 'horizontalLines',
+      getCSS: (color) => `
+        repeating-linear-gradient(
+          0deg,
+          rgba(${color},0.15) 0px,
+          rgba(${color},0.15) 2px,
+          transparent 2px,
+          transparent 12px
+        )
+      `,
+    },
+  },
+  {
     option: 'None',
     value: {
       bgDesign: 'none',

@@ -3,10 +3,11 @@ import clsx from 'clsx';
 import theme from '/src/styles/theming.module.css';
 import { useOptions } from '/src/utils/optionsContext';
 import SettingsContainerItem from './settings/components/ContainerItem';
+import ServerInfo from './settings/components/ServerInfo';
 import * as settings from '/src/data/settings';
 import PanicDialog from './PanicDialog';
 
-const Type = ({ type, title }) => {
+const Type = ({ type, title, showServerInfo = false }) => {
   const { options, updateOption } = useOptions();
   const settingsItems = type({ options, updateOption });
   const entries = Object.entries(settingsItems);
@@ -16,9 +17,9 @@ const Type = ({ type, title }) => {
       <h2 className="text-xl font-medium mb-3 px-1">{title}</h2>
       <div className="rounded-xl overflow-visible">
         {entries.map(([key, setting], index) => (
-          <SettingsContainerItem 
-            key={key} 
-            {...setting} 
+          <SettingsContainerItem
+            key={key}
+            {...setting}
             isFirst={index === 0}
             isLast={index === entries.length - 1}
           >
@@ -26,6 +27,11 @@ const Type = ({ type, title }) => {
           </SettingsContainerItem>
         ))}
       </div>
+      {showServerInfo && (
+        <div className="mt-5">
+          <ServerInfo />
+        </div>
+      )}
     </div>
   );
 };
@@ -65,7 +71,7 @@ const Setting = ({ setting }) => {
       {setting === 'Privacy' && <Type type={() => privSettings} title="Privacy" />}
       {setting === 'Customize' && <Type type={settings.customizeConfig} title="Customize" />}
       {setting === 'Browsing' && <Type type={settings.browsingConfig} title="Browsing" />}
-      {setting === 'Advanced' && <Type type={settings.advancedConfig} title="Advanced" />}
+      {setting === 'Advanced' && <Type type={settings.advancedConfig} title="Advanced" showServerInfo={true} />}
     </Container>
   );
 };

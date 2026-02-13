@@ -15,17 +15,20 @@ const importHome = () => import('./pages/Home');
 const importApps = () => import('./pages/Apps');
 const importGms = () => import('./pages/Apps2');
 const importSettings = () => import('./pages/Settings');
+const importBookmarks = () => import('./pages/Bookmarks');
 
 const Home = lazyLoad(importHome);
 const Apps = lazyLoad(importApps);
 const Apps2 = lazyLoad(importGms);
 const Settings = lazyLoad(importSettings);
+const Bookmarks = lazyLoad(importBookmarks);
 const Player = lazyLoad(() => import('./pages/Player'));
 const New = lazyLoad(() => import('./pages/New'));
 
 initPreload('/materials', importApps);
 initPreload('/docs', importGms);
 initPreload('/settings', importSettings);
+initPreload('/bookmarks', importBookmarks);
 initPreload('/', importHome);
 
 function useTracking() {
@@ -48,6 +51,7 @@ const ThemedApp = memo(() => {
       { path: '/docs/r', element: <Player /> },
       { path: '/search', element: <Search />},
       { path: '/settings', element: <Settings /> },
+      { path: '/bookmarks', element: <Bookmarks /> },
       { path: '/new', element: <New /> },
       { path: '*', element: <NotFound /> },
     ],
@@ -59,8 +63,8 @@ const ThemedApp = memo(() => {
       options.bgDesign === 'None'
         ? 'none'
         : (
-            bgDesign.find((d) => d.value.bgDesign === options.bgDesign) || bgDesign[0]
-          ).value.getCSS?.(options.bgDesignColor || '102, 105, 109') || 'none';
+          bgDesign.find((d) => d.value.bgDesign === options.bgDesign) || bgDesign[0]
+        ).value.getCSS?.(options.bgDesignColor || '102, 105, 109') || 'none';
 
     return `
       body {
