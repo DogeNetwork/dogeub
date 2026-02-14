@@ -8,7 +8,8 @@ import { process } from '/src/utils/hooks/loader/utils';
 import { useOptions } from '../utils/optionsContext';
 import { useEffect } from 'react';
 
-export default function Loader({ url, ui = true, zoom }) {
+export default function Loader({ config = {} }) {
+  const { url, ui = true, zoom, alerts = false } = config;
   useReg();
   const { options } = useOptions();
   const tabs = loaderStore((state) => state.tabs);
@@ -51,7 +52,7 @@ export default function Loader({ url, ui = true, zoom }) {
         className="flex-1 w-full"
         onClick={() => loaderStore.getState().showMenu && loaderStore.getState().toggleMenu()}
       >
-        <Viewer zoom={zoom} />
+        <Viewer conf={{ zoom: zoom, alerts: alerts }} />
       </div>
     </div>
   );

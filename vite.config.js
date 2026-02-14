@@ -85,7 +85,7 @@ export default defineConfig(({ command }) => {
       isStatic && {
         name: 'replace-cdn',
         transform(code, id) {
-          if (id.endsWith('apps.json')) {
+          if (id.endsWith('apps.json') || id.endsWith('QuickLinks.jsx')) {
             return code
               .replace(/\/assets-fb\//g, 'https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets/img/server/')
               .replace(/\/assets\/img\//g, 'https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets/img/');

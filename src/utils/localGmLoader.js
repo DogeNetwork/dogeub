@@ -172,8 +172,19 @@ class LocalGmLoader {
       let existing = regs.find(r => r.active?.scriptURL.includes('/loadersw.js'));
       
       if (!existing) {
-        const reg = await navigator.serviceWorker.register('/loadersw.js');
+        const reg = await navigator.serviceWorker.register('/loadersw.js', {
+          scope: '/',
+          updateViaCache: 'none'
+        });
+        
         await navigator.serviceWorker.ready;
+        
+        if (!navigator.serviceWorker.controller) {
+          await new Promise(resolve => {
+            navigator.serviceWorker.addEventListener('controllerchange', resolve, { once: true });
+          });
+        }
+        
         return reg;
       }
       
@@ -181,9 +192,22 @@ class LocalGmLoader {
         await new Promise(resolve => {
           const sw = existing.installing || existing.waiting;
           sw.addEventListener('statechange', () => {
-            if (sw.state === 'activated') resolve();
+            if (sw.state === 'activated') {
+              resolve();
+            }
           });
         });
+      }
+      
+      if (!navigator.serviceWorker.controller) {
+        const reg = await navigator.serviceWorker.ready;
+        const sw = reg.active;
+        if (sw) {
+          sw.postMessage({ type: 'SKIP_WAITING' });
+          await new Promise(resolve => {
+            navigator.serviceWorker.addEventListener('controllerchange', resolve, { once: true });
+          });
+        }
       }
       
       return existing;

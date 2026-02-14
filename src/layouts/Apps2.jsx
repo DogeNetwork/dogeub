@@ -168,9 +168,9 @@ const Games = memo(() => {
     }
     
     if (q) {
-      const fq = q.toLowerCase().trim();
+      const fq = q.toLowerCase().trim().replace(/\s/g, '');
       toFilter = toFilter.filter((game) => {
-        const gameName = game.appName.toLowerCase();
+        const gameName = game.appName.toLowerCase().replace(/\s/g, '');
         return gameName.includes(fq);
       });
     }

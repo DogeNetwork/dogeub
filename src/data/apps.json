@@ -41,7 +41,7 @@
       "appName": "Movies/TV",
       "desc": "Watch and stream movies and TV shows.",
       "icon": "/assets/img/movie-logo.webp",
-      "url": "https://beech.watch",
+      "url": "https://cineby.gd",
       "disabled": false
     },
     {
@@ -96,7 +96,7 @@
     {
       "appName": "Discord",
       "desc": "Chat, voice, and communities all in one place.",
-      "icon": "/assets/img/discord.webp",
+      "icon": "/assets/img/dcsi.webp",
       "url": "https://discord.com/app",
       "disabled": false
     },
@@ -185,7 +185,7 @@
         "appName": "Roblox",
         "desc": "All-Time favorites",
         "icon": "/assets/img/roblox.webp",
-        "url": "https://www.easyfun.gg/cloud-games/roblox.html",
+        "url": "https://nowgg.fun/apps/a/19900/b.html",
         "disabled": false,
         "local": false
       },
@@ -201,7 +201,7 @@
         "appName": "Retro Bowl",
         "desc": "Sport apps",
         "icon": "/assets/img/retro.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/browl-lib.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/browl-lib.zip",
         "disabled": false,
         "local": true
       },
@@ -209,7 +209,7 @@
         "appName": "BasketBros.io",
         "desc": "Sport apps",
         "icon": "/assets/img/basketbros.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/bbo-js.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/bbo-js.zip",
         "disabled": false,
         "local": true
       }
@@ -227,7 +227,7 @@
         "appName": "Awesome Tanks 2",
         "desc": "Fun Action",
         "icon": "/assets/img/atanks2.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/atnk-v2.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/atnk-v2.zip",
         "disabled": false,
         "local": true
       },
@@ -291,7 +291,7 @@
         "appName": "Rooftop Snipers",
         "desc": "Fun Action",
         "icon": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/c127771edb0e821e4109b7058ae3f094.jpeg",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/templatedata-roof.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/templatedata-roof.zip",
         "disabled": false,
         "local": true
       },
@@ -757,7 +757,7 @@
         "appName": "Basketball FRVR",
         "desc": "Sport apps",
         "icon": "https://play-lh.googleusercontent.com/4avPP7yNU6hARlzIldyPajBnKYj3rGohlmfnRtR7JxSGXNbfBW9AblVhY3wAbo0sbYU7=w240-h480-rw",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/bfrvr-lib.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/bfrvr-lib.zip",
         "disabled": false,
         "local": true
       },
@@ -781,7 +781,7 @@
         "appName": "Champion Island",
         "desc": "Sport apps",
         "icon": "/assets-fb/champion-island/splash.png",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/chp-island-arch.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/chp-island-arch.zip",
         "disabled": false,
         "local": true
       },
@@ -805,7 +805,7 @@
         "appName": "Soccer Random",
         "desc": "Sport apps",
         "icon": "https://img.gamedistribution.com/308d826f20034d7b972f25258c8d0a44-512x512.jpeg",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/scruntime.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/scruntime.zip",
         "disabled": false,
         "local": true
       },
@@ -821,7 +821,7 @@
         "appName": "Volley Random",
         "desc": "Sport apps",
         "icon": "/assets/img/volley-random.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/vlruntime.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/vlruntime.zip",
         "disabled": false,
         "local": true
       },
@@ -1530,8 +1530,8 @@
         "desc": "Domination-type fun",
         "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/tmtd.png",
         "url": [
-          "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/tmtd/Build.zip",
-          "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/tmtd/Build2.zip"
+          "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/tmtd/Build.zip",
+          "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/tmtd/Build2.zip"
         ],
         "disabled": false,
         "local": true
@@ -1822,7 +1822,7 @@
         "appName": "Backrooms",
         "desc": "Running apps",
         "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/backrooms.jpg",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/brm-v1.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/brm-v1.zip",
         "disabled": false,
         "local": true
       },
@@ -2104,7 +2104,7 @@
         "appName": "Draw the Hill",
         "desc": "Car/Racing apps",
         "icon": "/assets/img/drawthehill.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/drhil-conn.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/drhil-conn.zip",
         "disabled": false,
         "local": true
       },
@@ -2120,7 +2120,7 @@
         "appName": "Drift Hunters",
         "desc": "Car/Racing apps",
         "icon": "/assets/img/drifthunters.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/drif-v1.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/drif-v1.zip",
         "disabled": false,
         "local": true
       },
@@ -2128,7 +2128,7 @@
         "appName": "Drive Mad",
         "desc": "Car/Racing apps",
         "icon": "/assets/img/drive-mad.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/drm-js.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/drm-js.zip",
         "disabled": false,
         "local": true
       },
@@ -2216,7 +2216,7 @@
         "appName": "Polytrack",
         "desc": "Car/Racing apps",
         "icon": "/assets-fb/polytrack/pltrk.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/pltrk.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/pltrk.zip",
         "disabled": false,
         "local": true
       },
@@ -2538,7 +2538,7 @@
         "appName": "Amaze!",
         "desc": "Brain apps",
         "icon": "https://play-lh.googleusercontent.com/hypAu2hPcTpg-FkZr7CjrWDspK_9Nm3UKvPWln9zaFUnIr-m6WQvEZ2baAaG0ufzrg",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/amaze-js.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/amaze-js.zip",
         "disabled": false,
         "local": true
       },
@@ -3260,7 +3260,7 @@
         "appName": "Cookie Clicker",
         "desc": "Idle/Clicking apps",
         "icon": "/assets/img/cookieclicker.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/cc-ajax.zip",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/cc-ajax.zip",
         "disabled": false,
         "local": true
       },
@@ -3284,9 +3284,9 @@
         "appName": "Idle Breakout",
         "desc": "Idle/Clicking apps",
         "icon": "/assets/img/idlebreakout.webp",
-        "url": "https://www.onlinegames.io/games/2024/more/idle-breakout/index.html",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/id-break.zip",
         "disabled": false,
-        "local": false
+        "local": true
       },
       {
         "appName": "Monkey Mart",
