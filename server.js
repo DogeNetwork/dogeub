@@ -84,7 +84,8 @@ const proxy = (url, type = "application/javascript") => async (req, reply) => {
       "te",
       "trailer",
       "transfer-encoding",
-      "upgrade"
+      "upgrade",
+      "content-encoding"
     ];
     for (const [k, v] of res.headers) {
       if (!hop.includes(k.toLowerCase())) reply.header(k, v);
