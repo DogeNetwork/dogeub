@@ -102,8 +102,8 @@ const Apps = memo(() => {
   }, [indexedApps, sort]);
 
   const filtered = useMemo(() => {
-    const fq = q.toLowerCase();
-    const filteredApps = sortedApps.filter((a) => a.appName.toLowerCase().includes(fq));
+    const fq = q.toLowerCase().replace(/\s/g, '');
+    const filteredApps = sortedApps.filter((a) => a.appName.toLowerCase().replace(/\s/g, '').includes(fq));
     const totalPages = Math.ceil(filteredApps.length / perPage);
     const paged = filteredApps.slice((page - 1) * perPage, page * perPage);
     return { filteredApps, paged, totalPages };

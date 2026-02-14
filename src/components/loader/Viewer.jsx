@@ -7,7 +7,7 @@ import { Loader } from 'lucide-react';
 
 import NewTab from './NewTab';
 
-const Viewer = ({ zoom }) => {
+const Viewer = ({ conf = {} }) => {
   const tabs = loaderStore((state) => state.tabs);
   const updateUrl = loaderStore((state) => state.updateUrl);
   const updateTitle = loaderStore((state) => state.updateTitle);
@@ -23,6 +23,7 @@ const Viewer = ({ zoom }) => {
   const { options } = useOptions();
   const updateActiveFrameRef = loaderStore((state) => state.updateActiveFrameRef);
   const activeFrameRef = loaderStore((state) => state.activeFrameRef);
+  const enableAlerts = conf.alerts ?? true;
 
   useEffect(() => {
     setFrameRefs(frameRefs);
@@ -42,8 +43,11 @@ const Viewer = ({ zoom }) => {
         setLoading(tab.id, false);
         try {
           const d = iframe.contentWindow?.document;
-          if (d?.getElementById('errorTrace-wrapper') || d?.getElementById('fetchedURL')) {
+          if (d?.getElementById('errorTrace-wrapper') || d?.getElementById('uvHostname')) {
             iframe.contentWindow.location.replace(tab.url);
+          }
+          if (!enableAlerts && iframe.contentWindow) {
+            iframe.contentWindow.alert = () => {};
           }
         } catch {}
       };
@@ -66,6 +70,15 @@ const Viewer = ({ zoom }) => {
       iframe.addEventListener('load', handleLoad);
       iframe.addEventListener('load', checkState);
       listeners.push({ iframe, handleLoad, checkState, tabId: tab.id });
+      
+      //try to remove it again
+      if (!enableAlerts) {
+        try {
+          if (iframe.contentWindow) {
+            iframe.contentWindow.alert = () => {};
+          }
+        } catch {}
+      }
     });
     const interval = setInterval(() => {
       tabs.forEach((tab) => {
@@ -77,9 +90,12 @@ const Viewer = ({ zoom }) => {
           const curTTL = iframe.contentWindow.document.title;
           if (curURL === 'about:blank') return;
           const d = iframe.contentWindow?.document;
-          if (d?.getElementById('errorTrace-wrapper')) {
+          if (d?.getElementById('errorTrace-wrapper') || d?.getElementById('uvHostname')) {
             iframe.contentWindow.location.replace(tab.url);
             return;
+          }
+          if (!enableAlerts && iframe.contentWindow) {
+            iframe.contentWindow.alert = () => {};
           }
           // tab cant be loading while URL is being updated
           if (!tab.isLoading && curURL !== prevURL.current[tab.id] && curURL !== tab.url) {
@@ -92,7 +108,7 @@ const Viewer = ({ zoom }) => {
           }
         } catch (e) {}
       });
-    }, 500);
+    }, 50);
     return () => {
       listeners.forEach(({ iframe, handleLoad, checkState }) => {
         iframe.removeEventListener('load', handleLoad);
@@ -100,7 +116,7 @@ const Viewer = ({ zoom }) => {
       });
       clearInterval(interval);
     };
-  }, [tabs, setLoading, updateTitle, setIframeUrl]);
+  }, [tabs, setLoading, updateTitle, setIframeUrl, enableAlerts]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -123,10 +139,10 @@ const Viewer = ({ zoom }) => {
   useEffect(() => {
     if (activeFrameRef?.current) {
       try {
-        activeFrameRef.current.contentWindow.document.body.style.zoom = zoom;
+        activeFrameRef.current.contentWindow.document.body.style.zoom = conf.zoom;
       } catch (e) {}
     }
-  }, [activeFrameRef, zoom]);
+  }, [activeFrameRef, conf.zoom]);
 
   useEffect(() => {
     tabs.forEach((tab) => {

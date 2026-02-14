@@ -91,7 +91,7 @@ const Loader = ({ theme, app }) => {
           sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-modals allow-pointer-lock"
         />
       ) : (
-        <Search url={app?.url} ui={false} zoom={zoom} />
+        <Search config={{ url: app?.url, ui: false, zoom: zoom, alerts: false }} />
       )}
 
       <div className="p-2.5 flex gap-2 border-t">
