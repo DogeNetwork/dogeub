@@ -61,9 +61,84 @@ cd dogeub
 npm i
 npm run dev
 ```
-
 ---
 
+#### Deploying in Docker:
+
+```bash
+docker run -d \
+  --name dogeub \
+  --restart unless-stopped \
+  -p 3000:3000 \
+  -e NODE_ENV=production \
+  -e PORT=3000 \
+  ghcr.io/gitlogos/dogeub_docker:latest
+```
+
+#### Deploying with Docker Compose:
+
+```bash
+services:
+  dogeub:
+    image: ghcr.io/gitlogos/dogeub_docker:latest
+    container_name: dogeub
+    restart: unless-stopped
+
+    # Expose the web UI (host:container)
+    ports:
+      - "3000:3000"
+
+    # App runtime settings (DogeUB expects PORT in env-style configs)
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      # Optional toggles used by DogeUB upstream (if your server.js honors them)
+      # - BARE="false"
+      # - MASQR="false"
+```
+
+If accessing over lan instead of localhost, then you need to provide a valid SSL certificate. 
+This is needed for the built in service worker.
+
+#### Deploying in Docker with Caddy for valid ssl certificate:
+
+```bash
+services:
+  dogeub:
+    image: ghcr.io/gitlogos/dogeub_docker:latest
+    container_name: dogeub
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+
+  caddy:
+    image: caddy:latest
+    container_name: caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      - MY_DOMAIN=example.com  # <-- User just changes this
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+      - ./Caddyfile:/etc/caddy/Caddyfile # Persist it to the host
+    # This script runs every time the container starts
+    entrypoint: /bin/sh -c "
+      if [ ! -f /etc/caddy/Caddyfile ]; then
+        echo 'Creating initial Caddyfile...';
+        printf '%s {\n    reverse_proxy dogeub:3000\n}' \"\$$MY_DOMAIN\" > /etc/caddy/Caddyfile;
+      fi;
+      exec caddy run --config /etc/caddy/Caddyfile --adapter caddyfile"
+
+volumes:
+  caddy_data:
+  caddy_config:
+```
+
+---
 
 ### Contributors / Developers
 
