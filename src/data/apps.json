@@ -190,6 +190,14 @@
         "local": false
       },
       {
+        "appName": "Five Nights at Epstein's",
+        "desc": "All-Time favorites",
+        "icon": "/assets/img/fnae.webp",
+        "url": "https://freedomgamingzone.github.io/five-nights-at-epsteins/",
+        "disabled": false,
+        "local": false
+      },
+      {
         "appName": "Neal.fun",
         "desc": "All-Time favorites",
         "icon": "/assets/img/nf.webp",
@@ -731,7 +739,7 @@
         "appName": "Getaway Shootout",
         "desc": "Fun Action",
         "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/getaway-shootout/img/index.jpg",
-        "url": "https://raw.githack.com/Skoolgq/Polaris-Assets/main/getaway-shootout/index.html",
+        "url": "https://assets.hbmc.net/getaway-shootout/",
         "disabled": false,
         "local": false
       }
