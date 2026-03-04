@@ -172,8 +172,14 @@ class LocalGmLoader {
       let existing = regs.find(r => r.active?.scriptURL.includes('/loadersw.js'));
       
       if (!existing) {
-        const reg = await navigator.serviceWorker.register(new URL('/loadersw.js', location.href).href, {
-          scope: new URL('/', location.origin).href,
+        const swPath = isStaticBuild 
+          ? new URL('./loadersw.js', location.href).href
+          : new URL('/loadersw.js', location.origin).href;
+        const swScope = isStaticBuild
+          ? new URL('./', location.href).href
+          : '/';
+        const reg = await navigator.serviceWorker.register(swPath, {
+          scope: swScope,
           updateViaCache: 'none'
         });
         
@@ -224,10 +230,14 @@ class LocalGmLoader {
     const firstUrl = isSplitZip ? url[0] : url;
     const gmName = firstUrl.split('/').pop().replace('.zip', '') || 'gm-' + Date.now();
     const existing = await this.getGm(gmName);
+    
+    const gameUrl = isStaticBuild
+      ? new URL(`./game/${gmName}/index.html`, location.href).href
+      : new URL(`/game/${gmName}/index.html`, location.origin).href;
         
     if (existing) {
       await this.updateLastPlayed(gmName);
-      return { url: new URL(`./game/${gmName}/index.html`, location.href).href, cached: true };
+      return { url: gameUrl, cached: true };
     }
 
     if (onDownload) onDownload(true);
@@ -239,7 +249,7 @@ class LocalGmLoader {
     await this.saveGm(gmName, files);
     if (onDownload) onDownload(false);
     
-    return { url: new URL(`./game/${gmName}/index.html`, location.href).href, cached: false };
+    return { url: gameUrl, cached: false };
   }
 }
 
