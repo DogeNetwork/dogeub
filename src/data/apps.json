@@ -193,9 +193,9 @@
         "appName": "Five Nights at Epstein's",
         "desc": "All-Time favorites",
         "icon": "/assets/img/fnae.webp",
-        "url": "https://freedomgamingzone.github.io/five-nights-at-epsteins/",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/FNAE.zip",
         "disabled": false,
-        "local": false
+        "local": true
       },
       {
         "appName": "Neal.fun",
