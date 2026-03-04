@@ -172,7 +172,7 @@ class LocalGmLoader {
       let existing = regs.find(r => r.active?.scriptURL.includes('/loadersw.js'));
       
       if (!existing) {
-        const reg = await navigator.serviceWorker.register(new URL('./loadersw.js', location.href).href, {
+        const reg = await navigator.serviceWorker.register(new URL('/loadersw.js', location.href).href, {
           scope: new URL('/', location.origin).href,
           updateViaCache: 'none'
         });
