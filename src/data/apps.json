@@ -185,7 +185,7 @@
         "appName": "Roblox",
         "desc": "All-Time favorites",
         "icon": "/assets/img/roblox.webp",
-        "url": "https://nowgg.fun/apps/a/19900/b.html",
+        "url": "https://99.ip.nowgg.fun/apps/a/19900/b.html",
         "disabled": false,
         "local": false
       },
@@ -939,6 +939,14 @@
       }
     ],
     "Platformer": [
+      {
+        "appName": "Super Monkey Ball",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/smb.webp",
+        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/monkeyball.zip",
+        "disabled": false,
+        "local": true
+      },
       {
         "appName": "99 Balls 3D",
         "desc": "Ball/Platformer apps",
