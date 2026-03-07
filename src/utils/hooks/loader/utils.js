@@ -29,24 +29,31 @@ const scrwlist = new Set([
 ]);
 
 export const process = (input, decode = false, prType, engine = "https://www.google.com/search?q=") => {
+  const upwefix = isStaticBuild 
+    ? new URL('./portal/k12/', location.href).pathname
+    : '/portal/k12/';
+  const eggowaffle = isStaticBuild
+    ? new URL('./ham/', location.href).pathname
+    : '/ham/';
+  
   let prefix;
 
   switch (prType) {
     case 'uv':
-      prefix = '/portal/k12/';
+      prefix = upwefix;
       break;
     case 'scr':
-      prefix = '/ham/';
+      prefix = eggowaffle;
       break;
     default:
       const url = check(input, engine);
       const match = [...scrwlist].some(d => url.includes(d));
-      prefix = match ? '/ham/' : '/portal/k12/';
+      prefix = match ? eggowaffle : upwefix;
   }
 
   if (decode) {
-    const uvPart = input.split('/portal/k12/')[1];
-    const scrPart = input.split('/ham/')[1];
+    const uvPart = input.split(upwefix)[1];
+    const scrPart = input.split(eggowaffle)[1];
     const decoded = uvPart ? mango.dnc(uvPart) : scrPart ? mango.dnc(scrPart) : input;
     return decoded.endsWith('/') ? decoded.slice(0, -1) : decoded;
   } else {
@@ -54,7 +61,7 @@ export const process = (input, decode = false, prType, engine = "https://www.goo
     if (!final || final.trim() === '') {
       return null;
     }
-    const encoded = prefix === '/ham/' ? mango.enc(final) : mango.enc(final);
+    const encoded = prefix === eggowaffle ? mango.enc(final) : mango.enc(final);
     return `${location.protocol}//${location.host}${prefix}${encoded}`;
   }
 };

@@ -8,7 +8,10 @@ import store from './useLoaderStore';
 export default function useReg() {
   const { options } = useOptions();
   const ws = `${location.protocol == 'http:' ? 'ws:' : 'wss:'}//${location.host}/wisp/`;
-  const sws = [
+  const sws = isStaticBuild ? [
+    { path: new URL('./sw.js', location.href).href, scope: new URL('./portal/k12/', location.href).href }, 
+    { path: new URL('./s_sw.js', location.href).href, scope: new URL('./ham/', location.href).href }
+  ] : [
     { path: new URL('/sw.js', location.origin).href, scope: new URL('/portal/k12/', location.origin).href }, 
     { path: new URL('/s_sw.js', location.origin).href, scope: new URL('/ham/', location.origin).href }
   ];
@@ -18,7 +21,9 @@ export default function useReg() {
     const init = async () => {
       if (!window.scr) {
         const script = document.createElement('script');
-        script.src = '/eggs/scramjet.all.js';
+        script.src = isStaticBuild 
+          ? new URL('./eggs/scramjet.all.js', location.href).pathname
+          : '/eggs/scramjet.all.js';
         await new Promise((resolve, reject) => {
           script.onload = resolve;
           script.onerror = reject;
@@ -28,12 +33,19 @@ export default function useReg() {
 
       const { ScramjetController } = $scramjetLoadController();
 
+      const hamPrefix = isStaticBuild 
+        ? new URL('./ham/', location.href).pathname
+        : '/ham/';
+      const eggsPath = isStaticBuild
+        ? new URL('./eggs/', location.href).pathname
+        : '/eggs/';
+
       window.scr = new ScramjetController({
-        prefix: "/ham/",
+        prefix: hamPrefix,
         files: {
-          wasm: '/eggs/scramjet.wasm.wasm',
-          all: '/eggs/scramjet.all.js',
-          sync: '/eggs/scramjet.sync.js',
+          wasm: eggsPath + 'scramjet.wasm.wasm',
+          all: eggsPath + 'scramjet.all.js',
+          sync: eggsPath + 'scramjet.sync.js',
         },
         flags: { rewriterLogs: false, scramitize: false, cleanErrors: true, sourcemaps: true },
         codec: makecodec()
@@ -52,7 +64,10 @@ export default function useReg() {
         }
       }
 
-      const connection = new BareMuxConnection(new URL('/baremux/worker.js', location.href).href);
+      const baremuxPath = isStaticBuild
+        ? new URL('./baremux/worker.js', location.href).href
+        : new URL('/baremux/worker.js', location.origin).href;
+      const connection = new BareMuxConnection(baremuxPath);
       isStaticBuild && setWispStatus('init');
       let socket = null;
       try {
@@ -62,7 +77,10 @@ export default function useReg() {
       }
       isStaticBuild && (!socket ? setWispStatus(false) : setWispStatus(true));
 
-      await connection.setTransport('/libcurl/index.mjs', [
+      const libcurlPath = isStaticBuild
+        ? new URL('./libcurl/index.mjs', location.href).pathname
+        : '/libcurl/index.mjs';
+      await connection.setTransport(libcurlPath, [
         {
           wisp:
             options.wServer != null && options.wServer !== ''
