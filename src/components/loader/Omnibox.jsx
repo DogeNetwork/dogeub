@@ -47,7 +47,7 @@ const Omnibox = () => {
   const navigate = useNavigate();
   const { iframeUrls } = loaderStore();
 
-  const isProcied = (url) => url?.includes('/portal/k12/') || url?.includes('/ham/');
+  const isProcied = (url) => url?.includes('portal/k12/') || url?.includes('ham/');
   const isNewTab = (url) => !url || url === 'tabs://new' || url.endsWith('/new');
 
   const updateIcon = (url) => {

@@ -172,12 +172,13 @@ class LocalGmLoader {
       let existing = regs.find(r => r.active?.scriptURL.includes('/loadersw.js'));
       
       if (!existing) {
-        const swPath = isStaticBuild 
-          ? new URL('./loadersw.js', location.href).href
-          : new URL('/loadersw.js', location.origin).href;
+        const swPath = isStaticBuild
+          ? './loadersw.js'
+          : '/loadersw.js';
         const swScope = isStaticBuild
-          ? new URL('./', location.href).href
+          ? './'
           : '/';
+        
         const reg = await navigator.serviceWorker.register(swPath, {
           scope: swScope,
           updateViaCache: 'none'
@@ -232,8 +233,8 @@ class LocalGmLoader {
     const existing = await this.getGm(gmName);
     
     const gameUrl = isStaticBuild
-      ? new URL(`./game/${gmName}/index.html`, location.href).href
-      : new URL(`/game/${gmName}/index.html`, location.origin).href;
+      ? `./game/${gmName}/index.html`
+      : `/game/${gmName}/index.html`;
         
     if (existing) {
       await this.updateLastPlayed(gmName);
