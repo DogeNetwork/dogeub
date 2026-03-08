@@ -882,10 +882,26 @@
         "local": false
       },
       {
+        "appName": "Baseball Bros",
+        "desc": "Sport apps",
+        "icon": "/assets/img/basebros.webp",
+        "url": "https://baseballbros.io/",
+        "disabled": false,
+        "local": false
+      },
+      {
         "appName": "Cat Tennis",
         "desc": "Sport apps",
         "icon": "/assets/img/cat-tennis.webp",
         "url": "https://sz-games.github.io/Games11/cat%20tennis/",
+        "disabled": false,
+        "local": false
+      },
+      {
+        "appName": "Football Bros",
+        "desc": "Sport apps",
+        "icon": "/assets/img/fb-broz.webp",
+        "url": "https://footballbros.io/",
         "disabled": false,
         "local": false
       },
