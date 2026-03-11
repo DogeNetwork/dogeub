@@ -1,5 +1,5 @@
 export async function fetchW() {
-  let tx = await fetch('https://cdn.jsdelivr.net/gh/rewz099/j-lib@latest/readme.bam').then((res) =>
+  let tx = await fetch('https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@latest/synapse.js').then((res) =>
     res.json(),
   );
   let settled = false;
