@@ -193,7 +193,10 @@
         "appName": "Five Nights at Epstein's",
         "desc": "All-Time favorites",
         "icon": "/assets/img/fnae.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/FNAE.zip",
+        "url": [
+          "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@5e255a186ac0dd4793109dfbe68b946e5cc8dce5/v1-fn.zip",
+          "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@5e255a186ac0dd4793109dfbe68b946e5cc8dce5/v2-fn.zip"
+        ],
         "disabled": false,
         "local": true
       },
@@ -209,7 +212,7 @@
         "appName": "Retro Bowl",
         "desc": "Sport apps",
         "icon": "/assets/img/retro.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/browl-lib.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/rbo.zip",
         "disabled": false,
         "local": true
       },
@@ -217,7 +220,7 @@
         "appName": "BasketBros.io",
         "desc": "Sport apps",
         "icon": "/assets/img/basketbros.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/bbo-js.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/bbo.zip",
         "disabled": false,
         "local": true
       }
@@ -235,7 +238,7 @@
         "appName": "Awesome Tanks 2",
         "desc": "Fun Action",
         "icon": "/assets/img/atanks2.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/atnk-v2.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/atnk-v2.zip",
         "disabled": false,
         "local": true
       },
@@ -299,7 +302,7 @@
         "appName": "Rooftop Snipers",
         "desc": "Fun Action",
         "icon": "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/c127771edb0e821e4109b7058ae3f094.jpeg",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/templatedata-roof.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/snip-roof.zip",
         "disabled": false,
         "local": true
       },
@@ -757,15 +760,15 @@
         "appName": "Basket Random",
         "desc": "Sport apps",
         "icon": "/assets/img/basketrandom.webp",
-        "url": "https://files.twoplayergames.org/files/games/other/Basket_Random/index.html",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/rnd-bk.zip",
         "disabled": false,
-        "local": false
+        "local": true
       },
       {
         "appName": "Basketball FRVR",
         "desc": "Sport apps",
         "icon": "https://play-lh.googleusercontent.com/4avPP7yNU6hARlzIldyPajBnKYj3rGohlmfnRtR7JxSGXNbfBW9AblVhY3wAbo0sbYU7=w240-h480-rw",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/bfrvr-lib.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@e155f118b64eee8b7ecd88f7f834eec269ddc76d/bk-frvr.zip",
         "disabled": false,
         "local": true
       },
@@ -789,7 +792,11 @@
         "appName": "Champion Island",
         "desc": "Sport apps",
         "icon": "/assets-fb/champion-island/splash.png",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/chp-island-arch.zip",
+        "url": [
+          "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/champion-island.zip",
+          "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/champion-island_2.zip",
+          "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/champion-island_3.zip"
+        ],
         "disabled": false,
         "local": true
       },
@@ -813,7 +820,7 @@
         "appName": "Soccer Random",
         "desc": "Sport apps",
         "icon": "https://img.gamedistribution.com/308d826f20034d7b972f25258c8d0a44-512x512.jpeg",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/scruntime.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/random-soc.zip",
         "disabled": false,
         "local": true
       },
@@ -829,7 +836,7 @@
         "appName": "Volley Random",
         "desc": "Sport apps",
         "icon": "/assets/img/volley-random.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/vlruntime.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/random-vol.zip",
         "disabled": false,
         "local": true
       },
@@ -959,8 +966,8 @@
         "appName": "Super Monkey Ball",
         "desc": "Ball/Platformer apps",
         "icon": "/assets/img/smb.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/monkeyball.zip",
-        "disabled": false,
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/monkeyball.zip",
+        "disabled": true,
         "local": true
       },
       {
@@ -1554,8 +1561,8 @@
         "desc": "Domination-type fun",
         "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/tmtd.png",
         "url": [
-          "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/tmtd/Build.zip",
-          "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/tmtd/Build2.zip"
+          "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/Build1.zip",
+          "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/Build2.zip"
         ],
         "disabled": false,
         "local": true
@@ -1846,7 +1853,7 @@
         "appName": "Backrooms",
         "desc": "Running apps",
         "icon": "https://cdn.jsdelivr.net/gh/Skoolgq/Polaris-Assets/images/backrooms.jpg",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/brm-v1.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/backro.zip",
         "disabled": false,
         "local": true
       },
@@ -2128,7 +2135,7 @@
         "appName": "Draw the Hill",
         "desc": "Car/Racing apps",
         "icon": "/assets/img/drawthehill.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/drhil-conn.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/drth.zip",
         "disabled": false,
         "local": true
       },
@@ -2144,7 +2151,7 @@
         "appName": "Drift Hunters",
         "desc": "Car/Racing apps",
         "icon": "/assets/img/drifthunters.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/drif-v1.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/drh.zip",
         "disabled": false,
         "local": true
       },
@@ -2152,7 +2159,7 @@
         "appName": "Drive Mad",
         "desc": "Car/Racing apps",
         "icon": "/assets/img/drive-mad.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/drm-js.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/drm-js.zip",
         "disabled": false,
         "local": true
       },
@@ -2240,7 +2247,7 @@
         "appName": "Polytrack",
         "desc": "Car/Racing apps",
         "icon": "/assets-fb/polytrack/pltrk.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/pltrk.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/polytack.zip",
         "disabled": false,
         "local": true
       },
@@ -2562,7 +2569,7 @@
         "appName": "Amaze!",
         "desc": "Brain apps",
         "icon": "https://play-lh.googleusercontent.com/hypAu2hPcTpg-FkZr7CjrWDspK_9Nm3UKvPWln9zaFUnIr-m6WQvEZ2baAaG0ufzrg",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/amaze-js.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/amaze-js.zip",
         "disabled": false,
         "local": true
       },
@@ -3284,7 +3291,7 @@
         "appName": "Cookie Clicker",
         "desc": "Idle/Clicking apps",
         "icon": "/assets/img/cookieclicker.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/cc-ajax.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/cc-ajax.zip",
         "disabled": false,
         "local": true
       },
@@ -3308,7 +3315,7 @@
         "appName": "Idle Breakout",
         "desc": "Idle/Clicking apps",
         "icon": "/assets/img/idlebreakout.webp",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn@latest/id-break.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/break-idle.zip",
         "disabled": false,
         "local": true
       },

