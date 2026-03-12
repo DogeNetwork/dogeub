@@ -1,5 +1,6 @@
 const k = new TextEncoder().encode(btoa(new Date().toISOString().slice(0, 10) + location.host).split('').reverse().join('').slice(6.7));
-const path = location.pathname.substring(0, location.pathname.indexOf('/', 1));
+const base = new URL('./', location.href).pathname.replace(/\/$/, '');
+const path = base === '/' ? '' : base;
 self.__uv$config = {
     prefix: path + "/portal/k12/",
     encodeUrl: s => {
