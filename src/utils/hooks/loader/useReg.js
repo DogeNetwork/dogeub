@@ -9,10 +9,10 @@ export default function useReg() {
   const { options } = useOptions();
   const ws = `${location.protocol == 'http:' ? 'ws:' : 'wss:'}//${location.host}/wisp/`;
   const sws = isStaticBuild ? [
-    { path: new URL('./sw.js', location.href).href, scope: new URL('./portal/k12/', location.href).href }, 
+    { path: new URL('./sw.js', location.href).href, scope: new URL('./portal/k12/', location.href).href },
     { path: new URL('./s_sw.js', location.href).href, scope: new URL('./ham/', location.href).href }
   ] : [
-    { path: new URL('/sw.js', location.origin).href, scope: new URL('/portal/k12/', location.origin).href }, 
+    { path: new URL('/sw.js', location.origin).href, scope: new URL('/portal/k12/', location.origin).href },
     { path: new URL('/s_sw.js', location.origin).href, scope: new URL('/ham/', location.origin).href }
   ];
   const setWispStatus = store((s) => s.setWispStatus);
@@ -21,7 +21,7 @@ export default function useReg() {
     const init = async () => {
       if (!window.scr) {
         const script = document.createElement('script');
-        script.src = isStaticBuild 
+        script.src = isStaticBuild
           ? new URL('./eggs/scramjet.all.js', location.href).pathname
           : '/eggs/scramjet.all.js';
         await new Promise((resolve, reject) => {
@@ -33,7 +33,7 @@ export default function useReg() {
 
       const { ScramjetController } = $scramjetLoadController();
 
-      const hamPrefix = isStaticBuild 
+      const hamPrefix = isStaticBuild
         ? new URL('./ham/', location.href).pathname
         : '/ham/';
       const eggsPath = isStaticBuild
@@ -75,19 +75,21 @@ export default function useReg() {
       } catch (e) {
         socket = null;
       }
-      isStaticBuild && (!socket ? setWispStatus(false) : setWispStatus(true));
+      const activeWisp = options.wServer != null && options.wServer !== ''
+        ? options.wServer
+        : socket;
+      isStaticBuild && (!activeWisp ? setWispStatus(false) : setWispStatus(true));
+
+      if (isStaticBuild && !activeWisp) {
+        return;
+      }
 
       const libcurlPath = isStaticBuild
         ? new URL('./libcurl/index.mjs', location.href).pathname
         : '/libcurl/index.mjs';
       await connection.setTransport(libcurlPath, [
         {
-          wisp:
-            options.wServer != null && options.wServer !== ''
-              ? options.wServer
-              : isStaticBuild
-                ? socket
-                : ws,
+          wisp: isStaticBuild ? activeWisp : ws,
         },
       ]);
     };
