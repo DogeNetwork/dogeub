@@ -1,7 +1,25 @@
 const k = new TextEncoder().encode(btoa(new Date().toISOString().slice(0, 10) + location.host).split('').reverse().join('').slice(6.7));
-const path = location.pathname.substring(0, location.pathname.indexOf('/', 1));
+const cfg = "/portal/uv.config.js";
+const pfx = "/portal/k12/";
+const trim = s => !s || s === "/" ? "" : s.replace(/\/$/, "");
+
+const basePath = (() => {
+    const src = typeof document !== "undefined" ? document.currentScript?.src : "";
+    if (src) {
+        const path = new URL(src, location.href).pathname;
+        if (path.endsWith(cfg)) return trim(path.slice(0, -cfg.length));
+    }
+
+    const path = location.pathname;
+    if (path.endsWith("/sw.js") || path.endsWith("/s_sw.js")) {
+        return trim(path.slice(0, path.lastIndexOf("/")));
+    }
+
+    const i = path.indexOf(pfx);
+    return i === -1 ? "" : trim(path.slice(0, i));
+})();
 self.__uv$config = {
-    prefix: path + "/portal/k12/",
+    prefix: basePath + pfx,
     encodeUrl: s => {
         if (!s) return s;
         try {
@@ -29,11 +47,11 @@ self.__uv$config = {
             return new TextDecoder().decode(o) + s.slice(h);
         } catch { return decodeURIComponent(s); }
     },
-    handler: path + "/portal/uv.handler.js",
-    client: path + "/portal/uv.client.js", 
-    bundle: path + "/portal/uv.bundle.js",
-    config: path + "/portal/uv.config.js",
-    sw: path + "/portal/uv.sw.js"
+    handler: basePath + "/portal/uv.handler.js",
+    client: basePath + "/portal/uv.client.js", 
+    bundle: basePath + "/portal/uv.bundle.js",
+    config: basePath + "/portal/uv.config.js",
+    sw: basePath + "/portal/uv.sw.js"
 };
 
 self.console = new Proxy({}, {
