@@ -7,7 +7,7 @@
 
 
   <hr />
-  DogeUB (Doge Unblocker) version 5 is finally here!
+  DogeUB version 5 is finally here!
 
   
   <br />
@@ -20,7 +20,7 @@
 
 ## Overview
 
-DogeUB is a web proxy frontend / internet browsing hub, allowing you to surf the web anonymously while providing a full suite of apps and games, built with [React](https://github.com/facebook/react).
+DogeUB is a browser-in-browser style internet hub that brings together web apps, tools, and games in one place, built with [React](https://github.com/facebook/react).
 
 > [!IMPORTANT]
 > Please consider starring our repository if you are forking it!
