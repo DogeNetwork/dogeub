@@ -116,6 +116,13 @@ export const customizeConfig = ({ options, updateOption }) => ({
     type: 'switch',
     action: (b) => setTimeout(() => updateOption({ donationBtn: b }), 100),
   },
+  7: {
+    name: 'Shrink App Header',
+    desc: 'Shrink the app/game header to a single line.',
+    value: options.shrinkHeader ?? false,
+    type: 'switch',
+    action: (b) => setTimeout(() => updateOption({ shrinkHeader: b }), 100),
+  },
 });
 
 export const browsingConfig = ({ options, updateOption }) => ({
