@@ -53,6 +53,23 @@
   --item-border: #443535;
 }
 
+.theme-pink {
+  --nav-bg: #110d0fcc;
+  --nav-border: #241920;
+  --search-border: #2f2529;
+  --search-bg: #161214;
+  --search-ph: #d8c4cd;
+  --search-color: #ffebf5;
+  --settings-panel: #141012;
+  --settings-border: #2a2528;
+  --apps-bg: #161214;
+  --apps-border: #2a2528;
+  --apps-text: #ffebf5;
+  --apps-ph: #d8c4cd;
+  --item-bg: #141012;
+  --item-border: #2a2528;
+}
+
 .theme-dark {
   --nav-bg: #0e0e10cc;
   --nav-border: #22232a;

@@ -182,13 +182,6 @@ export const browsingConfig = ({ options, updateOption }) => ({
     type: 'select',
     action: (a) => updateOption(a),
   },
-  3: {
-    name: 'Adblocker',
-    desc: 'Block known ad domains when browsing.',
-    value: options.adblock ?? true,
-    type: 'switch',
-    action: (b) => setTimeout(() => updateOption({ adblock: b }), 100),
-  },
 });
 
 export const advancedConfig = ({ options, updateOption }) => ({

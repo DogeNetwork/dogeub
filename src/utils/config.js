@@ -158,6 +158,38 @@ export const themeConfig = [
   },
 
   {
+    option: 'Hot Pink',
+    value: {
+      theme: 'pink',
+      type: 'dark',
+      settingsContainerColor: '#1a1618',
+      navItemActive: '#ff69b4',
+      settingsSearchBar: '#2a2528',
+      settingsPanelItemBackgroundColor: '#221d20',
+      settingsDropdownColor: '#1d181b',
+      siteTextColor: '#ffbbd6',
+      bgDesignColor: '255, 105, 180',
+      glowWrapperColor: '255, 105, 180',
+      switchColor: '#30282b',
+      switchEnabledColor: '#ff69b4',
+      bgColor: '#110d0f',
+      quickModalBgColor: '#1c1619',
+      paginationTextColor: '#ddb0c3',
+      paginationBorderColor: '#ff69b440',
+      paginationBgColor: '#1d1619',
+      paginationSelectedColor: '#ff69b4',
+      themeName: 'pinkTheme',
+      /* loader */
+      tabColor: "#281b22",
+      tabOutline: "#2f2529",
+      barColor: "#0f090c",
+      tabBarColor: "#090507",
+      omninputColor: "#10080d8f",
+      menuColor: "#181115"
+    },
+  },
+
+  {
     option: 'Light',
     value: {
       theme: 'light',
@@ -561,7 +593,7 @@ export const designConfig = [
     },
   },
   {
-    option: 'Griddy',
+    option: 'Grid',
     value: {
       bgDesign: 'grid',
       getCSS: (color) => `
