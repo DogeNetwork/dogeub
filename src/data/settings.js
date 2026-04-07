@@ -8,26 +8,61 @@ import {
   designConfig,
 } from '/src/utils/config';
 
-export const privacyConfig = ({ options, updateOption, openPanic }) => ({
-  1: {
-    name: 'Site Title',
-    desc: "This setting allows you to change the site's tab title and icon.",
-    config: meta,
-    value: (
-      meta.find(
-        (c) => c.value && typeof c.value === 'object' && c.value.tabName === options.tabName,
-      ) || meta[0]
-    ).value,
-    type: 'select',
-    action: (a) => {
-      updateOption(a);
-      import('/src/utils/utils.js').then(({ ckOff }) => ckOff());
-    },
-  },
-  2: {
+export const privacyConfig = ({ options, updateOption, openPanic }) => {
+  const isCustom = options.isCustomCloak || (options.tabName && !meta.find(c => c.value.tabName === options.tabName));
+  const metaWithCustom = [
+    ...meta,
+    { option: 'Custom', value: { id: 'custom', isCustomCloak: true } }
+  ];
+
+  const config = {
+    1: {
+      name: 'Site Title',
+      desc: "This setting allows you to change the site's tab title and icon.",
+      config: metaWithCustom,
+      value: isCustom
+        ? metaWithCustom[metaWithCustom.length - 1].value
+        : (meta.find(
+            (c) => c.value && typeof c.value === 'object' && c.value.tabName === options.tabName,
+          ) || meta[0]).value,
+      type: 'select',
+      action: (a) => {
+        if (a.isCustomCloak) {
+          updateOption({ isCustomCloak: true });
+        } else {
+          updateOption({ ...a, isCustomCloak: false });
+          import('/src/utils/utils.js').then(({ ckOff }) => ckOff());
+        }
+      },
+    }
+  };
+
+  if (isCustom) {
+    config[2] = {
+      name: 'Custom Tab Title',
+      desc: 'Set a custom title for the site tab.',
+      value: options.tabName === meta[0].value.tabName ? '' : (options.tabName || ''),
+      type: 'input',
+      action: (b) => {
+        updateOption({ tabName: b || meta[0].value.tabName });
+        import('/src/utils/utils.js').then(({ ckOff }) => ckOff());
+      },
+    };
+    config[3] = {
+      name: 'Custom Tab Icon',
+      desc: 'Set a custom tab icon (URL) for the site.',
+      value: options.tabIcon === meta[0].value.tabIcon ? '' : (options.tabIcon || ''),
+      type: 'input',
+      action: (b) => {
+        updateOption({ tabIcon: b || meta[0].value.tabIcon });
+        import('/src/utils/utils.js').then(({ ckOff }) => ckOff());
+      },
+    };
+  }
+
+  config[4] = {
     name: 'Auto Cloak',
     desc: 'Automatically apply the selected cloak when you switch tabs, restore original when you return.',
-    config: meta,
     value: !!options.clkOff,
     type: 'switch',
     action: (b) => {
@@ -37,8 +72,9 @@ export const privacyConfig = ({ options, updateOption, openPanic }) => ({
       }, 100);
     },
     disabled: !options.tabName || options.tabName == meta[0].value.tabName,
-  },
-  3: {
+  };
+
+  config[5] = {
     name: 'Open about:blank on startup',
     desc: 'When enabled, the about:blank tab opens automatically when you visit.',
     value:
@@ -46,8 +82,9 @@ export const privacyConfig = ({ options, updateOption, openPanic }) => ({
       (options.aboutBlank && options.aboutBlankAutoOpen !== false),
     type: 'switch',
     action: (b) => setTimeout(() => updateOption({ aboutBlankAutoOpen: b }), 100),
-  },
-  4: {
+  };
+
+  config[6] = {
     name: 'Panic Key',
     desc: 'Enable or disable the panic key option.',
     value: !!options.panicToggleEnabled,
@@ -58,16 +95,19 @@ export const privacyConfig = ({ options, updateOption, openPanic }) => ({
         import('/src/utils/utils.js').then(({ panic }) => panic());
       }, 100);
     },
-  },
-  5: {
+  };
+
+  config[7] = {
     name: 'Panic Shortcut',
     desc: 'Set a keybind/shortcut that redirects you to a page when pressed.',
     value: 'Set Key',
     type: 'button',
     action: openPanic,
     disabled: !!!options.panicToggleEnabled,
-  },
-});
+  };
+
+  return config;
+};
 
 export const customizeConfig = ({ options, updateOption }) => ({
   1: {
@@ -117,7 +157,7 @@ export const customizeConfig = ({ options, updateOption }) => ({
     action: (b) => setTimeout(() => updateOption({ donationBtn: b }), 100),
   },
   7: {
-    name: 'Shrink App Header',
+    name: 'Compact App Header',
     desc: 'Shrink the app/game header to a single line.',
     value: options.shrinkHeader ?? false,
     type: 'switch',
@@ -141,6 +181,13 @@ export const browsingConfig = ({ options, updateOption }) => ({
     value: find(prConfig, (c) => c.value?.prType === options.prType, 0),
     type: 'select',
     action: (a) => updateOption(a),
+  },
+  3: {
+    name: 'Adblocker',
+    desc: 'Block known ad domains when browsing.',
+    value: options.adblock ?? true,
+    type: 'switch',
+    action: (b) => setTimeout(() => updateOption({ adblock: b }), 100),
   },
 });
 
