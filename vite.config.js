@@ -355,7 +355,9 @@ export default defineConfig(({ command }) => {
     },
     define: {
       __ENVIRONMENT__: JSON.stringify(environment),
-      isStaticBuild: isStatic
+      isStaticBuild: isStatic,
+      POPUNDER_ENABLED: JSON.stringify(process.env.POPUNDER_ENABLED),
+      POPUNDER_URL: JSON.stringify(process.env.POPUNDER_URL),
     },
   };
 });

@@ -5,6 +5,7 @@ import lazyLoad from './lazyWrapper';
 import NotFound from './pages/NotFound';
 import { useEffect, useMemo, memo } from 'react';
 import { useLocation } from 'react-router-dom';
+import Popunder from './components/Popunder';
 import { OptionsProvider, useOptions } from './utils/optionsContext';
 import { initPreload } from './utils/preload';
 import { designConfig as bgDesign } from './utils/config';
@@ -38,6 +39,7 @@ function useTracking() {
 
 const ThemedApp = memo(() => {
   const { options } = useOptions();
+  const popunderEnabled = POPUNDER_ENABLED === 'true';
   useReg();
   useTracking();
 
@@ -76,6 +78,7 @@ const ThemedApp = memo(() => {
   return (
     <>
       <Routing pages={pages} />
+      {popunderEnabled ? <Popunder /> : null}
       <style>{backgroundStyle}</style>
     </>
   );
