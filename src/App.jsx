@@ -39,7 +39,6 @@ function useTracking() {
 
 const ThemedApp = memo(() => {
   const { options } = useOptions();
-  const location = useLocation();
   const popunderEnabled = POPUNDER_ENABLED === 'true';
   useReg();
   useTracking();
@@ -79,7 +78,7 @@ const ThemedApp = memo(() => {
   return (
     <>
       <Routing pages={pages} />
-      {popunderEnabled && location.pathname !== '/search' ? <Popunder /> : null}
+      {popunderEnabled ? <Popunder /> : null}
       <style>{backgroundStyle}</style>
     </>
   );
