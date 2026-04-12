@@ -1,32 +1,35 @@
 import { useEffect, useRef } from "react";
 
-export default function Banner() {
-  const adRef = useRef(null);
+export default function NativeBanner() {
+  const wrapperRef = useRef(null);
 
   useEffect(() => {
-    if (!adRef.current) return;
+    if (!wrapperRef.current) return;
 
-    adRef.current.innerHTML = "";
+    wrapperRef.current.innerHTML = "";
 
-    window.atOptions = {
-      key: "fd503866394ff26c4cf35b6596aa6fed",
-      format: "iframe",
-      height: 60,
-      width: 468,
-      params: {}
-    };
+    const adDiv = document.createElement("div");
+    adDiv.id = "container-53fe6d3e025cc86030eb681e01663e11";
+    wrapperRef.current.appendChild(adDiv);
 
     const script = document.createElement("script");
-    script.src =
-      "https://overhearappointdare.com/fd503866394ff26c4cf35b6596aa6fed/invoke.js";
     script.async = true;
+    script.setAttribute("data-cfasync", "false");
+    script.src =
+      "https://overhearappointdare.com/53fe6d3e025cc86030eb681e01663e11/invoke.js";
 
-    adRef.current.appendChild(script);
+    wrapperRef.current.appendChild(script);
+
+    return () => {
+      if (wrapperRef.current) {
+        wrapperRef.current.innerHTML = "";
+      }
+    };
   }, []);
 
   return (
-    <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
-      <div ref={adRef} style={{ width: "468px", height: "60px" }} />
+    <div className="flex w-full justify-center">
+      <div ref={wrapperRef} />
     </div>
   );
 }

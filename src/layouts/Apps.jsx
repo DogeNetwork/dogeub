@@ -3,9 +3,9 @@ import { useState, useMemo, useRef, useEffect, useCallback, memo, lazy, Suspense
 import { Search, ChevronDown, LayoutGrid } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useOptions } from '/src/utils/optionsContext';
+import Banner from '../components/Banner';
 import styles from '../styles/apps.module.css';
 import theme from '../styles/theming.module.css';
-// import AtBanner from '../components/Banner';
 import clsx from 'clsx';
 
 const Pagination = lazy(() => import('@mui/material/Pagination'));
@@ -222,9 +222,9 @@ const AppLayout = () => {
       <Nav />
       <div className={clsx('flex-1 overflow-y-auto', scrollCls)}>
         <Apps />
-        {/* <div className="w-full px-2 py-2 flex justify-center">
-          <AtBanner />
-        </div> */}
+        <div className="py-8">
+          <Banner />
+        </div>
       </div>
     </div>
   );

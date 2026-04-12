@@ -4,7 +4,7 @@ import { memo, useCallback, useState } from 'react';
 import Disc from './Discord';
 import clsx from 'clsx';
 import BookmarksModal from './Bookmarks';
-// import AtBanner from './Banner';
+
 const Footer = memo(() => {
   const { options } = useOptions();
   const [isBookmarksOpen, setIsBookmarksOpen] = useState(false);
