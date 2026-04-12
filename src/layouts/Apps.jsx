@@ -3,7 +3,6 @@ import { useState, useMemo, useRef, useEffect, useCallback, memo, lazy, Suspense
 import { Search, ChevronDown, LayoutGrid } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useOptions } from '/src/utils/optionsContext';
-import Banner from '../components/Banner';
 import styles from '../styles/apps.module.css';
 import theme from '../styles/theming.module.css';
 import clsx from 'clsx';
@@ -222,9 +221,6 @@ const AppLayout = () => {
       <Nav />
       <div className={clsx('flex-1 overflow-y-auto', scrollCls)}>
         <Apps />
-        <div className="py-8">
-          <Banner />
-        </div>
       </div>
     </div>
   );
