@@ -217,6 +217,20 @@
         "local": true
       },
       {
+        "appName": "Geometry Dash",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/geometrydash.webp",
+        "url": [
+          "https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets@main/gms/gd_segments/gd.zip",
+          "https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets@main/gms/gd_segments/gd02.zip",
+          "https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets@main/gms/gd_segments/gd03.zip",
+          "https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets@main/gms/gd_segments/gd04.zip",
+          "https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets@main/gms/gd_segments/gd05.zip"
+        ],
+        "disabled": false,
+        "local": true
+      },
+      {
         "appName": "BasketBros.io",
         "desc": "Sport apps",
         "icon": "/assets/img/basketbros.webp",
