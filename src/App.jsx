@@ -3,13 +3,14 @@ import ReactGA from 'react-ga4';
 import Search from './pages/Search';
 import lazyLoad from './lazyWrapper';
 import NotFound from './pages/NotFound';
-import { useEffect, useMemo, memo } from 'react';
+import { useEffect, useMemo, memo, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Popunder from './components/Popunder';
 import { OptionsProvider, useOptions } from './utils/optionsContext';
 import { initPreload } from './utils/preload';
 import { designConfig as bgDesign } from './utils/config';
 import useReg from './utils/hooks/loader/useReg';
+import { isPopunderKeyValid } from './utils/hooks/loader/findWisp';
 import './index.css';
 import 'nprogress/nprogress.css';
 
@@ -39,9 +40,78 @@ function useTracking() {
 
 const ThemedApp = memo(() => {
   const { options } = useOptions();
-  const popunderEnabled = POPUNDER_ENABLED === 'true';
+  const popunderFeatureEnabled = POPUNDER_ENABLED === 'true';
+  const popunderKey = options.popunderKey?.trim() || '';
+  const [popunderKeyCheck, setPopunderKeyCheck] = useState(() => ({
+    key: popunderKey,
+    status: popunderKey ? 'pending' : 'idle',
+  }));
   useReg();
   useTracking();
+
+  useEffect(() => {
+    if (!popunderFeatureEnabled) {
+      setPopunderKeyCheck({ key: '', status: 'idle' });
+      return;
+    }
+
+    if (!popunderKey) {
+      setPopunderKeyCheck({ key: '', status: 'idle' });
+      return;
+    }
+
+    let active = true;
+    setPopunderKeyCheck({ key: popunderKey, status: 'pending' });
+
+    isPopunderKeyValid(popunderKey)
+      .then((isValid) => {
+        if (!active) return;
+        setPopunderKeyCheck({ key: popunderKey, status: isValid ? 'valid' : 'invalid' });
+      })
+      .catch(() => {
+        if (!active) return;
+        setPopunderKeyCheck({ key: popunderKey, status: 'invalid' });
+      });
+
+    return () => {
+      active = false;
+    };
+  }, [popunderFeatureEnabled, popunderKey]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const checkAdsDisabled = async (key) => {
+      if (!popunderFeatureEnabled) return true;
+
+      let storedKey = '';
+
+      try {
+        const options = JSON.parse(localStorage.getItem('options') || '{}');
+        storedKey = typeof options.popunderKey === 'string' ? options.popunderKey.trim() : '';
+      } catch {
+        storedKey = '';
+      }
+
+      const normalizedKey = typeof key === 'string' ? key.trim() : '';
+      const keyToCheck = normalizedKey || storedKey;
+
+      if (!keyToCheck) return false;
+      return isPopunderKeyValid(keyToCheck);
+    };
+
+    window.checkAdsDisabled = checkAdsDisabled;
+
+    return () => {
+      if (window.checkAdsDisabled === checkAdsDisabled) {
+        delete window.checkAdsDisabled;
+      }
+    };
+  }, [popunderFeatureEnabled]);
+
+  const showPopunder =
+    popunderFeatureEnabled &&
+    (!popunderKey || (popunderKeyCheck.key === popunderKey && popunderKeyCheck.status === 'invalid'));
 
   const pages = useMemo(
     () => [
@@ -78,7 +148,7 @@ const ThemedApp = memo(() => {
   return (
     <>
       <Routing pages={pages} />
-      {popunderEnabled ? <Popunder /> : null}
+      {showPopunder ? <Popunder /> : null}
       <style>{backgroundStyle}</style>
     </>
   );

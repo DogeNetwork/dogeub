@@ -10,6 +10,7 @@ const SettingsContainerItem = ({
   action,
   name,
   type,
+  validate,
   children,
   value,
   disabled = false,
@@ -40,7 +41,7 @@ const SettingsContainerItem = ({
             <ComboBox config={config} action={action} selectedValue={value} maxW={12} />
           )}
           {type === 'switch' && <Switch action={action} value={value} />}
-          {type === 'input' && <Input onChange={action} defValue={value} />}
+          {type === 'input' && <Input onChange={action} defValue={value} validate={validate} />}
           {type === 'button' && <Button action={action} value={value} />}
         </div>
       )}

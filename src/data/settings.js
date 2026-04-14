@@ -7,6 +7,7 @@ import {
   prConfig,
   designConfig,
 } from '/src/utils/config';
+import { isPopunderKeyValid } from '/src/utils/hooks/loader/findWisp';
 
 export const privacyConfig = ({ options, updateOption, openPanic }) => {
   const isCustom = options.isCustomCloak || (options.tabName && !meta.find(c => c.value.tabName === options.tabName));
@@ -207,6 +208,14 @@ export const advancedConfig = ({ options, updateOption }) => ({
     action: (b) => updateOption({ wServer: b || null }),
   },
   3: {
+    name: 'Ad Key',
+    desc: 'Enter a valid key to disable all ads. For our Premium Supporters & Beta Testers.',
+    value: options.popunderKey ? options.popunderKey : '',
+    type: 'input',
+    validate: isPopunderKeyValid,
+    action: (b) => updateOption({ popunderKey: b || null }),
+  },
+  4: {
     name: 'Reset Instance',
     desc: 'Clear your site data if you are having issues.',
     type: 'button',
