@@ -4,19 +4,34 @@ import Input from './Input';
 import Button from './Button';
 import clsx from 'clsx';
 import { useOptions } from '/src/utils/optionsContext';
+import usePopunderStore from '/src/utils/hooks/popunder/usePopunderStore';
 
 const SettingsContainerItem = ({
   config,
   action,
   name,
   type,
+  validate,
   children,
   value,
+  inputValidation,
+  inputMaxW,
   disabled = false,
   isLast = false,
   isFirst = false,
 }) => {
   const { options } = useOptions();
+  const adKeyPassed = usePopunderStore((state) => state.adKeyPassed);
+  const adKeyValue = options.adKeyInput || options.adKey || '';
+
+  const inputStatus =
+    inputValidation === 'adKey'
+      ? adKeyValue
+        ? adKeyPassed
+          ? 'valid'
+          : 'invalid'
+        : 'idle'
+      : undefined;
 
   return (
     <div
@@ -40,7 +55,9 @@ const SettingsContainerItem = ({
             <ComboBox config={config} action={action} selectedValue={value} maxW={12} />
           )}
           {type === 'switch' && <Switch action={action} value={value} />}
-          {type === 'input' && <Input onChange={action} defValue={value} />}
+          {type === 'input' && (
+            <Input onChange={action} defValue={value} status={inputStatus} maxW={inputMaxW} />
+          )}
           {type === 'button' && <Button action={action} value={value} />}
         </div>
       )}

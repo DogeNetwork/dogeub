@@ -7,6 +7,7 @@ import {
   prConfig,
   designConfig,
 } from '/src/utils/config';
+import { exportSettings, importSettings } from '/src/utils/settingsExport';
 
 export const privacyConfig = ({ options, updateOption, openPanic }) => {
   const isCustom = options.isCustomCloak || (options.tabName && !meta.find(c => c.value.tabName === options.tabName));
@@ -207,6 +208,28 @@ export const advancedConfig = ({ options, updateOption }) => ({
     action: (b) => updateOption({ wServer: b || null }),
   },
   3: {
+    name: 'Disable Ads',
+    desc: 'Enter a key to disable all ads. Given to Premium Supporters & Beta Testers.',
+    value: options.adKeyInput || options.adKey || '',
+    type: 'input',
+    inputValidation: 'adKey',
+    action: (b) => updateOption({ adKeyInput: b?.trim() || null }),
+  },
+  4: {
+    name: 'Export Settings',
+    desc: 'Download your current settings as a JSON file.',
+    type: 'button',
+    value: 'Export JSON',
+    action: () => exportSettings(),
+  },
+  5: {
+    name: 'Import Settings',
+    desc: 'Load settings from a JSON file and reload the site.',
+    type: 'button',
+    value: 'Import JSON',
+    action: () => importSettings(),
+  },
+  6: {
     name: 'Reset Instance',
     desc: 'Clear your site data if you are having issues.',
     type: 'button',

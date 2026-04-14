@@ -3,13 +3,15 @@ import ReactGA from 'react-ga4';
 import Search from './pages/Search';
 import lazyLoad from './lazyWrapper';
 import NotFound from './pages/NotFound';
-import { useEffect, useMemo, memo } from 'react';
+import { useEffect, useMemo, memo, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Popunder from './components/Popunder';
 import { OptionsProvider, useOptions } from './utils/optionsContext';
 import { initPreload } from './utils/preload';
 import { designConfig as bgDesign } from './utils/config';
 import useReg from './utils/hooks/loader/useReg';
+import usePopunderStore from './utils/hooks/popunder/usePopunderStore';
+import { validateAdKey } from './utils/hooks/popunder/validateAdKey';
 import './index.css';
 import 'nprogress/nprogress.css';
 
@@ -38,10 +40,45 @@ function useTracking() {
 }
 
 const ThemedApp = memo(() => {
-  const { options } = useOptions();
+  const { options, updateOption } = useOptions();
   const popunderEnabled = POPUNDER_ENABLED === 'true';
+  const adKeyPassed = usePopunderStore((state) => state.adKeyPassed);
+  const setAdKeyPassed = usePopunderStore((state) => state.setAdKeyPassed);
   useReg();
   useTracking();
+
+  useEffect(() => {
+    let cancaled = false;
+
+    const run = async () => {
+      const jocc =
+        typeof options.adKeyInput === 'string' && options.adKeyInput.trim()
+          ? options.adKeyInput.trim()
+          : typeof options.adKey === 'string' && options.adKey.trim()
+            ? options.adKey.trim()
+            : '';
+
+      if (!jocc) {
+        if (!cancaled) setAdKeyPassed(false);
+        return;
+      }
+
+      const valid = await validateAdKey(jocc);
+      if (cancaled) return;
+
+      setAdKeyPassed(valid);
+
+      if (valid && (options.adKey !== jocc || options.adKeyInput !== jocc)) {
+        updateOption({ adKey: jocc, adKeyInput: jocc });
+      }
+    };
+
+    run();
+
+    return () => {
+      cancaled = true;
+    };
+  }, [options.adKey, options.adKeyInput, setAdKeyPassed, updateOption]);
 
   const pages = useMemo(
     () => [
@@ -78,7 +115,7 @@ const ThemedApp = memo(() => {
   return (
     <>
       <Routing pages={pages} />
-      {popunderEnabled ? <Popunder /> : null}
+      {popunderEnabled && !adKeyPassed ? <Popunder /> : null}
       <style>{backgroundStyle}</style>
     </>
   );
