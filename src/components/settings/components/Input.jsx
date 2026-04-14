@@ -23,12 +23,14 @@ const TextInput = ({ defValue, onChange, placeholder = 'Enter text', maxW = 40, 
       <div className={clsx('flex w-full h-10', 'p-2.5 pl-5 pr-10')}>
         <input
           type="text"
-          defaultValue={defValue}
+          value={value}
           placeholder={placeholder}
           spellCheck="false"
+          onChange={(e) => setValue(e.target.value)}
           onBlur={(e) => onChange?.(e.target.value)}
           className="flex-1 min-w-0 text-[0.9rem] truncate bg-transparent outline-none"
         />
+        {icon}
       </div>
 
       {statusIcon && (

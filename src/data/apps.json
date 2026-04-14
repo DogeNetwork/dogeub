@@ -217,6 +217,20 @@
         "local": true
       },
       {
+        "appName": "Geometry Dash",
+        "desc": "Ball/Platformer apps",
+        "icon": "/assets/img/geometrydash.webp",
+        "url": [
+          "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@3d89ba5c7776b01c97983cc758a0958e25a7e4ef/gd.zip",
+          "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@3d89ba5c7776b01c97983cc758a0958e25a7e4ef/gd02.zip",
+          "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@3d89ba5c7776b01c97983cc758a0958e25a7e4ef/gd03.zip",
+          "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@3d89ba5c7776b01c97983cc758a0958e25a7e4ef/gd04.zip",
+          "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@3d89ba5c7776b01c97983cc758a0958e25a7e4ef/gd05.zip"
+        ],
+        "disabled": false,
+        "local": true
+      },
+      {
         "appName": "BasketBros.io",
         "desc": "Sport apps",
         "icon": "/assets/img/basketbros.webp",

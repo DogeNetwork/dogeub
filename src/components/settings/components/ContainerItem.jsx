@@ -11,6 +11,7 @@ const SettingsContainerItem = ({
   action,
   name,
   type,
+  validate,
   children,
   value,
   inputValidation,

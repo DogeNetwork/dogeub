@@ -3,7 +3,7 @@ import ReactGA from 'react-ga4';
 import Search from './pages/Search';
 import lazyLoad from './lazyWrapper';
 import NotFound from './pages/NotFound';
-import { useEffect, useMemo, memo } from 'react';
+import { useEffect, useMemo, memo, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Popunder from './components/Popunder';
 import { OptionsProvider, useOptions } from './utils/optionsContext';
