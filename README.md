@@ -5,48 +5,34 @@
 
   [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I81MF4CH) ![](https://dcbadge.limes.pink/api/server/https://discord.gg/unblocking?compact=true)
 
-
-  <hr />
-  DogeUB version 5 is finally here!
-
   
-  <br />
-  <br />
-
-  <img width="1278" height="628" alt="image" src="preview.png" />
-
-
 </div>
 
-## Overview
+# 
 
-DogeUB is a browser-in-browser style internet hub that brings together web apps, tools, and games in one place, built with [React](https://github.com/facebook/react).
+A versatile, "internet hub"; The point of this project is to eliminate the need to search multiple websites for different things by packing together tools, apps, as well as entertainment and private browsing, all in one place. This is particularly useful for people who are lazy and want a "hub" that includes everything that they need to enjoy the internet.
 
-> [!IMPORTANT]
-> Please consider starring our repository if you are forking it!
 
-### List of features:
+Many of our tools, apps, entertainment, etc. is requested through our Discord community or added through pull requests. We recommend making PRs to help out and contribute!
 
-| Feature | Implemented |
-|---------|-------------|
-| Web Proxy | Yes |
-| Browser-like UI | Yes |
-| App player UI | Yes |
-| Cloak features | Partially |
-| Game Downloader | Yes |
-| Quick Links | Yes |
-| DuckDuckGo Search API | Yes |
-| Apps & Games | Yes |
-| Search Engine Switcher | Yes |
-| Themes/Site Customization | Yes |
+
+> [!CAUTION]
+> Although this is an "internet hub", we do **not** include illegal, piracy, or copyright-infringing tools or apps.
+
+> ⭐ Star this repository if you are forking it, or find it useful!
 
 ---
 
 ### Development & Building
 
+dogeub can be easily deployed as a web application. Use the commands below to run it for production, or for developing.
+
+> [!WARNING]
+> This project will **not work on Vercel**. dogeub runs a custom Node server while Vercel only supports serverless functions & does not allow persistent Node servers.
+
 #### Production:
 ```bash
-git clone https://github.com/DogeNetwork/dogeub.git
+git clone https://github.com/xorynix/dogeub.git
 cd dogeub
 npm i
 npm run build
@@ -56,7 +42,7 @@ node server.js
 #### Development:
 
 ```bash
-git clone https://github.com/DogeNetwork/dogeub.git
+git clone https://github.com/xorynix/dogeub.git
 cd dogeub
 npm i
 npm run dev
@@ -72,7 +58,7 @@ docker run -d \
   -p 3000:3000 \
   -e NODE_ENV=production \
   -e PORT=3000 \
-  ghcr.io/dogenetwork/dogeub:latest
+  ghcr.io/xorynix/dogeub:latest
 ```
 
 > [!NOTE]
@@ -82,29 +68,38 @@ docker run -d \
 
 ### Contributors / Developers
 
-| Name          | Role               | GitHub |
-| ------------- | ------------------ | ------ |
-| Derpman | Lead Developer     |      [@qerionx](https://github.com/qerionx) |
-| Fowntain | Project Manager | [@fowntain](https://github.com/fowntain)     |
-| Akane | Contributor | [@genericness](https://github.com/genericness)     |
-| DJshelfmushroom | Contributor | [@DJshelfmushroom](https://github.com/DJshelfmushroom)     |
+[![Contributors](https://contrib.rocks/image?repo=xorynix/dogeub)](https://github.com/xorynix/dogeub/graphs/contributors)
 
-
-> [!NOTE]
-> Want to be on this list? Make a few pull requests!
+> Want to be on this list? Contribute to this project!
 
 ---
 
-### Made possible thanks to:
 
-* [MercuryWorkshop/wisp-server-node](https://github.com/MercuryWorkshop/wisp-server-node)
-* [MercuryWorkshop/scramjet](https://github.com/MercuryWorkshop/scramjet)
-* [titaniumnetwork-dev/Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet)
-* [lucide-icons/lucide](https://github.com/lucide-icons/lucide)
-* [pmndrs/zustand](https://github.com/pmndrs/zustand)
-* [Stuk/jszip](https://github.com/Stuk/jszip)
 
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=xorynix%2Fdogeub&type=timeline&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=xorynix/dogeub&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=xorynix/dogeub&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=xorynix/dogeub&type=timeline&legend=top-left" />
+ </picture>
+</a>
+
+
+
+
+Thanks to these libraries for making the project possible:
+
+- [MercuryWorkshop/wisp-server-node](https://github.com/MercuryWorkshop/wisp-server-node)
+- [MercuryWorkshop/scramjet](https://github.com/MercuryWorkshop/scramjet)
+- [titaniumnetwork-dev/Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet)
+- [lucide-icons/lucide](https://github.com/lucide-icons/lucide)
+- [pmndrs/zustand](https://github.com/pmndrs/zustand)
+- [Stuk/jszip](https://github.com/Stuk/jszip)
+  
 ## License
 
-This project is licensed under the **GNU Affero GPL v3**.  
+This project is licensed under the **AGPLv3** license.
 See the [LICENSE](LICENSE) file for more details.
