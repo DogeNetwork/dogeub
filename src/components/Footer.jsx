@@ -1,15 +1,17 @@
 import { useOptions } from '../utils/optionsContext';
-import { Bookmark, HeartPlus } from 'lucide-react';
+import { Bookmark, HeartPlus, Megaphone } from 'lucide-react';
 import { memo, useCallback, useState } from 'react';
 import Disc from './Discord';
 import clsx from 'clsx';
 import BookmarksModal from './Bookmarks';
+import DisableAdsModal from './DisableAds';
 
 const Footer = memo(() => {
   const { options } = useOptions();
   const [isBookmarksOpen, setIsBookmarksOpen] = useState(false);
+  const [isDisableAdsOpen, setIsDisableAdsOpen] = useState(false);
   const handleDs = useCallback(() => {
-    window.open('/ds', '_blank');
+    window.open(isStaticBuild ? 'https://discord.gg/ZBef7HnAeg' : '/ds', '_blank');
   }, []);
   const handleAboutBlank = useCallback(() => {
     import('/src/utils/utils.js').then(({ openAboutBlankPopup }) => openAboutBlankPopup(true));
@@ -17,20 +19,33 @@ const Footer = memo(() => {
   return (
     <div className="w-full fixed bottom-0 flex items-end justify-between p-2">
       {' '}
-      {options.donationBtn !== false && (
-        <a
-          href="https://ko-fi.com/I3I81MF4CH"
-          target="_blank"
-          rel="noopener noreferrer"
+      <div className="flex gap-2 items-center">
+        {options.donationBtn !== false && (
+          <a
+            href="https://ko-fi.com/I3I81MF4CH"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={clsx(
+              'flex gap-1 items-center cursor-pointer',
+              'hover:-translate-y-0.5 duration-200',
+            )}
+          >
+            {' '}
+            <HeartPlus className="w-4" /> Support us{' '}
+          </a>
+        )}
+        {options.donationBtn !== false && <span className="text-gray-500">•</span>}
+        <div
           className={clsx(
             'flex gap-1 items-center cursor-pointer',
             'hover:-translate-y-0.5 duration-200',
           )}
+          onClick={() => setIsDisableAdsOpen(true)}
         >
           {' '}
-          <HeartPlus className="w-4" /> Support us{' '}
-        </a>
-      )}{' '}
+          <Megaphone className="w-4" /> Disable Ads{' '}
+        </div>
+      </div>{' '}
       <div className="flex gap-2 items-center">
         {' '}
         <div
@@ -67,6 +82,7 @@ const Footer = memo(() => {
         </div>{' '}
       </div>{' '}
       <BookmarksModal isOpen={isBookmarksOpen} onClose={() => setIsBookmarksOpen(false)} />{' '}
+      <DisableAdsModal isOpen={isDisableAdsOpen} onClose={() => setIsDisableAdsOpen(false)} />{' '}
     </div>
   );
 });

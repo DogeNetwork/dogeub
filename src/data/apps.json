@@ -692,9 +692,9 @@
         "appName": "Tag",
         "desc": "Fun Action",
         "icon": "/assets/img/tag.webp",
-        "url": "https://kdata1.com/2024/05/tag/",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@51f0a8d68136a61fea47a3ff12850ba532dea929/tag.zip",
         "disabled": false,
-        "local": false
+        "local": true
       },
       {
         "appName": "Cheese Chompers 3D",
@@ -1585,9 +1585,9 @@
         "appName": "Ages of Conflict",
         "desc": "Domination-type fun",
         "icon": "/assets-fb/ages-of-conflict/splash.jpg",
-        "url": "https://assets.hbmc.net/ages-of-conflict/index.html",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@ae83372f43759999a9f00c72c5bf2eb199db9fca/ag-conf.zip",
         "disabled": false,
-        "local": false
+        "local": true
       },
       {
         "appName": "Alien Hominid",
@@ -2261,7 +2261,7 @@
         "appName": "Polytrack",
         "desc": "Car/Racing apps",
         "icon": "/assets-fb/polytrack/pltrk.webp",
-        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/polytack.zip",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@c0499269bb26b580162503f1ce371eee657f093e/polytrack.zip",
         "disabled": false,
         "local": true
       },
@@ -2615,9 +2615,9 @@
         "appName": "Bitlife",
         "desc": "Brain apps",
         "icon": "/assets/img/bitlife.webp",
-        "url": "https://assets.hbmc.net/bitlife/index.html",
+        "url": "https://cdn.jsdelivr.net/gh/ashxmed/symmetrical-adventure@dd57660e4ddf2af86dc0c2c694d5e29c83bd85ee/lifbit.zip",
         "disabled": false,
-        "local": false
+        "local": true
       },
       {
         "appName": "Black Hole Square",
@@ -5064,14 +5064,6 @@
         "desc": "Sport apps",
         "icon": "/assets/img/aquapark.webp",
         "url": "https://classroom6x.gitlab.io/aquaparkio/",
-        "disabled": false,
-        "local": false
-      },
-      {
-        "appName": "Geometry Dash Lite",
-        "desc": "Ball/Platformer apps",
-        "icon": "/assets/img/geometrydash.webp",
-        "url": "https://geometrydashwave.io/game/gd/?v=5",
         "disabled": false,
         "local": false
       },

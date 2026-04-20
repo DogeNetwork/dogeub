@@ -116,10 +116,41 @@ export const check = (() => {
       e.returnValue = '';
     });
   }
-  const openOnStartup =
-    op.aboutBlankAutoOpen === true || (op.aboutBlank && op.aboutBlankAutoOpen !== false);
-  if (window.top === window.self && openOnStartup) {
-    openAboutBlankPopup(true);
+  if (window.top === window.self && op.aboutBlank) {
+    const w = open('about:blank');
+    if (!w || w.closed) {
+      alert('Please enable popups to continue.');
+      location.href = 'https://google.com';
+    } else {
+      const win = w.window,
+        d = win.document,
+        f = d.createElement('iframe');
+
+      Object.assign(f, { src: location.href });
+      Object.assign(f.style, { width: '100%', height: '100%', border: 'none' });
+      Object.assign(d.body.style, { margin: 0, height: '100vh' });
+      d.documentElement.style.height = '100%';
+      d.head.appendChild(Object.assign(document.createElement('link'), { rel: 'icon', href: '' }));
+      d.body.append(f);
+      const s = d.createElement('script');
+      s.textContent = `
+        const d = document;
+        setInterval(() => {
+          const op = JSON.parse(localStorage.getItem('options') || '{}');
+          d.title = op.tabName || '';
+          let icon = d.querySelector("link[rel~='icon']");
+          if (!icon) {
+            icon = d.createElement('link');
+            icon.rel = 'icon';
+            d.head.appendChild(icon);
+          }
+          icon.href = op.tabIcon || '';
+        }, 800);
+      `;
+      d.head.appendChild(s);
+      location.href = 'https://google.com';
+    }
+    history.replaceState(null, '', '/');
   }
 
   ckOff();
