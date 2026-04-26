@@ -1,6 +1,5 @@
 import clsx from 'clsx';
 import loaderStore from '/src/utils/hooks/loader/useLoaderStore';
-import StaticError from './viewer/StaticError';
 import { useOptions } from '/src/utils/optionsContext';
 import { useRef, useEffect } from 'react';
 import { Loader } from 'lucide-react';
@@ -13,9 +12,6 @@ const Viewer = ({ conf = {} }) => {
   const updateTitle = loaderStore((state) => state.updateTitle);
   const setLoading = loaderStore((state) => state.setLoading);
   const setFrameRefs = loaderStore((state) => state.setFrameRefs);
-  // wispStatus: reps. if working Wisp server is found
-  // (only when isStaticBuild == true)
-  const wispStatus = loaderStore((state) => state.wispStatus);
   const { iframeUrls, setIframeUrl, showMenu, toggleMenu } = loaderStore();
   const frameRefs = useRef({});
   const prevURL = useRef({});
@@ -172,45 +168,15 @@ const Viewer = ({ conf = {} }) => {
                 className="absolute inset-0 w-full h-full flex items-center justify-center -z-20"
                 style={{ backgroundColor: options.tabBarColor || '#070e15' }}
               >
-                {/*
-                  If not static build, show loader
-                  If static, show loader when wispStatus == true
-                  If Wisp is still being found (init), show loading
-                  Otherwise show error
-                */}
-                {!isStaticBuild ? (
-                  <Loader size={32} className="animate-spin" />
-                ) : wispStatus ? (
-                  <div className="flex flex-col items-center gap-2">
-                    <Loader size={32} className="animate-spin" />
-                    {wispStatus === 'init' && (
-                      <p className="mt-2">Finding a Wisp server to route your request...</p>
-                    )}
-                  </div>
-                ) : wispStatus === false && (
-                  <StaticError />
-                )}
+                <Loader size={32} className="animate-spin" />
               </div>
             )}
-            {/* if not static, show frame. otherwise if wisp is found (and is static) show iframe,
-            otherwise display error msg */}
-            {!isStaticBuild ? (
-              <iframe
-                ref={(el) => (frameRefs.current[id] = el)}
-                src={url}
-                style={{ display: 'block', width: '100%', height: '100%' }}
-                className="absolute inset-0 w-full h-full transition-opacity duration-200"
-              />
-            ) : (
-              wispStatus === true && (
-                <iframe
-                  ref={(el) => (frameRefs.current[id] = el)}
-                  src={url}
-                  style={{ display: 'block', width: '100%', height: '100%' }}
-                  className="absolute inset-0 w-full h-full transition-opacity duration-200"
-                />
-              )
-            )}
+            <iframe
+              ref={(el) => (frameRefs.current[id] = el)}
+              src={url}
+              style={{ display: 'block', width: '100%', height: '100%' }}
+              className="absolute inset-0 w-full h-full transition-opacity duration-200"
+            />
 
             {/*transparent overlay for when click on content */}
             {showMenu && (

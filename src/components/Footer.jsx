@@ -11,7 +11,7 @@ const Footer = memo(() => {
   const [isBookmarksOpen, setIsBookmarksOpen] = useState(false);
   const [isDisableAdsOpen, setIsDisableAdsOpen] = useState(false);
   const handleDs = useCallback(() => {
-    window.open(isStaticBuild ? 'https://discord.gg/ZBef7HnAeg' : '/ds', '_blank');
+    window.open('/ds', '_blank');
   }, []);
   const handleAboutBlank = useCallback(() => {
     import('/src/utils/utils.js').then(({ openAboutBlankPopup }) => openAboutBlankPopup(true));

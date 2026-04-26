@@ -66,7 +66,7 @@ const Nav = memo(() => {
           paddingRight: '0.3rem',
         }}
       >
-        {isStaticBuild ? 'Static Version' : 'v' + version}
+        {'v' + version}
       </div>
       <div className="flex items-center gap-5 ml-auto" style={{ height: 'calc(100% - 0.5rem)' }}>
         <NavItem items={items} />
