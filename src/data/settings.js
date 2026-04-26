@@ -201,20 +201,22 @@ export const advancedConfig = ({ options, updateOption }) => ({
     desc: 'Configure the websocket server location.',
     value: options.wServer
       ? options.wServer
-      : !isStaticBuild
-        ? `${location.protocol === 'https:' ? 'wss:' : 'ws:'}//${location.host}/wisp/`
-        : '',
+      : `${location.protocol === 'https:' ? 'wss:' : 'ws:'}//${location.host}/wisp/`,
     type: 'input',
     action: (b) => updateOption({ wServer: b || null }),
   },
-  3: {
-    name: 'Disable Ads',
-    desc: 'Enter a key to disable all ads. Given to Premium Supporters & Beta Testers.',
-    value: options.adKeyInput || options.adKey || '',
-    type: 'input',
-    inputValidation: 'adKey',
-    action: (b) => updateOption({ adKeyInput: b?.trim() || null }),
-  },
+  ...(POPUNDER_ENABLED === 'true'
+    ? {
+        3: {
+          name: 'Disable Ads',
+          desc: 'Enter a key to disable all ads. Given to Premium Supporters & Beta Testers.',
+          value: options.adKeyInput || options.adKey || '',
+          type: 'input',
+          inputValidation: 'adKey',
+          action: (b) => updateOption({ adKeyInput: b?.trim() || null }),
+        },
+      }
+    : {}),
   4: {
     name: 'Export Settings',
     desc: 'Download your current settings as a JSON file.',

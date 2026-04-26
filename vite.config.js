@@ -14,145 +14,11 @@ import { uvPath } from '@titaniumnetwork-dev/ultraviolet';
 import dotenv from 'dotenv';
 
 dotenv.config();
-const useBare = process.env.BARE === 'false' ? false : true;
-const isStatic = process.env.STATIC === 'true';
-const gaMeasurementId = 'G-HWLK0PZVBM';
+const useBare = process.env.BARE === 'true';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 logging.set_level(logging.NONE);
 let bare;
-
-const svgDomShim = `(() => {
-  const ns = 'http://www.w3.org/1999/xhtml';
-  const body = document.querySelector('body');
-  if (!body) return;
-  const svgRoot = document.documentElement;
-
-  const head = document.createElementNS(ns, 'head');
-  body.prepend(head);
-
-  const htmlRoot = body.parentElement && body.parentElement.namespaceURI === ns
-    ? body.parentElement
-    : body;
-
-  try {
-    Object.defineProperty(document, 'head', {
-      configurable: true,
-      get() {
-        return head;
-      },
-    });
-  } catch {}
-
-  try {
-    Object.defineProperty(document, 'body', {
-      configurable: true,
-      get() {
-        return body;
-      },
-    });
-  } catch {}
-
-  try {
-    Object.defineProperty(document, 'documentElement', {
-      configurable: true,
-      get() {
-        return htmlRoot;
-      },
-    });
-  } catch {}
-
-  try {
-    Object.defineProperty(svgRoot, 'className', {
-      configurable: true,
-      get() {
-        return svgRoot.getAttribute('class') || '';
-      },
-      set(value) {
-        svgRoot.setAttribute('class', value || '');
-      },
-    });
-  } catch {}
-
-  const originalCreateElement = document.createElement.bind(document);
-  document.createElement = function createElement(tagName, options) {
-    return typeof tagName === 'string'
-      ? document.createElementNS(ns, tagName, options)
-      : originalCreateElement(tagName, options);
-  };
-})();`;
-
-const escapeCdata = (value) => value.replace(/]]>/g, ']]]]><![CDATA[>');
-
-const createSvgEntry = (bundle) => {
-  const entryChunk = Object.values(bundle).find((item) => item.type === 'chunk' && item.isEntry);
-  if (!entryChunk) return null;
-
-  const cssFiles = [...(entryChunk.viteMetadata?.importedCss ?? [])].sort();
-  const preloadFiles = [...new Set(entryChunk.imports)].sort();
-
-  const headBootstrap = [
-    `const headNodes = [`,
-    `  { tag: 'meta', attrs: { charset: 'UTF-8' } },`,
-    `  { tag: 'link', attrs: { rel: 'icon', type: 'image/svg+xml', href: '' } },`,
-    `  { tag: 'meta', attrs: { name: 'viewport', content: 'initial-scale=1, width=device-width' } },`,
-    ...preloadFiles.map(
-      (file) => `  { tag: 'link', attrs: { rel: 'modulepreload', href: './${file}', crossorigin: '' } },`,
-    ),
-    ...cssFiles.map(
-      (file) => `  { tag: 'link', attrs: { rel: 'stylesheet', href: './${file}', crossorigin: '' } },`,
-    ),
-    `];`,
-    `for (const nodeDef of headNodes) {`,
-    `  const node = document.createElement(nodeDef.tag);`,
-    `  for (const [name, value] of Object.entries(nodeDef.attrs)) node.setAttribute(name, value);`,
-    `  document.head.appendChild(node);`,
-    `}`,
-    `const title = document.createElement('title');`,
-    `title.textContent = 'DogeUB';`,
-    `document.head.appendChild(title);`,
-    `const analyticsLoader = document.createElement('script');`,
-    `analyticsLoader.async = true;`,
-    `analyticsLoader.src = 'https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}';`,
-    `document.head.appendChild(analyticsLoader);`,
-    `const analyticsConfig = document.createElement('script');`,
-    `analyticsConfig.textContent = \"window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${gaMeasurementId}', { send_page_view: false });\";`,
-    `document.head.appendChild(analyticsConfig);`,
-    `const entryScript = document.createElement('script');`,
-    `entryScript.type = 'module';`,
-    `entryScript.setAttribute('crossorigin', '');`,
-    `entryScript.src = './${entryChunk.fileName}';`,
-    `document.body.appendChild(entryScript);`,
-  ].join('\n');
-
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" style="position: fixed; inset: 0;">
-  <foreignObject x="0" y="0" width="100%" height="100%">
-    <body xmlns="http://www.w3.org/1999/xhtml" lang="en" style="margin: 0; width: 100%; height: 100%; min-height: 100vh; overflow: auto;">
-      <div id="root"></div>
-      <style><![CDATA[
-html,
-body,
-#root {
-  width: 100%;
-  min-height: 100vh;
-}
-
-body {
-  margin: 0;
-  background-size: 24px 24px;
-  opacity: 1;
-}
-      ]]></style>
-      <script><![CDATA[
-${escapeCdata(`${svgDomShim}
-${headBootstrap}`)}
-      ]]></script>
-    </body>
-  </foreignObject>
-</svg>
-`;
-};
 
 Object.assign(wisp.options, {
   dns_method: 'resolve',
@@ -192,10 +58,10 @@ const obf = {
 };
 
 export default defineConfig(({ command }) => {
-  const environment = isStatic ? 'static' : command === 'serve' ? 'dev' : 'stable';
+  const environment = command === 'serve' ? 'dev' : 'stable';
 
   return {
-    base: isStatic ? './' : '/',
+    base: '/',
     plugins: [
       react(),
       vitePluginBundleObfuscator(obf),
@@ -216,32 +82,6 @@ export default defineConfig(({ command }) => {
           },
         ].filter(Boolean),
       }),
-      isStatic && {
-        name: 'replace-cdn',
-        transform(code, id) {
-          if (id.endsWith('apps.json') || id.endsWith('QuickLinks.jsx')) {
-            return code
-              .replace(/\/assets-fb\//g, 'https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets/img/server/')
-              .replace(/\/assets\/img\//g, 'https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets/img/');
-          }
-          /*
-            this may be weird, bc even if static = true,
-            the images/files are still there, so why rewrite to use jsdelivr?
-            because we feel like it. (this is needed under very specific circumstances)
-          */
-          if (id.endsWith('Logo.jsx')) {
-            return code
-              .replace(/['"]\/logo\.svg['"]/g, "'https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets/logo.svg'");
-          }
-          if (id.endsWith('useReg.js')) {
-            return code
-              .replace(/['"]\/eggs\/scramjet\.wasm\.wasm['"]/g, "'https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets/eggs/scramjet.wasm.wasm'")
-              .replace(/['"]\/eggs\/scramjet\.all\.js['"]/g, "'https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets/eggs/scramjet.all.js'")
-              .replace(/['"]\/eggs\/scramjet\.sync\.js['"]/g, "'https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets/eggs/scramjet.sync.js'")
-              .replace(/['"]\/libcurl\/index\.mjs['"]/g, "'https://cdn.jsdelivr.net/gh/DogeNetwork/v5-assets/libcurl/index.mjs'");
-          }
-        },
-      },
       {
         name: 'server',
         apply: 'serve',
@@ -281,22 +121,7 @@ export default defineConfig(({ command }) => {
           });
         },
       },
-      // create svg for jsdelivr
-      // i know it's weird but it works somehow
-      isStatic && {
-        name: 'emit-svg-entry',
-        apply: 'build',
-        generateBundle(_, bundle) {
-          const source = createSvgEntry(bundle);
-          if (!source) return;
 
-          this.emitFile({
-            type: 'asset',
-            fileName: 'index.svg',
-            source,
-          });
-        },
-      },
     ].filter(Boolean),
     build: {
       target: 'es2022',
@@ -355,7 +180,6 @@ export default defineConfig(({ command }) => {
     },
     define: {
       __ENVIRONMENT__: JSON.stringify(environment),
-      isStaticBuild: isStatic,
       POPUNDER_ENABLED: JSON.stringify(process.env.POPUNDER_ENABLED),
       POPUNDER_URL: JSON.stringify(process.env.POPUNDER_URL),
     },
