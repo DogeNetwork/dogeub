@@ -20,6 +20,27 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 logging.set_level(logging.NONE);
 let bare;
 
+async function remoteApps(urls = ['https://ci.baylib.top/apps.json?t=' + Date.now()]) {
+  const list = Array.isArray(urls) ? urls : [urls];
+  let lastErr;
+
+  for (const u of list) {
+    try {
+      const res = await fetch(u, { cache: 'no-store' });
+
+      if (!res.ok) {
+        throw new Error(`apps.json ${res.status}`);
+      }
+
+      return JSON.stringify(await res.json());
+    } catch (e) {
+      lastErr = e;
+    }
+  }
+
+  throw lastErr || new Error('apps.json unavailable');
+}
+
 Object.assign(wisp.options, {
   dns_method: 'resolve',
   dns_servers: ['1.1.1.3', '1.0.0.3'],
@@ -119,6 +140,19 @@ export default defineConfig(({ command }) => {
               next();
             }
           });
+        },
+      },
+      {
+        name: 'remote-apps-json',
+        apply: 'build',
+        async load(id) {
+          const cleanId = normalizePath(id).split('?')[0];
+
+          if (!cleanId.endsWith('/src/data/apps.json')) {
+            return null;
+          }
+
+          return remoteApps();
         },
       },
 
