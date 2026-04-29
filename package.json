@@ -19,7 +19,7 @@
     "@headlessui/react": "^2.2.7",
     "@mercuryworkshop/bare-as-module3": "^2.2.5",
     "@mercuryworkshop/libcurl-transport": "^1.5.1",
-    "@mercuryworkshop/scramjet": "https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz",
+    "@mercuryworkshop/scramjet": "https://github.com/MercuryWorkshop/scramjet/releases/download/v1.1.0/mercuryworkshop-scramjet-1.1.0.tgz",
     "@mercuryworkshop/wisp-js": "^0.3.3",
     "@mui/material": "^7.3.1",
     "@tomphttp/bare-server-node": "^2.0.5",
