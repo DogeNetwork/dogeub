@@ -331,6 +331,13 @@ export const meta = [
       tabIcon: '/assets/img/khan.png',
     },
   },
+  {
+    option: 'Google Drive',
+    value: {
+      tabName: 'My Drive - Google Drive',
+      tabIcon: 'https://drive.google.com/favicon.ico',
+    },
+  }
 ];
 
 export const searchConfig = [
