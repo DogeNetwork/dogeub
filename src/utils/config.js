@@ -331,7 +331,42 @@ export const meta = [
       tabIcon: '/assets/img/khan.png',
     },
   },
-];
+  {
+    option: 'IXL',
+    value: {
+      tabName: 'IXL | Math, Language Arts, Science, Social Studies, and Spanish',
+      tabIcon: 'https://www.ixl.com/favicon.ico',
+    },
+  },
+  {
+    option: 'Google Docs',
+    value: {
+      tabName: 'Google Docs',
+      tabIcon: 'https://ssl.gstatic.com/docs/documents/images/docs-favicon-2026-v2.ico',
+    },
+  },
+  {
+    option: 'Google Slides',
+    value: {
+      tabName: 'Google Slides',
+      tabIcon: 'https://ssl.gstatic.com/docs/presentations/images/favicon-2026-v2.ico',
+    },
+  },
+  {
+    option: 'Google Drive',
+    value: {
+      tabName: 'Home - Google Drive',
+      tabIcon: 'https://ssl.gstatic.com/docs/doclist/images/drive_favicon_2026_32dp.png',
+    }, 
+  },
+  {
+    option: 'Clever',
+    value: {
+      tabName: 'Resources',
+      tabIcon: 'https://cdn.racon.dev/clever.ico', // couldnt find the correct ico so i hosted on my domain
+    },
+  },
+]; // meow
 
 export const searchConfig = [
   {
